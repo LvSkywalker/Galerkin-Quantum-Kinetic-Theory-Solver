@@ -1,0 +1,8 @@
+{
+  "benchmark_cases": 5,
+  "elapsed_seconds": 37.637185283,
+  "implementation": "C++17",
+  "max_benchmark_relative_discrepancy": 3.0226889730755602e-05,
+  "quick": false,
+  "scope": "UU Galerkin transport, homogeneous relaxation, projected shear wave"
+}

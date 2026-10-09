@@ -1,0 +1,2809 @@
+[
+  {
+    "density_amplitude": 0.01,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 0.0,
+    "time": 0.0,
+    "velocity_over_sound_speed": 4.336808689942018e-19
+  },
+  {
+    "density_amplitude": 0.009974150258929424,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.6863402669368326e-05,
+    "time": 0.00025,
+    "velocity_over_sound_speed": 0.0005120878136549587
+  },
+  {
+    "density_amplitude": 0.009897741901179006,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -6.528448053040353e-05,
+    "time": 0.0005,
+    "velocity_over_sound_speed": 0.0010060174588084354
+  },
+  {
+    "density_amplitude": 0.00977281456218307,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00014195169690220432,
+    "time": 0.00075,
+    "velocity_over_sound_speed": 0.0014775667277357315
+  },
+  {
+    "density_amplitude": 0.009601808787384005,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00024350415175916715,
+    "time": 0.001,
+    "velocity_over_sound_speed": 0.0019229766840988417
+  },
+  {
+    "density_amplitude": 0.009387518967775003,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00036656507819033735,
+    "time": 0.00125,
+    "velocity_over_sound_speed": 0.0023389614449692677
+  },
+  {
+    "density_amplitude": 0.009133045547460333,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0005077736907118755,
+    "time": 0.0015,
+    "velocity_over_sound_speed": 0.0027227129304158884
+  },
+  {
+    "density_amplitude": 0.008841746997378913,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0006638151707274715,
+    "time": 0.00175,
+    "velocity_over_sound_speed": 0.0030719008116266234
+  },
+  {
+    "density_amplitude": 0.008517192024439024,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0008314486040762112,
+    "time": 0.002,
+    "velocity_over_sound_speed": 0.0033846679216622726
+  },
+  {
+    "density_amplitude": 0.008163112457304167,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0010075327153846987,
+    "time": 0.0022500000000000003,
+    "velocity_over_sound_speed": 0.003659621421726254
+  },
+  {
+    "density_amplitude": 0.007783357219391055,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0011890492735587227,
+    "time": 0.0025,
+    "velocity_over_sound_speed": 0.0038958200402392923
+  },
+  {
+    "density_amplitude": 0.0073818477667302144,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0013731240719356535,
+    "time": 0.00275,
+    "velocity_over_sound_speed": 0.004092757722041783
+  },
+  {
+    "density_amplitude": 0.0069625353336346275,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.001557045415117393,
+    "time": 0.003,
+    "velocity_over_sound_speed": 0.004250344040757825
+  },
+  {
+    "density_amplitude": 0.006529360293052359,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0017382800720809975,
+    "time": 0.0032500000000000003,
+    "velocity_over_sound_speed": 0.004368881738832035
+  },
+  {
+    "density_amplitude": 0.006086213901464488,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0019144866816076553,
+    "time": 0.0035,
+    "velocity_over_sound_speed": 0.0044490417671165464
+  },
+  {
+    "density_amplitude": 0.00563690266063519,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0020835266211906723,
+    "time": 0.00375,
+    "velocity_over_sound_speed": 0.004491836199297158
+  },
+  {
+    "density_amplitude": 0.005185115490814708,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0022434723742126043,
+    "time": 0.004,
+    "velocity_over_sound_speed": 0.004498589396089546
+  },
+  {
+    "density_amplitude": 0.004734393872506344,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.002392613452177369,
+    "time": 0.00425,
+    "velocity_over_sound_speed": 0.004470907790219659
+  },
+  {
+    "density_amplitude": 0.004288105076981439,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0025294599490250625,
+    "time": 0.0045000000000000005,
+    "velocity_over_sound_speed": 0.004410648655960195
+  },
+  {
+    "density_amplitude": 0.0038494185696830883,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.002652743822948748,
+    "time": 0.00475,
+    "velocity_over_sound_speed": 0.00431988821667951
+  },
+  {
+    "density_amplitude": 0.0034212856357953405,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0027614180176000554,
+    "time": 0.005,
+    "velocity_over_sound_speed": 0.004200889430738168
+  },
+  {
+    "density_amplitude": 0.0030064222438378023,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0028546535490627653,
+    "time": 0.00525,
+    "velocity_over_sound_speed": 0.004056069780420968
+  },
+  {
+    "density_amplitude": 0.0026072951314150706,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0029318346974612232,
+    "time": 0.0055,
+    "velocity_over_sound_speed": 0.003887969370707493
+  },
+  {
+    "density_amplitude": 0.002226111067416397,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0029925524525445135,
+    "time": 0.00575,
+    "velocity_over_sound_speed": 0.003699219624855354
+  },
+  {
+    "density_amplitude": 0.001864809217203761,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0030365963710588,
+    "time": 0.006,
+    "velocity_over_sound_speed": 0.003492512842294028
+  },
+  {
+    "density_amplitude": 0.0015250565117966432,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0030639450102185745,
+    "time": 0.00625,
+    "velocity_over_sound_speed": 0.0032705728614987797
+  },
+  {
+    "density_amplitude": 0.0012082458988804962,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0030747551061592036,
+    "time": 0.006500000000000001,
+    "velocity_over_sound_speed": 0.003036127046626148
+  },
+  {
+    "density_amplitude": 0.0009154973327249968,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.003069349668960799,
+    "time": 0.00675,
+    "velocity_over_sound_speed": 0.0027918797920310342
+  },
+  {
+    "density_amplitude": 0.0006476613418614205,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0030482051667536534,
+    "time": 0.007,
+    "velocity_over_sound_speed": 0.0025404877136284343
+  },
+  {
+    "density_amplitude": 0.0004053249976721468,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.003011937970638006,
+    "time": 0.00725,
+    "velocity_over_sound_speed": 0.002284536670677845
+  },
+  {
+    "density_amplitude": 0.00018882009389921753,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.002961290229776601,
+    "time": 0.0075,
+    "velocity_over_sound_speed": 0.002026520736209848
+  },
+  {
+    "density_amplitude": -1.7666635315680655e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.002897115342157952,
+    "time": 0.00775,
+    "velocity_over_sound_speed": 0.001768823209223237
+  },
+  {
+    "density_amplitude": -0.00016658166508787102,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.002820363181300054,
+    "time": 0.008,
+    "velocity_over_sound_speed": 0.0015136997371817027
+  },
+  {
+    "density_amplitude": -0.0003059908190022145,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0027320652326937546,
+    "time": 0.00825,
+    "velocity_over_sound_speed": 0.0012632635934394238
+  },
+  {
+    "density_amplitude": -0.00042056460314920615,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0026333197862021904,
+    "time": 0.0085,
+    "velocity_over_sound_speed": 0.0010194731312144437
+  },
+  {
+    "density_amplitude": -0.0005110619661996805,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0025252773220712657,
+    "time": 0.00875,
+    "velocity_over_sound_speed": 0.0007841214137780312
+  },
+  {
+    "density_amplitude": -0.0005784132957373067,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0024091262188016063,
+    "time": 0.009000000000000001,
+    "velocity_over_sound_speed": 0.0005588279997885905
+  },
+  {
+    "density_amplitude": -0.0006237026679209677,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0022860789010210694,
+    "time": 0.00925,
+    "velocity_over_sound_speed": 0.0003450328433012542
+  },
+  {
+    "density_amplitude": -0.0006481495882978928,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0021573585348139733,
+    "time": 0.0095,
+    "velocity_over_sound_speed": 0.00014399225004036348
+  },
+  {
+    "density_amplitude": -0.000653090426668808,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0020241863668423116,
+    "time": 0.00975,
+    "velocity_over_sound_speed": -4.3223184877084835e-05
+  },
+  {
+    "density_amplitude": -0.0006399597406362394,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0018877697921654386,
+    "time": 0.01,
+    "velocity_over_sound_speed": -0.00021572874736200116
+  },
+  {
+    "density_amplitude": -0.0006102716727955798,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0017492912240542236,
+    "time": 0.01025,
+    "velocity_over_sound_speed": -0.00037282398562729527
+  },
+  {
+    "density_amplitude": -0.000565601595625083,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0016098978274241664,
+    "time": 0.0105,
+    "velocity_over_sound_speed": -0.0005139894164380332
+  },
+  {
+    "density_amplitude": -0.0005075681661673321,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.001470692165894271,
+    "time": 0.010750000000000001,
+    "velocity_over_sound_speed": -0.0006388816801561744
+  },
+  {
+    "density_amplitude": -0.00043781593974352967,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0013327238010224828,
+    "time": 0.011,
+    "velocity_over_sound_speed": -0.0007473272763794855
+  },
+  {
+    "density_amplitude": -0.0003579986783745022,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0011969818710746405,
+    "time": 0.01125,
+    "velocity_over_sound_speed": -0.0008393150182585153
+  },
+  {
+    "density_amplitude": -0.0002697634754676362,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0010643886658446183,
+    "time": 0.0115,
+    "velocity_over_sound_speed": -0.0009149873481964811
+  },
+  {
+    "density_amplitude": -0.00017473580383166928,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0009357942036425004,
+    "time": 0.01175,
+    "velocity_over_sound_speed": -0.0009746306606419966
+  },
+  {
+    "density_amplitude": -7.450557936089367e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0008119718066804771,
+    "time": 0.012,
+    "velocity_over_sound_speed": -0.0010186647791339913
+  },
+  {
+    "density_amplitude": 2.938568206047108e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0006936146617786663,
+    "time": 0.01225,
+    "velocity_over_sound_speed": -0.0010476317347237504
+  },
+  {
+    "density_amplitude": 0.00013545655159922913,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0005813333446422734,
+    "time": 0.0125,
+    "velocity_over_sound_speed": -0.0010621839914626925
+  },
+  {
+    "density_amplitude": 0.00024229617013027887,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00047565427797501047,
+    "time": 0.012750000000000001,
+    "velocity_over_sound_speed": -0.0010630722618972133
+  },
+  {
+    "density_amplitude": 0.00034857349234827047,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00037701908643019485,
+    "time": 0.013000000000000001,
+    "velocity_over_sound_speed": -0.0010511330515519466
+  },
+  {
+    "density_amplitude": 0.0004530452718856647,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0002857848048898419,
+    "time": 0.01325,
+    "velocity_over_sound_speed": -0.0010272760663147292
+  },
+  {
+    "density_amplitude": 0.0005545627801422846,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00020222489082418892,
+    "time": 0.0135,
+    "velocity_over_sound_speed": -0.0009924716105696996
+  },
+  {
+    "density_amplitude": 0.0006520772640298727,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00012653098653161006,
+    "time": 0.01375,
+    "velocity_over_sound_speed": -0.0009477380969721924
+  },
+  {
+    "density_amplitude": 0.0007446441595956667,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -5.8815372895814364e-05,
+    "time": 0.014,
+    "velocity_over_sound_speed": -0.0008941297810355064
+  },
+  {
+    "density_amplitude": 0.000831426089439839,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 8.85947080065091e-07,
+    "time": 0.01425,
+    "velocity_over_sound_speed": -0.0008327248253213517
+  },
+  {
+    "density_amplitude": 0.0009116946819229899,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 5.260959930547559e-05,
+    "time": 0.0145,
+    "velocity_over_sound_speed": -0.0007646137891087823
+  },
+  {
+    "density_amplitude": 0.0009848312593233747,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 9.64606903891653e-05,
+    "time": 0.014750000000000001,
+    "velocity_over_sound_speed": -0.0006908886300754683
+  },
+  {
+    "density_amplitude": 0.0010503264503122685,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 0.00013260822748200295,
+    "time": 0.015,
+    "velocity_over_sound_speed": -0.0006126322948726725
+  },
+  {
+    "density_amplitude": 0.0011077787893440598,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 0.00016128017388683616,
+    "time": 0.01525,
+    "velocity_over_sound_speed": -0.0005309089656205667
+  },
+  {
+    "density_amplitude": 0.0011568923717903182,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 0.00018275820788748315,
+    "time": 0.0155,
+    "velocity_over_sound_speed": -0.0004467550193986924
+  },
+  {
+    "density_amplitude": 0.0011974736388795475,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 0.00019737225136096505,
+    "time": 0.01575,
+    "velocity_over_sound_speed": -0.0003611707478577565
+  },
+  {
+    "density_amplitude": 0.001229427370741704,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 0.00020549483326302604,
+    "time": 0.016,
+    "velocity_over_sound_speed": -0.0002751128742283056
+  },
+  {
+    "density_amplitude": 0.0012527519691132377,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 0.00020753535106317664,
+    "time": 0.01625,
+    "velocity_over_sound_speed": -0.00018948789533775265
+  },
+  {
+    "density_amplitude": 0.0012675341135572411,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 0.000203934290700866,
+    "time": 0.0165,
+    "velocity_over_sound_speed": -0.00010514626685167127
+  },
+  {
+    "density_amplitude": 0.0012739428764251138,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 0.0001951574626898085,
+    "time": 0.01675,
+    "velocity_over_sound_speed": -2.2877440903127123e-05
+  },
+  {
+    "density_amplitude": 0.0012722233822688867,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 0.00018169030866532011,
+    "time": 0.017,
+    "velocity_over_sound_speed": 5.6594243367481096e-05
+  },
+  {
+    "density_amplitude": 0.0012626900970513306,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 0.00016403232900281516,
+    "time": 0.01725,
+    "velocity_over_sound_speed": 0.0001326128240101427
+  },
+  {
+    "density_amplitude": 0.0012457198313441831,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 0.0001426916781878363,
+    "time": 0.0175,
+    "velocity_over_sound_speed": 0.00020459315049639972
+  },
+  {
+    "density_amplitude": 0.0012217445398080306,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 0.00011817997044222261,
+    "time": 0.017750000000000002,
+    "velocity_over_sound_speed": 0.0002720225103606391
+  },
+  {
+    "density_amplitude": 0.0011912439966694237,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 9.100733375967966e-05,
+    "time": 0.018000000000000002,
+    "velocity_over_sound_speed": 0.00033446147710567125
+  },
+  {
+    "density_amplitude": 0.0011547384237138001,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 6.167774602828033e-05,
+    "time": 0.01825,
+    "velocity_over_sound_speed": 0.0003915440140722827
+  },
+  {
+    "density_amplitude": 0.0011127811435613089,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 3.068468236681432e-05,
+    "time": 0.0185,
+    "velocity_over_sound_speed": 0.00044297687416506627
+  },
+  {
+    "density_amplitude": 0.0010659513267529958,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.4929017759696714e-06,
+    "time": 0.01875,
+    "velocity_over_sound_speed": 0.0004885383398528253
+  },
+  {
+    "density_amplitude": 0.0010148468965143704,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -3.439423177025648e-05,
+    "time": 0.019,
+    "velocity_over_sound_speed": 0.0005280763517149113
+  },
+  {
+    "density_amplitude": 0.0009600776500497728,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -6.758000371283069e-05,
+    "time": 0.01925,
+    "velocity_over_sound_speed": 0.000561506076985016
+  },
+  {
+    "density_amplitude": 0.0009022586499214419,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00010063529200380102,
+    "time": 0.0195,
+    "velocity_over_sound_speed": 0.0005888069720580963
+  },
+  {
+    "density_amplitude": 0.0008420039335481353,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00013317206776582825,
+    "time": 0.01975,
+    "velocity_over_sound_speed": 0.0006100193947868216
+  },
+  {
+    "density_amplitude": 0.0007799205831842604,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00016483132537280573,
+    "time": 0.02,
+    "velocity_over_sound_speed": 0.0006252408236194345
+  },
+  {
+    "density_amplitude": 0.0007166031929744577,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0001952848182491041,
+    "time": 0.02025,
+    "velocity_over_sound_speed": 0.0006346217412444852
+  },
+  {
+    "density_amplitude": 0.0006526287638805035,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00022423640876908152,
+    "time": 0.0205,
+    "velocity_over_sound_speed": 0.0006383612404373512
+  },
+  {
+    "density_amplitude": 0.0005885520515044056,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0002514230405070356,
+    "time": 0.02075,
+    "velocity_over_sound_speed": 0.0006367024092806639
+  },
+  {
+    "density_amplitude": 0.0005249013861373174,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00027661534424112467,
+    "time": 0.021,
+    "velocity_over_sound_speed": 0.0006299275518911289
+  },
+  {
+    "density_amplitude": 0.00046217497879845243,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00029961789198563126,
+    "time": 0.02125,
+    "velocity_over_sound_speed": 0.0006183532992670795
+  },
+  {
+    "density_amplitude": 0.0004008377216375345,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00032026911590245515,
+    "time": 0.021500000000000002,
+    "velocity_over_sound_speed": 0.0006023256629153218
+  },
+  {
+    "density_amplitude": 0.0003413184859003029,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0003384409112165061,
+    "time": 0.021750000000000002,
+    "velocity_over_sound_speed": 0.0005822150815651195
+  },
+  {
+    "density_amplitude": 0.00028400791573668285,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0003540379442256887,
+    "time": 0.022,
+    "velocity_over_sound_speed": 0.0005584115085757239
+  },
+  {
+    "density_amplitude": 0.00022925671149834852,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0003669966881526254,
+    "time": 0.02225,
+    "velocity_over_sound_speed": 0.0005313195846367554
+  },
+  {
+    "density_amplitude": 0.00017737439185504104,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00037728421093336905,
+    "time": 0.0225,
+    "velocity_over_sound_speed": 0.0005013539370935085
+  },
+  {
+    "density_amplitude": 0.00012862852008090062,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0003848967400822407,
+    "time": 0.02275,
+    "velocity_over_sound_speed": 0.0004689346437473776
+  },
+  {
+    "density_amplitude": 8.324437624262365e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0003898580305183538,
+    "time": 0.023,
+    "velocity_over_sound_speed": 0.00043448289533013244
+  },
+  {
+    "density_amplitude": 4.1405053775179284e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00039221756169763284,
+    "time": 0.02325,
+    "velocity_over_sound_speed": 0.00039841688707388073
+  },
+  {
+    "density_amplitude": 3.251956068614197e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00039204859057567293,
+    "time": 0.0235,
+    "velocity_over_sound_speed": 0.00036114796593920387
+  },
+  {
+    "density_amplitude": -3.111433378272977e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00038944608684512175,
+    "time": 0.02375,
+    "velocity_over_sound_speed": 0.00032307705616348425
+  },
+  {
+    "density_amplitude": -6.163283899728221e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00038452457656167776,
+    "time": 0.024,
+    "velocity_over_sound_speed": 0.00028459138188936545
+  },
+  {
+    "density_amplitude": -8.828066150789901e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00037741591971206023,
+    "time": 0.02425,
+    "velocity_over_sound_speed": 0.00024606150176691806
+  },
+  {
+    "density_amplitude": -0.00011107117267094275,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0003682670465035145,
+    "time": 0.0245,
+    "velocity_over_sound_speed": 0.00020783866662734912
+  },
+  {
+    "density_amplitude": -0.00013005195513384333,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00035723767618666856,
+    "time": 0.02475,
+    "velocity_over_sound_speed": 0.00017025250763333787
+  },
+  {
+    "density_amplitude": -0.00014530252927592475,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0003444980410817731,
+    "time": 0.025,
+    "velocity_over_sound_speed": 0.0001336090587508671
+  },
+  {
+    "density_amplitude": -0.00015693189785123004,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.000330226637183013,
+    "time": 0.02525,
+    "velocity_over_sound_speed": 9.818911398643562e-05
+  },
+  {
+    "density_amplitude": -0.0001650759423434256,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00031460802128748964,
+    "time": 0.025500000000000002,
+    "velocity_over_sound_speed": 6.424691661546973e-05
+  },
+  {
+    "density_amplitude": -0.00016989470411106684,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00029783067305556887,
+    "time": 0.025750000000000002,
+    "velocity_over_sound_speed": 3.20091746132385e-05
+  },
+  {
+    "density_amplitude": -0.00017156958267789822,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00028008493877843617,
+    "time": 0.026000000000000002,
+    "velocity_over_sound_speed": 1.6743937062044698e-06
+  },
+  {
+    "density_amplitude": -0.00017030048253042248,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00026156107192745157,
+    "time": 0.02625,
+    "velocity_over_sound_speed": -2.658748309604681e-05
+  },
+  {
+    "density_amplitude": -0.00016630293854795074,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00024244738380837066,
+    "time": 0.0265,
+    "velocity_over_sound_speed": -5.263514293886512e-05
+  },
+  {
+    "density_amplitude": -0.00015980524873401782,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00022292851586118916,
+    "time": 0.02675,
+    "velocity_over_sound_speed": -7.635569303636645e-05
+  },
+  {
+    "density_amplitude": -0.00015104564126836725,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00020318384335195032,
+    "time": 0.027,
+    "velocity_over_sound_speed": -9.766419036099219e-05
+  },
+  {
+    "density_amplitude": -0.00014026950108206697,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00018338601841415874,
+    "time": 0.02725,
+    "velocity_over_sound_speed": -0.00011650292993908829
+  },
+  {
+    "density_amplitude": -0.00012772667920123078,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00016369965863119457,
+    "time": 0.0275,
+    "velocity_over_sound_speed": -0.0001328405118492627
+  },
+  {
+    "density_amplitude": -0.0001136689060336912,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00014428018562295263,
+    "time": 0.02775,
+    "velocity_over_sound_speed": -0.00014667070802527475
+  },
+  {
+    "density_amplitude": -9.83473276138416e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.00012527281642424275,
+    "time": 0.028,
+    "velocity_over_sound_speed": -0.00015801115071355614
+  },
+  {
+    "density_amplitude": -8.201018159917994e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -0.0001068117088323716,
+    "time": 0.02825,
+    "velocity_over_sound_speed": -0.00016690186493413262
+  },
+  {
+    "density_amplitude": -6.490062755248385e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -8.901926036855603e-05,
+    "time": 0.0285,
+    "velocity_over_sound_speed": -0.00017340366755169137
+  },
+  {
+    "density_amplitude": -4.7254743769678433e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -7.200555905274737e-05,
+    "time": 0.02875,
+    "velocity_over_sound_speed": -0.00017759645559161969
+  },
+  {
+    "density_amplitude": -2.92997006478015e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -5.586798284305274e-05,
+    "time": 0.029,
+    "velocity_over_sound_speed": -0.00017957740624638676
+  },
+  {
+    "density_amplitude": -1.1252118351196892e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.069094334676739e-05,
+    "time": 0.02925,
+    "velocity_over_sound_speed": -0.00017945911062445413
+  },
+  {
+    "density_amplitude": 6.683385653108491e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -2.6545768276213648e-05,
+    "time": 0.029500000000000002,
+    "velocity_over_sound_speed": -0.00017736766271193594
+  },
+  {
+    "density_amplitude": 2.4315455739794495e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.3490716103873365e-05,
+    "time": 0.029750000000000002,
+    "velocity_over_sound_speed": -0.0001734407242624265
+  },
+  {
+    "density_amplitude": 4.1467062534466125e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.5711154710813617e-06,
+    "time": 0.03,
+    "velocity_over_sound_speed": -0.0001678255854195006
+  },
+  {
+    "density_amplitude": 5.7976373110267795e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 9.180378875106408e-06,
+    "time": 0.03025,
+    "velocity_over_sound_speed": -0.00016067723982663042
+  },
+  {
+    "density_amplitude": 7.369742932028875e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.8743422500546755e-05,
+    "time": 0.0305,
+    "velocity_over_sound_speed": -0.00015215649180834234
+  },
+  {
+    "density_amplitude": 8.850063831704738e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 2.7109519479136025e-05,
+    "time": 0.03075,
+    "velocity_over_sound_speed": -0.0001424281119321664
+  },
+  {
+    "density_amplitude": 0.00010227308088080084,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 3.428147220329484e-05,
+    "time": 0.031,
+    "velocity_over_sound_speed": -0.0001316590559011818
+  },
+  {
+    "density_amplitude": 0.00011491864460876177,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.027275294969835e-05,
+    "time": 0.03125,
+    "velocity_over_sound_speed": -0.00012001676029940763
+  },
+  {
+    "density_amplitude": 0.0001263579903015866,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.510680752785383e-05,
+    "time": 0.0315,
+    "velocity_over_sound_speed": -0.00010766752723426928
+  },
+  {
+    "density_amplitude": 0.00013652836101750072,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.8816301417998106e-05,
+    "time": 0.03175,
+    "velocity_over_sound_speed": -9.477500840879539e-05
+  },
+  {
+    "density_amplitude": 0.00014538324424560992,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 5.144231878003059e-05,
+    "time": 0.032,
+    "velocity_over_sound_speed": -8.149879762730944e-05
+  },
+  {
+    "density_amplitude": 0.00015289189847735312,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 5.3033524592768766e-05,
+    "time": 0.03225,
+    "velocity_over_sound_speed": -6.799313920773828e-05
+  },
+  {
+    "density_amplitude": 0.00015903875612925634,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 5.3645299969246164e-05,
+    "time": 0.0325,
+    "velocity_over_sound_speed": -5.440575825596075e-05
+  },
+  {
+    "density_amplitude": 0.0001638227152931448,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 5.333886039612018e-05,
+    "time": 0.03275,
+    "velocity_over_sound_speed": -4.087681726662823e-05
+  },
+  {
+    "density_amplitude": 0.00016725633316509497,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 5.218036627099656e-05,
+    "time": 0.033,
+    "velocity_over_sound_speed": -2.7538002063376738e-05
+  },
+  {
+    "density_amplitude": 0.00016936493423622416,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 5.024003466838124e-05,
+    "time": 0.03325,
+    "velocity_over_sound_speed": -1.451173869097807e-05
+  },
+  {
+    "density_amplitude": 0.00017018564642258898,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.759126076106535e-05,
+    "time": 0.0335,
+    "velocity_over_sound_speed": -1.91054153330861e-06
+  },
+  {
+    "density_amplitude": 0.00016976637827468595,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.430975676718892e-05,
+    "time": 0.03375,
+    "velocity_over_sound_speed": 1.0163508336581004e-05
+  },
+  {
+    "density_amplitude": 0.00016816475024686764,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.047271569221486e-05,
+    "time": 0.034,
+    "velocity_over_sound_speed": 2.1619156756351657e-05
+  },
+  {
+    "density_amplitude": 0.00016544699273173083,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 3.6158006497766336e-05,
+    "time": 0.03425,
+    "velocity_over_sound_speed": 3.237624530837241e-05
+  },
+  {
+    "density_amplitude": 0.0001616868231831616,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 3.14434066638097e-05,
+    "time": 0.0345,
+    "velocity_over_sound_speed": 4.2365859682078595e-05
+  },
+  {
+    "density_amplitude": 0.00015696431417371308,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 2.6405877424904104e-05,
+    "time": 0.03475,
+    "velocity_over_sound_speed": 5.1530362772454725e-05
+  },
+  {
+    "density_amplitude": 0.00015136476366723182,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 2.112088626284799e-05,
+    "time": 0.035,
+    "velocity_over_sound_speed": 5.9823318535936925e-05
+  },
+  {
+    "density_amplitude": 0.00014497757814629401,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.5661780534390547e-05,
+    "time": 0.035250000000000004,
+    "velocity_over_sound_speed": 6.720931333631693e-05
+  },
+  {
+    "density_amplitude": 0.00013789517852641194,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.0099215410747524e-05,
+    "time": 0.035500000000000004,
+    "velocity_over_sound_speed": 7.366368212111628e-05
+  },
+  {
+    "density_amplitude": 0.00013021193802550908,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.500638612067318e-06,
+    "time": 0.035750000000000004,
+    "velocity_over_sound_speed": 7.917214727327174e-05
+  },
+  {
+    "density_amplitude": 0.00012202316034821498,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.0701662591046637e-06,
+    "time": 0.036000000000000004,
+    "velocity_over_sound_speed": 8.373037838472042e-05
+  },
+  {
+    "density_amplitude": 0.00011342410570030749,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -6.553476640238349e-06,
+    "time": 0.03625,
+    "velocity_over_sound_speed": 8.734348149940512e-05
+  },
+  {
+    "density_amplitude": 0.00010450907127913911,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.1893967675550673e-05,
+    "time": 0.0365,
+    "velocity_over_sound_speed": 9.002542657602061e-05
+  },
+  {
+    "density_amplitude": 9.537053200081538e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.7040988719059963e-05,
+    "time": 0.03675,
+    "velocity_over_sound_speed": 9.179842202894603e-05
+  },
+  {
+    "density_amplitude": 8.609834633353084e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -2.1948780335427657e-05,
+    "time": 0.037,
+    "velocity_over_sound_speed": 9.269224522345314e-05
+  },
+  {
+    "density_amplitude": 7.677903121770083e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -2.657663299182856e-05,
+    "time": 0.03725,
+    "velocity_over_sound_speed": 9.274353773323511e-05
+  },
+  {
+    "density_amplitude": 6.749510917565654e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -3.0888989125214494e-05,
+    "time": 0.0375,
+    "velocity_over_sound_speed": 9.199507401995145e-05
+  },
+  {
+    "density_amplitude": 5.8324529854500234e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -3.4855490717332645e-05,
+    "time": 0.03775,
+    "velocity_over_sound_speed": 9.049501197165306e-05
+  },
+  {
+    "density_amplitude": 4.934016741240512e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -3.845097491284705e-05,
+    "time": 0.038,
+    "velocity_over_sound_speed": 8.829613344587354e-05
+  },
+  {
+    "density_amplitude": 4.0609394357724526e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.165542057250537e-05,
+    "time": 0.03825,
+    "velocity_over_sound_speed": 8.545508261037312e-05
+  },
+  {
+    "density_amplitude": 3.219373168760508e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.44538489626593e-05,
+    "time": 0.0385,
+    "velocity_over_sound_speed": 8.203160946677296e-05
+  },
+  {
+    "density_amplitude": 2.4148574453554278e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.683618204422192e-05,
+    "time": 0.03875,
+    "velocity_over_sound_speed": 7.808782548652962e-05
+  },
+  {
+    "density_amplitude": 1.6522991210066447e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.879706203845624e-05,
+    "time": 0.039,
+    "velocity_over_sound_speed": 7.368747779186631e-05
+  },
+  {
+    "density_amplitude": 9.359595182733995e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -5.033563611440361e-05,
+    "time": 0.03925,
+    "velocity_over_sound_speed": 6.88952477834038e-05
+  },
+  {
+    "density_amplitude": 2.6944844273322137e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -5.145531016425926e-05,
+    "time": 0.0395,
+    "velocity_over_sound_speed": 6.377607955825238e-05
+  },
+  {
+    "density_amplitude": -3.4427522564532845e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -5.216347570995763e-05,
+    "time": 0.03975,
+    "velocity_over_sound_speed": 5.839454288406088e-05
+  },
+  {
+    "density_amplitude": -9.028967341988982e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -5.2471214018355385e-05,
+    "time": 0.04,
+    "velocity_over_sound_speed": 5.281423490259809e-05
+  },
+  {
+    "density_amplitude": -1.4047328597808312e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -5.239298149573051e-05,
+    "time": 0.04025,
+    "velocity_over_sound_speed": 4.7097224137270796e-05
+  },
+  {
+    "density_amplitude": -1.848713951818852e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -5.194628038715919e-05,
+    "time": 0.0405,
+    "velocity_over_sound_speed": 4.130353977867348e-05
+  },
+  {
+    "density_amplitude": -2.2343610834234704e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -5.115131872523756e-05,
+    "time": 0.04075,
+    "velocity_over_sound_speed": 3.549070862661479e-05
+  },
+  {
+    "density_amplitude": -2.5617587986892264e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -5.003066335833638e-05,
+    "time": 0.041,
+    "velocity_over_sound_speed": 2.9713341481495748e-05
+  },
+  {
+    "density_amplitude": -2.83152395945881e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.860888974402951e-05,
+    "time": 0.04125,
+    "velocity_over_sound_speed": 2.402277020746307e-05
+  },
+  {
+    "density_amplitude": -3.044771204313752e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.691223202156645e-05,
+    "time": 0.0415,
+    "velocity_over_sound_speed": 1.846673613903811e-05
+  },
+  {
+    "density_amplitude": -3.203075536634722e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.496823668140497e-05,
+    "time": 0.04175,
+    "velocity_over_sound_speed": 1.3089129976095024e-05
+  },
+  {
+    "density_amplitude": -3.308432557497869e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.280542293307539e-05,
+    "time": 0.042,
+    "velocity_over_sound_speed": 7.929782812846903e-06
+  },
+  {
+    "density_amplitude": -3.3632168532355734e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.0452952638230675e-05,
+    "time": 0.04225,
+    "velocity_over_sound_speed": 3.0243074781365606e-06
+  },
+  {
+    "density_amplitude": -3.370139037014595e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -3.7940312426859577e-05,
+    "time": 0.0425,
+    "velocity_over_sound_speed": -1.5960110704062965e-06
+  },
+  {
+    "density_amplitude": -3.33220192912125e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -3.5297010354469666e-05,
+    "time": 0.04275,
+    "velocity_over_sound_speed": -5.904277954593283e-06
+  },
+  {
+    "density_amplitude": -3.252656342162791e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -3.2552289189692446e-05,
+    "time": 0.043000000000000003,
+    "velocity_over_sound_speed": -9.87800520360107e-06
+  },
+  {
+    "density_amplitude": -3.134956915482592e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -2.9734858148232098e-05,
+    "time": 0.043250000000000004,
+    "velocity_over_sound_speed": -1.3499085540842278e-05
+  },
+  {
+    "density_amplitude": -2.982718418142281e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -2.6872644613269124e-05,
+    "time": 0.043500000000000004,
+    "velocity_over_sound_speed": -1.6753725750935593e-05
+  },
+  {
+    "density_amplitude": -2.7996729122513316e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -2.3992567107098867e-05,
+    "time": 0.043750000000000004,
+    "velocity_over_sound_speed": -1.9632342489302717e-05
+  },
+  {
+    "density_amplitude": -2.5896281386316643e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -2.1120330506531324e-05,
+    "time": 0.044,
+    "velocity_over_sound_speed": -2.2129423597696973e-05
+  },
+  {
+    "density_amplitude": -2.356427455197993e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.8280244227834033e-05,
+    "time": 0.04425,
+    "velocity_over_sound_speed": -2.424335814946556e-05
+  },
+  {
+    "density_amplitude": -2.103911625415442e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.5495063848006414e-05,
+    "time": 0.0445,
+    "velocity_over_sound_speed": -2.5976238569248727e-05
+  },
+  {
+    "density_amplitude": -1.8358827201569696e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.2785856379972938e-05,
+    "time": 0.04475,
+    "velocity_over_sound_speed": -2.733363825415401e-05
+  },
+  {
+    "density_amplitude": -1.5560703616055956e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.0171889181720229e-05,
+    "time": 0.045,
+    "velocity_over_sound_speed": -2.8324368168542638e-05
+  },
+  {
+    "density_amplitude": -1.2681005028961078e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -7.670542255098953e-06,
+    "time": 0.04525,
+    "velocity_over_sound_speed": -2.8960215894053368e-05
+  },
+  {
+    "density_amplitude": -9.7546690231646e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -5.297243480380578e-06,
+    "time": 0.0455,
+    "velocity_over_sound_speed": -2.925567059223242e-05
+  },
+  {
+    "density_amplitude": -6.815054164190607e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -3.0654261388935317e-06,
+    "time": 0.04575,
+    "velocity_over_sound_speed": -2.9227637281225356e-05
+  },
+  {
+    "density_amplitude": -3.893712026331744e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -9.86507899137477e-07,
+    "time": 0.046,
+    "velocity_over_sound_speed": -2.8895143742696586e-05
+  },
+  {
+    "density_amplitude": -1.0201888920489135e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 9.301097175464512e-07,
+    "time": 0.04625,
+    "velocity_over_sound_speed": -2.8279043262899873e-05
+  },
+  {
+    "density_amplitude": 1.7781426122184243e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 2.6770225168407936e-06,
+    "time": 0.0465,
+    "velocity_over_sound_speed": -2.7401716275189982e-05
+  },
+  {
+    "density_amplitude": 4.476221980985965e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.248786704608696e-06,
+    "time": 0.04675,
+    "velocity_over_sound_speed": -2.628677381288171e-05
+  },
+  {
+    "density_amplitude": 7.051409715961063e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 5.641865205110003e-06,
+    "time": 0.047,
+    "velocity_over_sound_speed": -2.4958765503939775e-05
+  },
+  {
+    "density_amplitude": 9.483567218882722e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 6.8545586614343494e-06,
+    "time": 0.04725,
+    "velocity_over_sound_speed": -2.344289464526184e-05
+  },
+  {
+    "density_amplitude": 1.1755108520847333e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 7.886922622288751e-06,
+    "time": 0.0475,
+    "velocity_over_sound_speed": -2.1764742687041675e-05
+  },
+  {
+    "density_amplitude": 1.3851024901199045e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 8.74067246822007e-06,
+    "time": 0.04775,
+    "velocity_over_sound_speed": -1.995000523959541e-05
+  },
+  {
+    "density_amplitude": 1.5758883649922732e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 9.419077661784537e-06,
+    "time": 0.048,
+    "velocity_over_sound_speed": -1.8024241488777362e-05
+  },
+  {
+    "density_amplitude": 1.7468802405311862e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 9.926846920761243e-06,
+    "time": 0.04825,
+    "velocity_over_sound_speed": -1.6012638674311515e-05
+  },
+  {
+    "density_amplitude": 1.897340065306357e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.0270005912031029e-05,
+    "time": 0.0485,
+    "velocity_over_sound_speed": -1.3939793050535953e-05
+  },
+  {
+    "density_amplitude": 2.0267730103696675e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.0455769047106312e-05,
+    "time": 0.04875,
+    "velocity_over_sound_speed": -1.1829508513610589e-05
+  },
+  {
+    "density_amplitude": 2.134918577234876e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.0492406929492056e-05,
+    "time": 0.049,
+    "velocity_over_sound_speed": -9.704613845450714e-06
+  },
+  {
+    "density_amplitude": 2.221739966886118e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.0389110960158522e-05,
+    "time": 0.04925,
+    "velocity_over_sound_speed": -7.58679929466292e-06
+  },
+  {
+    "density_amplitude": 2.2874119067088835e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.0155856551551841e-05,
+    "time": 0.0495,
+    "velocity_over_sound_speed": -5.496472990559389e-06
+  },
+  {
+    "density_amplitude": 2.3323071361248487e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 9.803266333948989e-06,
+    "time": 0.04975,
+    "velocity_over_sound_speed": -3.452637469732662e-06
+  },
+  {
+    "density_amplitude": 2.3569817534693972e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 9.342474661808739e-06,
+    "time": 0.05,
+    "velocity_over_sound_speed": -1.4727863873347523e-06
+  },
+  {
+    "density_amplitude": 2.362159626378344e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 8.784994643330016e-06,
+    "time": 0.05025,
+    "velocity_over_sound_speed": 4.2717871141018277e-07
+  },
+  {
+    "density_amplitude": 2.348716065762583e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 8.142588824966083e-06,
+    "time": 0.0505,
+    "velocity_over_sound_speed": 2.233011868534294e-06
+  },
+  {
+    "density_amplitude": 2.3176609594725152e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 7.427144565416319e-06,
+    "time": 0.05075,
+    "velocity_over_sound_speed": 3.932166920064649e-06
+  },
+  {
+    "density_amplitude": 2.2701215561244302e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 6.650555031871637e-06,
+    "time": 0.051000000000000004,
+    "velocity_over_sound_speed": 5.513823070207823e-06
+  },
+  {
+    "density_amplitude": 2.207325082423454e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 5.824606646244986e-06,
+    "time": 0.051250000000000004,
+    "velocity_over_sound_speed": 6.96889261372934e-06
+  },
+  {
+    "density_amplitude": 2.130581368823106e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.960873701958101e-06,
+    "time": 0.051500000000000004,
+    "velocity_over_sound_speed": 8.290011714681878e-06
+  },
+  {
+    "density_amplitude": 2.0412656486658495e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.070620763719055e-06,
+    "time": 0.051750000000000004,
+    "velocity_over_sound_speed": 9.471515261363588e-06
+  },
+  {
+    "density_amplitude": 1.9408016852108604e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 3.1647133546982494e-06,
+    "time": 0.052000000000000005,
+    "velocity_over_sound_speed": 1.0509396913231263e-05
+  },
+  {
+    "density_amplitude": 1.830645369334402e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 2.2535373286168293e-06,
+    "time": 0.05225,
+    "velocity_over_sound_speed": 1.1401255535415481e-05
+  },
+  {
+    "density_amplitude": 1.712268918344173e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.3469272194596682e-06,
+    "time": 0.0525,
+    "velocity_over_sound_speed": 1.214622928059681e-05
+  },
+  {
+    "density_amplitude": 1.5871457934395384e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.541037597005623e-07,
+    "time": 0.05275,
+    "velocity_over_sound_speed": 1.2744918626563352e-05
+  },
+  {
+    "density_amplitude": 1.4567364400285975e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.1637934011495864e-07,
+    "time": 0.053,
+    "velocity_over_sound_speed": 1.319929971117445e-05
+  },
+  {
+    "density_amplitude": 1.3224749415309105e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.2566793511120378e-06,
+    "time": 0.05325,
+    "velocity_over_sound_speed": 1.3512629325214739e-05
+  },
+  {
+    "density_amplitude": 1.1857566635948613e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -2.0596993142115497e-06,
+    "time": 0.0535,
+    "velocity_over_sound_speed": 1.3689342928368452e-05
+  },
+  {
+    "density_amplitude": 1.0479269519786378e-05,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -2.8191138283535037e-06,
+    "time": 0.05375,
+    "velocity_over_sound_speed": 1.3734947044998913e-05
+  },
+  {
+    "density_amplitude": 9.102709338129621e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -3.5293860870039096e-06,
+    "time": 0.054,
+    "velocity_over_sound_speed": 1.3655907375396705e-05
+  },
+  {
+    "density_amplitude": 7.740044587029903e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.1857764810210415e-06,
+    "time": 0.05425,
+    "velocity_over_sound_speed": 1.3459533925549475e-05
+  },
+  {
+    "density_amplitude": 6.402662032478401e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.7843431489647675e-06,
+    "time": 0.0545,
+    "velocity_over_sound_speed": 1.3153864415235303e-05
+  },
+  {
+    "density_amplitude": 5.1011095016095e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -5.3219349118347255e-06,
+    "time": 0.05475,
+    "velocity_over_sound_speed": 1.2747547171348695e-05
+  },
+  {
+    "density_amplitude": 3.845040413545754e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -5.796177077877222e-06,
+    "time": 0.055,
+    "velocity_over_sound_speed": 1.2249724651869273e-05
+  },
+  {
+    "density_amplitude": 2.6431699318823384e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -6.2054506444419905e-06,
+    "time": 0.05525,
+    "velocity_over_sound_speed": 1.166991867683772e-05
+  },
+  {
+    "density_amplitude": 1.5032425164443365e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -6.5488654579052085e-06,
+    "time": 0.0555,
+    "velocity_over_sound_speed": 1.1017918367187056e-05
+  },
+  {
+    "density_amplitude": 4.3201055544870386e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -6.8262279194834815e-06,
+    "time": 0.05575,
+    "velocity_over_sound_speed": 1.0303671711365484e-05
+  },
+  {
+    "density_amplitude": -5.647763289453389e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -7.038003844485444e-06,
+    "time": 0.056,
+    "velocity_over_sound_speed": 9.537181594449622e-06
+  },
+  {
+    "density_amplitude": -1.4823717881270316e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -7.185277095385331e-06,
+    "time": 0.05625,
+    "velocity_over_sound_speed": 8.728407035935195e-06
+  },
+  {
+    "density_amplitude": -2.31702362439865e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -7.269704615313656e-06,
+    "time": 0.0565,
+    "velocity_over_sound_speed": 7.887170291631085e-06
+  },
+  {
+    "density_amplitude": -3.0659556562614304e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -7.2934684884482005e-06,
+    "time": 0.05675,
+    "velocity_over_sound_speed": 7.0230703830618685e-06
+  },
+  {
+    "density_amplitude": -3.727341241619855e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -7.259225647703902e-06,
+    "time": 0.057,
+    "velocity_over_sound_speed": 6.145403525451131e-06
+  },
+  {
+    "density_amplitude": -4.3002691715991075e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -7.170055838449337e-06,
+    "time": 0.05725,
+    "velocity_over_sound_speed": 5.2630908336113805e-06
+  },
+  {
+    "density_amplitude": -4.784702681218313e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -7.029408430139332e-06,
+    "time": 0.0575,
+    "velocity_over_sound_speed": 4.3846135947491256e-06
+  },
+  {
+    "density_amplitude": -5.181432347743622e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -6.841048646192747e-06,
+    "time": 0.05775,
+    "velocity_over_sound_speed": 3.5179563090893106e-06
+  },
+  {
+    "density_amplitude": -5.492023663418973e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -6.609003756627677e-06,
+    "time": 0.058,
+    "velocity_over_sound_speed": 2.6705576140504617e-06
+  },
+  {
+    "density_amplitude": -5.718760076766355e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -6.3375097483733375e-06,
+    "time": 0.05825,
+    "velocity_over_sound_speed": 1.8492691261121061e-06
+  },
+  {
+    "density_amplitude": -5.864582296151167e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -6.030958955299545e-06,
+    "time": 0.0585,
+    "velocity_over_sound_speed": 1.0603221570907761e-06
+  },
+  {
+    "density_amplitude": -5.933024641266328e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -5.693849094335147e-06,
+    "time": 0.058750000000000004,
+    "velocity_over_sound_speed": 3.093021887896807e-07
+  },
+  {
+    "density_amplitude": -5.928149213093272e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -5.330734116080269e-06,
+    "time": 0.059000000000000004,
+    "velocity_over_sound_speed": -3.988690776529895e-07
+  },
+  {
+    "density_amplitude": -5.854478631280834e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.9461772385424865e-06,
+    "time": 0.059250000000000004,
+    "velocity_over_sound_speed": -1.0599443435569807e-06
+  },
+  {
+    "density_amplitude": -5.7169280603097735e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.544706491522983e-06,
+    "time": 0.059500000000000004,
+    "velocity_over_sound_speed": -1.6703543078717634e-06
+  },
+  {
+    "density_amplitude": -5.520737212872008e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.13077305721122e-06,
+    "time": 0.059750000000000004,
+    "velocity_over_sound_speed": -2.2272045883745725e-06
+  },
+  {
+    "density_amplitude": -5.27140298119925e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -3.7087126501630052e-06,
+    "time": 0.06,
+    "velocity_over_sound_speed": -2.7282663658125965e-06
+  },
+  {
+    "density_amplitude": -4.974613305247002e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -3.282710137465277e-06,
+    "time": 0.06025,
+    "velocity_over_sound_speed": -3.1719611859535884e-06
+  },
+  {
+    "density_amplitude": -4.636182841303583e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -2.8567675579343937e-06,
+    "time": 0.0605,
+    "velocity_over_sound_speed": -3.557340386311301e-06
+  },
+  {
+    "density_amplitude": -4.2619909463753245e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -2.434675658031154e-06,
+    "time": 0.06075,
+    "velocity_over_sound_speed": -3.884059639909727e-06
+  },
+  {
+    "density_amplitude": -3.857922443217722e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -2.0199890221543776e-06,
+    "time": 0.061,
+    "velocity_over_sound_speed": -4.152349127940976e-06
+  },
+  {
+    "density_amplitude": -3.429811578743417e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.6160048364144859e-06,
+    "time": 0.06125,
+    "velocity_over_sound_speed": -4.362979866705157e-06
+  },
+  {
+    "density_amplitude": -2.983389535331321e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.2257452881769222e-06,
+    "time": 0.0615,
+    "velocity_over_sound_speed": -4.517226721996321e-06
+  },
+  {
+    "density_amplitude": -2.5242358008523055e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -8.519435688573625e-07,
+    "time": 0.06175,
+    "velocity_over_sound_speed": -4.616828646358344e-06
+  },
+  {
+    "density_amplitude": -2.0577336495566605e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.970334148684335e-07,
+    "time": 0.062,
+    "velocity_over_sound_speed": -4.6639466716611185e-06
+  },
+  {
+    "density_amplitude": -1.5890299328466354e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.631420914495039e-07,
+    "time": 0.06225,
+    "velocity_over_sound_speed": -4.661120181556824e-06
+  },
+  {
+    "density_amplitude": -1.122999326860435e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.4791330348793134e-07,
+    "time": 0.0625,
+    "velocity_over_sound_speed": -4.611221975914051e-06
+  },
+  {
+    "density_amplitude": -6.642131331631179e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.346263632747155e-07,
+    "time": 0.06275,
+    "velocity_over_sound_speed": -4.517412622665178e-06
+  },
+  {
+    "density_amplitude": -2.1691268007694843e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 6.95798894061048e-07,
+    "time": 0.063,
+    "velocity_over_sound_speed": -4.383094572029245e-06
+  },
+  {
+    "density_amplitude": 2.1501267434824275e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 9.305356232472549e-07,
+    "time": 0.06325,
+    "velocity_over_sound_speed": -4.211866484194183e-06
+  },
+  {
+    "density_amplitude": 6.280429807042291e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.1382363003813462e-06,
+    "time": 0.0635,
+    "velocity_over_sound_speed": -4.007478194673723e-06
+  },
+  {
+    "density_amplitude": 1.0190406620615317e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.31858540969267e-06,
+    "time": 0.06375,
+    "velocity_over_sound_speed": -3.773786712116512e-06
+  },
+  {
+    "density_amplitude": 1.3852591254838171e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.4715397241500293e-06,
+    "time": 0.064,
+    "velocity_over_sound_speed": -3.5147136117605402e-06
+  },
+  {
+    "density_amplitude": 1.7243471782471968e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.5973139388682804e-06,
+    "time": 0.06425,
+    "velocity_over_sound_speed": -3.2342041544139885e-06
+  },
+  {
+    "density_amplitude": 2.0343494371951854e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.6963646269171895e-06,
+    "time": 0.0645,
+    "velocity_over_sound_speed": -2.9361884262174826e-06
+  },
+  {
+    "density_amplitude": 2.3137029475362898e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.7693727632091855e-06,
+    "time": 0.06475,
+    "velocity_over_sound_speed": -2.6245447589049437e-06
+  },
+  {
+    "density_amplitude": 2.5612302516686663e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.8172250622769796e-06,
+    "time": 0.065,
+    "velocity_over_sound_speed": -2.3030656542200568e-06
+  },
+  {
+    "density_amplitude": 2.7761291692613455e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.8409943735336905e-06,
+    "time": 0.06525,
+    "velocity_over_sound_speed": -1.975426399935943e-06
+  },
+  {
+    "density_amplitude": 2.9579595668371527e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.8419193731874858e-06,
+    "time": 0.0655,
+    "velocity_over_sound_speed": -1.6451565289202816e-06
+  },
+  {
+    "density_amplitude": 3.1066274085260447e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.8213837855234752e-06,
+    "time": 0.06575,
+    "velocity_over_sound_speed": -1.315614237219609e-06
+  },
+  {
+    "density_amplitude": 3.2223663895587815e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.7808953579413481e-06,
+    "time": 0.066,
+    "velocity_over_sound_speed": -9.899638425133877e-07
+  },
+  {
+    "density_amplitude": 3.3057174605489305e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.7220648041301413e-06,
+    "time": 0.06625,
+    "velocity_over_sound_speed": -6.711563307948904e-07
+  },
+  {
+    "density_amplitude": 3.3575065537928876e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.6465849182596857e-06,
+    "time": 0.0665,
+    "velocity_over_sound_speed": -3.619130070291965e-07
+  },
+  {
+    "density_amplitude": 3.3788208228540113e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.5562100502637405e-06,
+    "time": 0.06675,
+    "velocity_over_sound_speed": -6.471223504867068e-08
+  },
+  {
+    "density_amplitude": 3.37098370376064e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.4527361183763558e-06,
+    "time": 0.067,
+    "velocity_over_sound_speed": 2.1822077672461722e-07
+  },
+  {
+    "density_amplitude": 3.3355291004306097e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.3379813202545848e-06,
+    "time": 0.06725,
+    "velocity_over_sound_speed": 4.849212138187098e-07
+  },
+  {
+    "density_amplitude": 3.2741749886443645e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.2137676884689556e-06,
+    "time": 0.0675,
+    "velocity_over_sound_speed": 7.336890131443427e-07
+  },
+  {
+    "density_amplitude": 3.18879672224569e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.0819036200564816e-06,
+    "time": 0.06775,
+    "velocity_over_sound_speed": 9.630904562383219e-07
+  },
+  {
+    "density_amplitude": 3.081400312484526e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 9.441674933922571e-07,
+    "time": 0.068,
+    "velocity_over_sound_speed": 1.1719571351807873e-06
+  },
+  {
+    "density_amplitude": 2.9540959367687577e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 8.02292469021161e-07,
+    "time": 0.06825,
+    "velocity_over_sound_speed": 1.3593824455906295e-06
+  },
+  {
+    "density_amplitude": 2.809071916804925e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 6.579525544690758e-07,
+    "time": 0.0685,
+    "velocity_over_sound_speed": 1.5247157762055995e-06
+  },
+  {
+    "density_amplitude": 2.6485693884268206e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 5.127499965823361e-07,
+    "time": 0.06875,
+    "velocity_over_sound_speed": 1.6675545772070462e-06
+  },
+  {
+    "density_amplitude": 2.474857866581767e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 3.6820404877371456e-07,
+    "time": 0.069,
+    "velocity_over_sound_speed": 1.7877344996678873e-06
+  },
+  {
+    "density_amplitude": 2.290211889209505e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 2.2574114482086474e-07,
+    "time": 0.06925,
+    "velocity_over_sound_speed": 1.885317806322789e-06
+  },
+  {
+    "density_amplitude": 2.09688890334653e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 8.66864956948339e-08,
+    "time": 0.0695,
+    "velocity_over_sound_speed": 1.9605802593389546e-06
+  },
+  {
+    "density_amplitude": 1.897108535950632e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.774288859431688e-08,
+    "time": 0.06975,
+    "velocity_over_sound_speed": 2.0139966939810144e-06
+  },
+  {
+    "density_amplitude": 1.6930333708893334e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.764437638595798e-07,
+    "time": 0.07,
+    "velocity_over_sound_speed": 2.0462254881082382e-06
+  },
+  {
+    "density_amplitude": 1.4867513324842923e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -2.9843082787669746e-07,
+    "time": 0.07025,
+    "velocity_over_sound_speed": 2.0580921364259755e-06
+  },
+  {
+    "density_amplitude": 1.2802597551526786e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.1283954427499615e-07,
+    "time": 0.07050000000000001,
+    "velocity_over_sound_speed": 2.0505721354592923e-06
+  },
+  {
+    "density_amplitude": 1.0754511982238254e-06,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -5.189276615530867e-07,
+    "time": 0.07075000000000001,
+    "velocity_over_sound_speed": 2.02477338045973e-06
+  },
+  {
+    "density_amplitude": 8.741010451090737e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -6.160754844412692e-07,
+    "time": 0.07100000000000001,
+    "velocity_over_sound_speed": 1.9819182690408563e-06
+  },
+  {
+    "density_amplitude": 6.778569068236221e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -7.037849635923875e-07,
+    "time": 0.07125000000000001,
+    "velocity_over_sound_speed": 1.9233256984171677e-06
+  },
+  {
+    "density_amplitude": 4.882298315446872e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -7.816776772308862e-07,
+    "time": 0.07150000000000001,
+    "velocity_over_sound_speed": 1.8503931338524045e-06
+  },
+  {
+    "density_amplitude": 3.065873045674726e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -8.494917849142208e-07,
+    "time": 0.07175000000000001,
+    "velocity_over_sound_speed": 1.764578915470148e-06
+  },
+  {
+    "density_amplitude": 1.3414800680032603e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -9.070780389609687e-07,
+    "time": 0.07200000000000001,
+    "velocity_over_sound_speed": 1.66738495910649e-06
+  },
+  {
+    "density_amplitude": -2.8021715083245428e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -9.543949433865857e-07,
+    "time": 0.07225,
+    "velocity_over_sound_speed": 1.5603399945574554e-06
+  },
+  {
+    "density_amplitude": -1.7900972746761174e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -9.91503153380956e-07,
+    "time": 0.0725,
+    "velocity_over_sound_speed": 1.44498347155698e-06
+  },
+  {
+    "density_amplitude": -3.1805841063896754e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.018559210491297e-06,
+    "time": 0.07275,
+    "velocity_over_sound_speed": 1.3228502502773447e-06
+  },
+  {
+    "density_amplitude": -4.4456346573070237e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.0358087097783606e-06,
+    "time": 0.073,
+    "velocity_over_sound_speed": 1.1954561792305372e-06
+  },
+  {
+    "density_amplitude": -5.58071321474768e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.0435789953382611e-06,
+    "time": 0.07325,
+    "velocity_over_sound_speed": 1.0642846493199657e-06
+  },
+  {
+    "density_amplitude": -6.582752426647178e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.0422714797802776e-06,
+    "time": 0.0735,
+    "velocity_over_sound_speed": 9.307741985934078e-07
+  },
+  {
+    "density_amplitude": -7.450102490130817e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.0323536815806314e-06,
+    "time": 0.07375,
+    "velocity_over_sound_speed": 7.963072281195687e-07
+  },
+  {
+    "density_amplitude": -8.182469584528449e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.0143510717575865e-06,
+    "time": 0.074,
+    "velocity_over_sound_speed": 6.621998754831294e-07
+  },
+  {
+    "density_amplitude": -8.780844729162873e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -9.888388181020865e-07,
+    "time": 0.07425,
+    "velocity_over_sound_speed": 5.296930787885494e-07
+  },
+  {
+    "density_amplitude": -9.247424272624016e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -9.564335113215877e-07,
+    "time": 0.0745,
+    "velocity_over_sound_speed": 3.9994485089299384e-07
+  },
+  {
+    "density_amplitude": -9.58552323365479e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -9.177849529865987e-07,
+    "time": 0.07475,
+    "velocity_over_sound_speed": 2.740237709557392e-07
+  },
+  {
+    "density_amplitude": -9.799482714808106e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -8.735680801847038e-07,
+    "time": 0.075,
+    "velocity_over_sound_speed": 1.5290368838578342e-07
+  },
+  {
+    "density_amplitude": -9.894572599358042e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -8.244750963616233e-07,
+    "time": 0.07525,
+    "velocity_over_sound_speed": 3.745962297161435e-08
+  },
+  {
+    "density_amplitude": -9.876890720310857e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -7.712078720392046e-07,
+    "time": 0.0755,
+    "velocity_over_sound_speed": -7.15351655442771e-08
+  },
+  {
+    "density_amplitude": -9.753259658568734e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -7.144706730212986e-07,
+    "time": 0.07575,
+    "velocity_over_sound_speed": -1.7341097487061215e-07
+  },
+  {
+    "density_amplitude": -9.531122286218506e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -6.549632674044135e-07,
+    "time": 0.076,
+    "velocity_over_sound_speed": -2.6760236978320584e-07
+  },
+  {
+    "density_amplitude": -9.218437121447272e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -5.933744562725254e-07,
+    "time": 0.07625,
+    "velocity_over_sound_speed": -3.5364785707253456e-07
+  },
+  {
+    "density_amplitude": -8.823574504663873e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -5.30376066443959e-07,
+    "time": 0.0765,
+    "velocity_over_sound_speed": -4.311885858929841e-07
+  },
+  {
+    "density_amplitude": -8.355214541982164e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.66617437118984e-07,
+    "time": 0.07675,
+    "velocity_over_sound_speed": -4.999661395771016e-07
+  },
+  {
+    "density_amplitude": -7.822247693260469e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.027204258122812e-07,
+    "time": 0.077,
+    "velocity_over_sound_speed": -5.598194900112052e-07
+  },
+  {
+    "density_amplitude": -7.233678808357062e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -3.3927495260354206e-07,
+    "time": 0.07725,
+    "velocity_over_sound_speed": -6.106811897463543e-07
+  },
+  {
+    "density_amplitude": -6.598535338104717e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -2.768350955563602e-07,
+    "time": 0.0775,
+    "velocity_over_sound_speed": -6.525728801545416e-07
+  },
+  {
+    "density_amplitude": -5.925780366665475e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -2.1591574419014742e-07,
+    "time": 0.07775,
+    "velocity_over_sound_speed": -6.85600196155967e-07
+  },
+  {
+    "density_amplitude": -5.224231030309479e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.5698981218696112e-07,
+    "time": 0.078,
+    "velocity_over_sound_speed": -7.099471493689345e-07
+  },
+  {
+    "density_amplitude": -4.50248280514416e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.0048600511480995e-07,
+    "time": 0.07825,
+    "velocity_over_sound_speed": -7.258700720054911e-07
+  },
+  {
+    "density_amplitude": -3.7688400637413323e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.6787133886153243e-08,
+    "time": 0.0785,
+    "velocity_over_sound_speed": -7.336912034960829e-07
+  },
+  {
+    "density_amplitude": -3.0312532187590656e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 3.7710400253872655e-09,
+    "time": 0.07875,
+    "velocity_over_sound_speed": -7.337920007229832e-07
+  },
+  {
+    "density_amplitude": -2.2972626912751234e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 5.090044589099729e-08,
+    "time": 0.079,
+    "velocity_over_sound_speed": -7.266062509276957e-07
+  },
+  {
+    "density_amplitude": -1.573949863324678e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 9.436085372883395e-08,
+    "time": 0.07925,
+    "velocity_over_sound_speed": -7.126130638884281e-07
+  },
+  {
+    "density_amplitude": -8.678950986944317e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.3395955864272103e-07,
+    "time": 0.0795,
+    "velocity_over_sound_speed": -6.923298168995143e-07
+  },
+  {
+    "density_amplitude": -1.8514284393589596e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.6955062816909447e-07,
+    "time": 0.07975,
+    "velocity_over_sound_speed": -6.663051224875481e-07
+  },
+  {
+    "density_amplitude": 4.688262466753532e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 2.0103374389487574e-07,
+    "time": 0.08,
+    "velocity_over_sound_speed": -6.351118847324084e-07
+  },
+  {
+    "density_amplitude": 1.0891162824503908e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 2.28352670759037e-07,
+    "time": 0.08025,
+    "velocity_over_sound_speed": -5.993405055901046e-07
+  },
+  {
+    "density_amplitude": 1.671430383358903e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 2.5149338916353056e-07,
+    "time": 0.0805,
+    "velocity_over_sound_speed": -5.595922978033576e-07
+  },
+  {
+    "density_amplitude": 2.2120784366541772e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 2.70481926302754e-07,
+    "time": 0.08075,
+    "velocity_over_sound_speed": -5.164731558995713e-07
+  },
+  {
+    "density_amplitude": 2.707978645922664e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 2.8538192398616427e-07,
+    "time": 0.081,
+    "velocity_over_sound_speed": -4.7058753147819814e-07
+  },
+  {
+    "density_amplitude": 3.1566531991087756e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 2.9629198069079396e-07,
+    "time": 0.08125,
+    "velocity_over_sound_speed": -4.2253275354247875e-07
+  },
+  {
+    "density_amplitude": 3.556218420224007e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 3.0334280565704497e-07,
+    "time": 0.0815,
+    "velocity_over_sound_speed": -3.728937290944396e-07
+  },
+  {
+    "density_amplitude": 3.90536980202713e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 3.0669422255275366e-07,
+    "time": 0.08175,
+    "velocity_over_sound_speed": -3.222380536445933e-07
+  },
+  {
+    "density_amplitude": 4.203362343955315e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 3.065320595999166e-07,
+    "time": 0.082,
+    "velocity_over_sound_speed": -2.7111155574375753e-07
+  },
+  {
+    "density_amplitude": 4.449986641044272e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 3.030649621105602e-07,
+    "time": 0.08225,
+    "velocity_over_sound_speed": -2.200342941755834e-07
+  },
+  {
+    "density_amplitude": 4.645541185599079e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 2.965211621394888e-07,
+    "time": 0.0825,
+    "velocity_over_sound_speed": -1.6949702110260642e-07
+  },
+  {
+    "density_amplitude": 4.790801354112128e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 2.871452384598912e-07,
+    "time": 0.08275,
+    "velocity_over_sound_speed": -1.1995811928030213e-07
+  },
+  {
+    "density_amplitude": 4.886985557559534e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 2.7519489833186984e-07,
+    "time": 0.083,
+    "velocity_over_sound_speed": -7.184101648287136e-08
+  },
+  {
+    "density_amplitude": 4.935719033968897e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 2.6093781059324573e-07,
+    "time": 0.08325,
+    "velocity_over_sound_speed": -2.5532075557296987e-08
+  },
+  {
+    "density_amplitude": 4.938995758301339e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 2.446485174863962e-07,
+    "time": 0.0835,
+    "velocity_over_sound_speed": 1.862104592964182e-08
+  },
+  {
+    "density_amplitude": 4.899138936518485e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 2.26605450374085e-07,
+    "time": 0.08375,
+    "velocity_over_sound_speed": 6.031057663596815e-08
+  },
+  {
+    "density_amplitude": 4.818760538527802e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 2.0708807212091991e-07,
+    "time": 0.084,
+    "velocity_over_sound_speed": 9.926936698895995e-08
+  },
+  {
+    "density_amplitude": 4.7007203088532024e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.863741664541919e-07,
+    "time": 0.08425,
+    "velocity_over_sound_speed": 1.3527119681724912e-07
+  },
+  {
+    "density_amplitude": 4.548084674715169e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.6473729209668087e-07,
+    "time": 0.0845,
+    "velocity_over_sound_speed": 1.6813067567950804e-07
+  },
+  {
+    "density_amplitude": 4.3640859490922725e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.4244441691187748e-07,
+    "time": 0.08475,
+    "velocity_over_sound_speed": 1.9770275925133999e-07
+  },
+  {
+    "density_amplitude": 4.1520822016457715e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.1975374474492622e-07,
+    "time": 0.085,
+    "velocity_over_sound_speed": 2.2388190751028952e-07
+  },
+  {
+    "density_amplitude": 3.9155181434995833e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 9.6912745105242e-08,
+    "time": 0.08525,
+    "velocity_over_sound_speed": 2.4660091246053607e-07
+  },
+  {
+    "density_amplitude": 3.657887343156685e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 7.41563933421995e-08,
+    "time": 0.0855,
+    "velocity_over_sound_speed": 2.658294247657207e-07
+  },
+  {
+    "density_amplitude": 3.3826960606736207e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 5.170562653506007e-08,
+    "time": 0.08575,
+    "velocity_over_sound_speed": 2.815722099153256e-07
+  },
+  {
+    "density_amplitude": 3.093428955975845e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 2.976601797202253e-08,
+    "time": 0.08600000000000001,
+    "velocity_over_sound_speed": 2.9386716544563204e-07
+  },
+  {
+    "density_amplitude": 2.793516895234529e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 8.526670848705412e-09,
+    "time": 0.08625000000000001,
+    "velocity_over_sound_speed": 3.027831312817619e-07
+  },
+  {
+    "density_amplitude": 2.486307046885774e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.1840670310660008e-08,
+    "time": 0.08650000000000001,
+    "velocity_over_sound_speed": 3.0841752547676586e-07
+  },
+  {
+    "density_amplitude": 2.175035426485118e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -3.118229400171342e-08,
+    "time": 0.08675000000000001,
+    "velocity_over_sound_speed": 3.1089383751366836e-07
+  },
+  {
+    "density_amplitude": 1.8628020174651212e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.936298720300282e-08,
+    "time": 0.08700000000000001,
+    "velocity_over_sound_speed": 3.10359010925387e-07
+  },
+  {
+    "density_amplitude": 1.5525485632945643e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -6.626629899796404e-08,
+    "time": 0.08725000000000001,
+    "velocity_over_sound_speed": 3.069807462960972e-07
+  },
+  {
+    "density_amplitude": 1.247039095794166e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -8.179461093897092e-08,
+    "time": 0.08750000000000001,
+    "velocity_over_sound_speed": 3.009447547578335e-07
+  },
+  {
+    "density_amplitude": 9.488432346943634e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -9.5869024108715e-08,
+    "time": 0.08775000000000001,
+    "velocity_over_sound_speed": 2.9245199091126893e-07
+  },
+  {
+    "density_amplitude": 6.603222651492409e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.0842907403577702e-07,
+    "time": 0.088,
+    "velocity_over_sound_speed": 2.8171589270392465e-07
+  },
+  {
+    "density_amplitude": 3.836179730464173e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.194322856502397e-07,
+    "time": 0.08825,
+    "velocity_over_sound_speed": 2.689596542174006e-07
+  },
+  {
+    "density_amplitude": 1.2064419275016586e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.2885358132124589e-07,
+    "time": 0.0885,
+    "velocity_over_sound_speed": 2.5441355557302117e-07
+  },
+  {
+    "density_amplitude": -1.2691900146832887e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.3668455570289916e-07,
+    "time": 0.08875,
+    "velocity_over_sound_speed": 2.3831237228789556e-07
+  },
+  {
+    "density_amplitude": -3.576285504993701e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.429326316306942e-07,
+    "time": 0.089,
+    "velocity_over_sound_speed": 2.2089288442624937e-07
+  },
+  {
+    "density_amplitude": -5.7027922154745635e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.4762011166218492e-07,
+    "time": 0.08925,
+    "velocity_over_sound_speed": 2.023915038189697e-07
+  },
+  {
+    "density_amplitude": -7.639021022401203e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.5078314004846975e-07,
+    "time": 0.0895,
+    "velocity_over_sound_speed": 1.830420354920146e-07
+  },
+  {
+    "density_amplitude": -9.377609196890332e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.5247058996423905e-07,
+    "time": 0.08975,
+    "velocity_over_sound_speed": 1.630735872754163e-07
+  },
+  {
+    "density_amplitude": -1.0913463394365344e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.5274289072151567e-07,
+    "time": 0.09,
+    "velocity_over_sound_speed": 1.4270863938170838e-07
+  },
+  {
+    "density_amplitude": -1.224368409967252e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.5167080945472279e-07,
+    "time": 0.09025,
+    "velocity_over_sound_speed": 1.2216128356734605e-07
+  },
+  {
+    "density_amplitude": -1.3367473270388368e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.4933420140204908e-07,
+    "time": 0.0905,
+    "velocity_over_sound_speed": 1.0163563934343243e-07
+  },
+  {
+    "density_amplitude": -1.428602698525266e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.4582074243055398e-07,
+    "time": 0.09075,
+    "velocity_over_sound_speed": 8.132445260170782e-08
+  },
+  {
+    "density_amplitude": -1.5002414948272432e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.4122465687099476e-07,
+    "time": 0.091,
+    "velocity_over_sound_speed": 6.140787998581817e-08
+  },
+  {
+    "density_amplitude": -1.5521448722593322e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.3564545305419626e-07,
+    "time": 0.09125,
+    "velocity_over_sound_speed": 4.20524603822067e-08
+  },
+  {
+    "density_amplitude": -1.5849540572607305e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.2918667818546356e-07,
+    "time": 0.0915,
+    "velocity_over_sound_speed": 2.341027304379348e-08
+  },
+  {
+    "density_amplitude": -1.59945547789721e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.2195470336876343e-07,
+    "time": 0.09175,
+    "velocity_over_sound_speed": 5.6182801055797445e-09
+  },
+  {
+    "density_amplitude": -1.5965653260392891e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.1405754870980549e-07,
+    "time": 0.092,
+    "velocity_over_sound_speed": -1.1202150384914547e-08
+  },
+  {
+    "density_amplitude": -1.577313728938582e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.0560375749842233e-07,
+    "time": 0.09225,
+    "velocity_over_sound_speed": -2.6945546308497178e-08
+  },
+  {
+    "density_amplitude": -1.5428287028128742e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -9.670132750709264e-08,
+    "time": 0.0925,
+    "velocity_over_sound_speed": -4.1522464947292024e-08
+  },
+  {
+    "density_amplitude": -1.4943200536279208e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -8.745670645527474e-08,
+    "time": 0.09275,
+    "velocity_over_sound_speed": -5.485946608512838e-08
+  },
+  {
+    "density_amplitude": -1.4330633816741303e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -7.797385768905534e-08,
+    "time": 0.093,
+    "velocity_over_sound_speed": -6.689893382091571e-08
+  },
+  {
+    "density_amplitude": -1.3603843369245274e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -6.835340112280715e-08,
+    "time": 0.09325,
+    "velocity_over_sound_speed": -7.759875712405541e-08
+  },
+  {
+    "density_amplitude": -1.2776432616754393e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -5.86918334937272e-08,
+    "time": 0.0935,
+    "velocity_over_sound_speed": -8.693187995692474e-08
+  },
+  {
+    "density_amplitude": -1.1862203457607569e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.908083100049938e-08,
+    "time": 0.09375,
+    "velocity_over_sound_speed": -9.488573243821011e-08
+  },
+  {
+    "density_amplitude": -1.0875014078415208e-07,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -3.960663644224782e-08,
+    "time": 0.094,
+    "velocity_over_sound_speed": -1.0146155502453723e-07
+  },
+  {
+    "density_amplitude": -9.828644040494553e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -3.034953205129133e-08,
+    "time": 0.09425,
+    "velocity_over_sound_speed": -1.0667362804940117e-07
+  },
+  {
+    "density_amplitude": -8.736667527460753e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -2.138339832989767e-08,
+    "time": 0.0945,
+    "velocity_over_sound_speed": -1.1054841918238057e-07
+  },
+  {
+    "density_amplitude": -7.612335514841229e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -1.2775358363601451e-08,
+    "time": 0.09475,
+    "velocity_over_sound_speed": -1.131236614633556e-07
+  },
+  {
+    "density_amplitude": -6.46846749554739e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": -4.585506297135374e-09,
+    "time": 0.095,
+    "velocity_over_sound_speed": -1.1444737453239223e-07
+  },
+  {
+    "density_amplitude": -5.317353268948297e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 3.1332820716647937e-09,
+    "time": 0.09525,
+    "velocity_over_sound_speed": -1.1457684152333605e-07
+  },
+  {
+    "density_amplitude": -4.170665177296727e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.0335459295586995e-08,
+    "time": 0.0955,
+    "velocity_over_sound_speed": -1.1357755382596951e-07
+  },
+  {
+    "density_amplitude": -3.0393810524265815e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 1.6982840203134974e-08,
+    "time": 0.09575,
+    "velocity_over_sound_speed": -1.115221355564099e-07
+  },
+  {
+    "density_amplitude": -1.933718018951494e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 2.3044563611662484e-08,
+    "time": 0.096,
+    "velocity_over_sound_speed": -1.0848925911737624e-07
+  },
+  {
+    "density_amplitude": -8.63077188532433e-09,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 2.849698617139366e-08,
+    "time": 0.09625,
+    "velocity_over_sound_speed": -1.045625626885003e-07
+  },
+  {
+    "density_amplitude": 1.6400082606322118e-09,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 3.3323513091693654e-08,
+    "time": 0.0965,
+    "velocity_over_sound_speed": -9.982957987176494e-08
+  },
+  {
+    "density_amplitude": 1.1398697477280859e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 3.7514370841654275e-08,
+    "time": 0.09675,
+    "velocity_over_sound_speed": -9.438069103834347e-08
+  },
+  {
+    "density_amplitude": 2.0578010854665115e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.1066327190416845e-08,
+    "time": 0.097,
+    "velocity_over_sound_speed": -8.830810519056778e-08
+  },
+  {
+    "density_amplitude": 2.911997546050082e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.3982364159777916e-08,
+    "time": 0.09725,
+    "velocity_over_sound_speed": -8.170488037641995e-08
+  },
+  {
+    "density_amplitude": 3.6975968310743224e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.62713096041568e-08,
+    "time": 0.0975,
+    "velocity_over_sound_speed": -7.46639898836504e-08
+  },
+  {
+    "density_amplitude": 4.4106663120302946e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.7947433213186e-08,
+    "time": 0.09775,
+    "velocity_over_sound_speed": -6.727744060594567e-08
+  },
+  {
+    "density_amplitude": 5.048189135946645e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.9030012752622165e-08,
+    "time": 0.098,
+    "velocity_over_sound_speed": -5.963544912386364e-08
+  },
+  {
+    "density_amplitude": 5.608042365535403e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.9542876323126654e-08,
+    "time": 0.09825,
+    "velocity_over_sound_speed": -5.182568018738055e-08
+  },
+  {
+    "density_amplitude": 6.088967800553395e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.951392632712594e-08,
+    "time": 0.0985,
+    "velocity_over_sound_speed": -4.393255143345275e-08
+  },
+  {
+    "density_amplitude": 6.49053616135111e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.897465069527085e-08,
+    "time": 0.09875,
+    "velocity_over_sound_speed": -3.603660732889586e-08
+  },
+  {
+    "density_amplitude": 6.813105341449403e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.795962673995802e-08,
+    "time": 0.099,
+    "velocity_over_sound_speed": -2.821396450370496e-08
+  },
+  {
+    "density_amplitude": 7.05777345369069e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.650602277825557e-08,
+    "time": 0.09925,
+    "velocity_over_sound_speed": -2.0535829839463713e-08
+  },
+  {
+    "density_amplitude": 7.226327404322142e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.465310240475837e-08,
+    "time": 0.0995,
+    "velocity_over_sound_speed": -1.3068091908106454e-08
+  },
+  {
+    "density_amplitude": 7.321187731637161e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 4.244173600093154e-08,
+    "time": 0.09975,
+    "velocity_over_sound_speed": -5.8709856235200755e-09
+  },
+  {
+    "density_amplitude": 7.345350440910587e-08,
+    "length": 4.9999999999999996e-05,
+    "temperature_amplitude": 3.991392374594442e-08,
+    "time": 0.1,
+    "velocity_over_sound_speed": 1.0011707225972308e-09
+  }
+]

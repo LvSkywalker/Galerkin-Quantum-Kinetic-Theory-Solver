@@ -1,0 +1,2018 @@
+[
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.9873025835359338,
+    "inverse_kn": 1.156,
+    "speed": 0.756417222446055
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.9821534030712982,
+    "inverse_kn": 1.156,
+    "speed": 0.7510271180522733
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.9700377043654249,
+    "inverse_kn": 1.188,
+    "speed": 0.7598047925094422
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.9645655128092688,
+    "inverse_kn": 1.188,
+    "speed": 0.7539629781244416
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.9538722966410965,
+    "inverse_kn": 1.22,
+    "speed": 0.7633675628963403
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.9480907947073952,
+    "inverse_kn": 1.22,
+    "speed": 0.7570397787175511
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.9387103607800608,
+    "inverse_kn": 1.252,
+    "speed": 0.7671142532377926
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.932635180312763,
+    "inverse_kn": 1.252,
+    "speed": 0.7602636530568875
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.9244633928568846,
+    "inverse_kn": 1.284,
+    "speed": 0.771053838625592
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.9181126196269774,
+    "inverse_kn": 1.284,
+    "speed": 0.7636409251289575
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.9110491214421549,
+    "inverse_kn": 1.316,
+    "speed": 0.7751954132389088
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.9044439025776849,
+    "inverse_kn": 1.316,
+    "speed": 0.7671780461720396
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.8983903759546935,
+    "inverse_kn": 1.348,
+    "speed": 0.7795479906934132
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.8915556226272099,
+    "inverse_kn": 1.348,
+    "speed": 0.7708815041382396
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.8864140666216351,
+    "inverse_kn": 1.38,
+    "speed": 0.784120221231667
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.8793792591821672,
+    "inverse_kn": 1.38,
+    "speed": 0.7747576984533463
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.8750502657097925,
+    "inverse_kn": 1.412,
+    "speed": 0.7889200020246806
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.8678503615426589,
+    "inverse_kn": 1.412,
+    "speed": 0.7788127709101336
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.8642313909376813,
+    "inverse_kn": 1.444,
+    "speed": 0.7939539539394946
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.8569078230465285,
+    "inverse_kn": 1.444,
+    "speed": 0.7830523821375299
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.8538915057747976,
+    "inverse_kn": 1.476,
+    "speed": 0.7992267378102034
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.8464932402280719,
+    "inverse_kn": 1.476,
+    "speed": 0.7874814221172369
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.843965768209389,
+    "inverse_kn": 1.508,
+    "speed": 0.804740188262461
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.836550358562258,
+    "inverse_kn": 1.508,
+    "speed": 0.7921036432120029
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.8343900791207823,
+    "inverse_kn": 1.54,
+    "speed": 0.8104922574890471
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.8270246139098101,
+    "inverse_kn": 1.54,
+    "speed": 0.7969212059541193
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.8251010013447656,
+    "inverse_kn": 1.572,
+    "speed": 0.816475790088037
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.8178627870477181,
+    "inverse_kn": 1.572,
+    "speed": 0.801934132578861
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.8160360354269921,
+    "inverse_kn": 1.604,
+    "speed": 0.8226771979157407
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.8090127971021597,
+    "inverse_kn": 1.604,
+    "speed": 0.8071396724231924
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.8071343382367132,
+    "inverse_kn": 1.636,
+    "speed": 0.8290751722496096
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.8004236669492465,
+    "inverse_kn": 1.636,
+    "speed": 0.8125315983406141
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.7983379425524674,
+    "inverse_kn": 1.668,
+    "speed": 0.8356396521100089
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.7920456972910151,
+    "inverse_kn": 1.668,
+    "speed": 0.8180994751795264
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.7895934660809366,
+    "inverse_kn": 1.7,
+    "speed": 0.8423313403062865
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.7838308825621036,
+    "inverse_kn": 1.7,
+    "speed": 0.8238279695615262
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.7808541831543313,
+    "inverse_kn": 1.732,
+    "speed": 0.8491020836501376
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.7757335867725826,
+    "inverse_kn": 1.732,
+    "speed": 0.8296963011605296
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.7720821896564136,
+    "inverse_kn": 1.764,
+    "speed": 0.8558963643231557
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.7677114672275973,
+    "inverse_kn": 1.764,
+    "speed": 0.8356779616659894
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.7632502693113427,
+    "inverse_kn": 1.796,
+    "speed": 0.8626539579087613
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.759726588394071,
+    "inverse_kn": 1.796,
+    "speed": 0.841740836519759
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.754343033875293,
+    "inverse_kn": 1.828,
+    "speed": 0.8693135258300857
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.7517466129330205,
+    "inverse_kn": 1.828,
+    "speed": 0.8478478425207927
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.7453570110154902,
+    "inverse_kn": 1.86,
+    "speed": 0.8758166201633191
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.7437459061384376,
+    "inverse_kn": 1.86,
+    "speed": 0.8539581321164075
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.7362995829151238,
+    "inverse_kn": 1.892,
+    "speed": 0.8821114162487063
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.7357063637975101,
+    "inverse_kn": 1.892,
+    "speed": 0.860028815972903
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.7271869558106389,
+    "inverse_kn": 1.924,
+    "speed": 0.8881555413092083
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.7276177903288783,
+    "inverse_kn": 1.924,
+    "speed": 0.8660170407494979
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.7180415538146626,
+    "inverse_kn": 1.956,
+    "speed": 0.8939176190358048
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.7194777201140621,
+    "inverse_kn": 1.956,
+    "speed": 0.8718821650509184
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.7088893023294264,
+    "inverse_kn": 1.988,
+    "speed": 0.8993774868358911
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.7112906765695461,
+    "inverse_kn": 1.988,
+    "speed": 0.8775877395575756
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.6997571951810817,
+    "inverse_kn": 2.02,
+    "speed": 0.9045253263933116
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.703066970092977,
+    "inverse_kn": 2.02,
+    "speed": 0.8831030347328181
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.6906713849311672,
+    "inverse_kn": 2.052,
+    "speed": 0.9093600955586859
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.6948212135090465,
+    "inverse_kn": 2.052,
+    "speed": 0.8884039591333759
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.6816558722403814,
+    "inverse_kn": 2.084,
+    "speed": 0.913887656529534
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.6865707608117385,
+    "inverse_kn": 2.084,
+    "speed": 0.8934733373613147
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.6727317482156646,
+    "inverse_kn": 2.116,
+    "speed": 0.91811891117606
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.6783342518112164,
+    "inverse_kn": 2.116,
+    "speed": 0.8983006281501444
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.6639168788271333,
+    "inverse_kn": 2.148,
+    "speed": 0.9220681390264576
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.670130389101588,
+    "inverse_kn": 2.148,
+    "speed": 0.9028812324190608
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.6552259034398443,
+    "inverse_kn": 2.18,
+    "speed": 0.9257516291822198
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.6619770079844152,
+    "inverse_kn": 2.18,
+    "speed": 0.9072155619116462
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.6466704318584405,
+    "inverse_kn": 2.212,
+    "speed": 0.9291866228612402
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.6538904434215367,
+    "inverse_kn": 2.212,
+    "speed": 0.9113080217149002
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.6382593492802031,
+    "inverse_kn": 2.244,
+    "speed": 0.9323905396442895
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.6458851600832671,
+    "inverse_kn": 2.244,
+    "speed": 0.915166022026909
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.6299991651831335,
+    "inverse_kn": 2.276,
+    "speed": 0.9353804409049513
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.6379735928114671,
+    "inverse_kn": 2.276,
+    "speed": 0.9187990919431753
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.6218943649616555,
+    "inverse_kn": 2.308,
+    "speed": 0.9381726797319068
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.6301661410281353,
+    "inverse_kn": 2.308,
+    "speed": 0.9222181309903732
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.6139477403385447,
+    "inverse_kn": 2.34,
+    "speed": 0.940782690776259
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.6224712660425489,
+    "inverse_kn": 2.34,
+    "speed": 0.9254348069719521
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.6061606864937101,
+    "inverse_kn": 2.372,
+    "speed": 0.9432248810456642
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.6148956498606534,
+    "inverse_kn": 2.372,
+    "speed": 0.9284610915908164
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.5985334615045135,
+    "inverse_kn": 2.404,
+    "speed": 0.9455125909107368
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.6074443845765719,
+    "inverse_kn": 2.404,
+    "speed": 0.9313089163901753
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.5910654082549867,
+    "inverse_kn": 2.436,
+    "speed": 0.9476581020944453
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.6001211708483758,
+    "inverse_kn": 2.436,
+    "speed": 0.9339899283436714
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.5837551414436971,
+    "inverse_kn": 2.468,
+    "speed": 0.9496726756509277
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.5929285115621062,
+    "inverse_kn": 2.468,
+    "speed": 0.9365153247181356
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.5766007034601927,
+    "inverse_kn": 2.5,
+    "speed": 0.9515666078370624
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.5858678924723544,
+    "inverse_kn": 2.5,
+    "speed": 0.9388957489640009
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.5695996932388716,
+    "inverse_kn": 2.532,
+    "speed": 0.953349295480777
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.5789399456071613,
+    "inverse_kn": 2.532,
+    "speed": 0.9411412322573904
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.5627493720881801,
+    "inverse_kn": 2.564,
+    "speed": 0.9550293051691982
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.572144593886533,
+    "inverse_kn": 2.564,
+    "speed": 0.9432611682701845
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.5560467501543656,
+    "inverse_kn": 2.596,
+    "speed": 0.9566144425336045
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.5654811770725455,
+    "inverse_kn": 2.596,
+    "speed": 0.9452643114405244
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.5494886567465075,
+    "inverse_kn": 2.628,
+    "speed": 0.9581118192861207
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.558948560138957,
+    "inverse_kn": 2.628,
+    "speed": 0.9471587913148651
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.5430717972998723,
+    "inverse_kn": 2.66,
+    "speed": 0.9595279166175881
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.5525452256475157,
+    "inverse_kn": 2.66,
+    "speed": 0.9489521374064901
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.5367927993287802,
+    "inverse_kn": 2.692,
+    "speed": 0.9608686442155355
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.5462693519145113,
+    "inverse_kn": 2.692,
+    "speed": 0.9506513104955442
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.5306482493370882,
+    "inverse_kn": 2.724,
+    "speed": 0.9621393945936683
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.5401188787619731,
+    "inverse_kn": 2.724,
+    "speed": 0.9522627374373149
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.5246347223208259,
+    "inverse_kn": 2.756,
+    "speed": 0.9633450927048692
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.534091562552501,
+    "inverse_kn": 2.756,
+    "speed": 0.9537923474100214
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.5187488052130006,
+    "inverse_kn": 2.788,
+    "speed": 0.9644902409850064
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.5281850220570479,
+    "inverse_kn": 2.788,
+    "speed": 0.955245608177843
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.5129871153815174,
+    "inverse_kn": 2.82,
+    "speed": 0.9655789600781396
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.522396776533444,
+    "inverse_kn": 2.82,
+    "speed": 0.9566275614189227
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.5073463150920513,
+    "inverse_kn": 2.852,
+    "speed": 0.9666150255486932
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.5167242772197691,
+    "inverse_kn": 2.852,
+    "speed": 0.9579428565119458
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.5018231226831593,
+    "inverse_kn": 2.884,
+    "speed": 0.9676019009090616
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.5111649332818894,
+    "inverse_kn": 2.884,
+    "speed": 0.9591957824212469
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.49641432106551714,
+    "inverse_kn": 2.916,
+    "speed": 0.9685427672933732
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.505716133104146,
+    "inverse_kn": 2.916,
+    "speed": 0.9603902974940088
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.4911167640460479,
+    "inverse_kn": 2.948,
+    "speed": 0.9694405500976975
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.5003752616786235,
+    "inverse_kn": 2.948,
+    "speed": 0.9615300571034003
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.48592738088674264,
+    "inverse_kn": 2.98,
+    "speed": 0.9702979428888904
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.49513971473181967,
+    "inverse_kn": 2.98,
+    "speed": 0.9626184391528417
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.4808431794336022,
+    "inverse_kn": 3.012,
+    "speed": 0.9711174288623284
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.49000691012703024,
+    "inverse_kn": 3.012,
+    "speed": 0.9636585675097779
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.47586124809026714,
+    "inverse_kn": 3.044,
+    "speed": 0.9719013001051722
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.48497429699492245,
+    "inverse_kn": 3.044,
+    "speed": 0.9646533334705099
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.4709787568612157,
+    "inverse_kn": 3.076,
+    "speed": 0.9726516748980489
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.4800393629719279,
+    "inverse_kn": 3.076,
+    "speed": 0.965605415376522
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.4661929576487008,
+    "inverse_kn": 3.108,
+    "speed": 0.9733705132651445
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.4751996398645725,
+    "inverse_kn": 3.108,
+    "speed": 0.9665172965118048
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.46150118395434875,
+    "inverse_kn": 3.14,
+    "speed": 0.9740596309610546
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.47045270800611444,
+    "inverse_kn": 3.14,
+    "speed": 0.9673912814129665
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.4569008501090665,
+    "inverse_kn": 3.172,
+    "speed": 0.9747207120627993
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.46579619952837675,
+    "inverse_kn": 3.172,
+    "speed": 0.9682295107216874
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.4523894501325529,
+    "inverse_kn": 3.204,
+    "speed": 0.9753553203171664
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.46122780073527564,
+    "inverse_kn": 3.204,
+    "speed": 0.9690339747039773
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.4479645563053984,
+    "inverse_kn": 3.236,
+    "speed": 0.9759649093769815
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.4567452537340211,
+    "inverse_kn": 3.236,
+    "speed": 0.9698065255538264
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.44362381752166735,
+    "inverse_kn": 3.268,
+    "speed": 0.9765508320451369
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.4523463574544706,
+    "inverse_kn": 3.268,
+    "speed": 0.9705488885910556
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.4393649574774962,
+    "inverse_kn": 3.3,
+    "speed": 0.977114348631875
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.44802896816577326,
+    "inverse_kn": 3.3,
+    "speed": 0.9712626724549414
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.4351857727410562,
+    "inverse_kn": 3.332,
+    "speed": 0.9776566345190179
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.44379099958156903,
+    "inverse_kn": 3.332,
+    "speed": 0.9719493783870131
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.43108413074081,
+    "inverse_kn": 3.364,
+    "speed": 0.9781787870143421
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.43963042263008906,
+    "inverse_kn": 3.364,
+    "speed": 0.9726104086883973
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.42705796770210835,
+    "inverse_kn": 3.396,
+    "speed": 0.9786818315699669
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.43554526495298423,
+    "inverse_kn": 3.396,
+    "speed": 0.9732470744294539
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.4231052865564584,
+    "inverse_kn": 3.428,
+    "speed": 0.9791667274303463
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.4315336101862312,
+    "inverse_kn": 3.428,
+    "speed": 0.9738606024823429
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.41922415484307857,
+    "inverse_kn": 3.46,
+    "speed": 0.9796343727682294
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.427593597067705,
+    "inverse_kn": 3.46,
+    "speed": 0.9744521419404695
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.4154127026184903,
+    "inverse_kn": 3.492,
+    "speed": 0.9800856093604151
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.42372341840863814,
+    "inverse_kn": 3.492,
+    "speed": 0.9750227699826731
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.4116691203866798,
+    "inverse_kn": 3.524,
+    "speed": 0.9805212268494884
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.41992131996001125,
+    "inverse_kn": 3.524,
+    "speed": 0.9755734972344214
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.4079916570597318,
+    "inverse_kn": 3.556,
+    "speed": 0.9809419666326405
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.416185599199746,
+    "inverse_kn": 3.556,
+    "speed": 0.9761052726731667
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.4043786179566406,
+    "inverse_kn": 3.588,
+    "speed": 0.9813485254142305
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.41251460406222856,
+    "inverse_kn": 3.588,
+    "speed": 0.9766189881204087
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.40082836284622386,
+    "inverse_kn": 3.62,
+    "speed": 0.9817415584548186
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.4089067316280115,
+    "inverse_kn": 3.62,
+    "speed": 0.9771154823588369
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.397339304038575,
+    "inverse_kn": 3.652,
+    "speed": 0.9821216825458667
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.4053604267884956,
+    "inverse_kn": 3.652,
+    "speed": 0.9775955449091205
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.39390990452828234,
+    "inverse_kn": 3.684,
+    "speed": 0.982489478736253
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.40187418089779736,
+    "inverse_kn": 3.684,
+    "speed": 0.9780599194975385
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.39053867619164767,
+    "inverse_kn": 3.716,
+    "speed": 0.9828454948339803
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.39844653042183376,
+    "inverse_kn": 3.716,
+    "speed": 0.9785093072425766
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.387224178039308,
+    "inverse_kn": 3.748,
+    "speed": 0.9831902477040383
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.3950760555928418,
+    "inverse_kn": 3.748,
+    "speed": 0.9789443695858574
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.38396501452503223,
+    "inverse_kn": 3.78,
+    "speed": 0.9835242253812162
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.3917613790759982,
+    "inverse_kn": 3.78,
+    "speed": 0.9793657309903117
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.3807598339108948,
+    "inverse_kn": 3.812,
+    "speed": 0.983847889014749
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.3885011646535311,
+    "inverse_kn": 3.812,
+    "speed": 0.9797739814262411
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.37760732668860847,
+    "inverse_kn": 3.844,
+    "speed": 0.9841616746599721
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.38529411593061486,
+    "inverse_kn": 3.844,
+    "speed": 0.9801696786639902
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.3745062240564632,
+    "inverse_kn": 3.876,
+    "speed": 0.9844659949306415
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.38213897506644845,
+    "inverse_kn": 3.876,
+    "speed": 0.980553350390072
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.37145529645102116,
+    "inverse_kn": 3.908,
+    "speed": 0.9847612405242246
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.3790345215331265,
+    "inverse_kn": 3.908,
+    "speed": 0.98092549616206
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.3684533521325155,
+    "inverse_kn": 3.94,
+    "speed": 0.9850477816312563
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.37597957090431033,
+    "inverse_kn": 3.94,
+    "speed": 0.9812865892160485
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.3654992358227419,
+    "inverse_kn": 3.972,
+    "speed": 0.9853259692387899
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.37297297367513466,
+    "inverse_kn": 3.972,
+    "speed": 0.9816370781392286
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.3625918273940797,
+    "inverse_kn": 4.004,
+    "speed": 0.9855961363369706
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.37001361411437034,
+    "inverse_kn": 4.004,
+    "speed": 0.9819773884189152
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.35973004060822766,
+    "inverse_kn": 4.036,
+    "speed": 0.9858585990369698
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.36710040914946857,
+    "inverse_kn": 4.036,
+    "speed": 0.9823079238783591
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.3569128219031405,
+    "inverse_kn": 4.068,
+    "speed": 0.9861136576076535
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.36423230728482786,
+    "inverse_kn": 4.068,
+    "speed": 0.9826290680086694
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.3541391492266265,
+    "inverse_kn": 4.1,
+    "speed": 0.9863615974377455
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.3614082875533517,
+    "inverse_kn": 4.1,
+    "speed": 0.9829411852053739
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.3514080309150601,
+    "inverse_kn": 4.132,
+    "speed": 0.9866026899295789
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.3586273585011659,
+    "inverse_kn": 4.132,
+    "speed": 0.983244621917348
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.34871850461561654,
+    "inverse_kn": 4.164,
+    "speed": 0.9868371933299814
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.355888557205196,
+    "inverse_kn": 4.164,
+    "speed": 0.9835397077151332
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.3460696362504913,
+    "inverse_kn": 4.196,
+    "speed": 0.9870653535033465
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.3531909483231667,
+    "inverse_kn": 4.196,
+    "speed": 0.9838267562850784
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.3434605190215387,
+    "inverse_kn": 4.228,
+    "speed": 0.9872874046514816
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.3505336231754629,
+    "inverse_kn": 4.228,
+    "speed": 0.9841060663551491
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.34089027245381887,
+    "inverse_kn": 4.26,
+    "speed": 0.9875035699844052
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.34791569885822954,
+    "inverse_kn": 4.26,
+    "speed": 0.9843779225577265
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.33835804147655285,
+    "inverse_kn": 4.292,
+    "speed": 0.9877140623459323
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.34533631738699183,
+    "inverse_kn": 4.292,
+    "speed": 0.9846425962342908
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.33586299554003185,
+    "inverse_kn": 4.324,
+    "speed": 0.9879190847975033
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.3427946448700468,
+    "inverse_kn": 4.324,
+    "speed": 0.9849003461864092
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.3334043277670558,
+    "inverse_kn": 4.356,
+    "speed": 0.9881188311634724
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.3402898707108298,
+    "inverse_kn": 4.356,
+    "speed": 0.9851514193771441
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.33098125413752855,
+    "inverse_kn": 4.388,
+    "speed": 0.9883134865407315
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.33782120683843164,
+    "inverse_kn": 4.388,
+    "speed": 0.9853960515865742
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.3285930127048621,
+    "inverse_kn": 4.42,
+    "speed": 0.9885032277753674
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.33538788696543254,
+    "inverse_kn": 4.42,
+    "speed": 0.9856344680248696
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.3262388628429102,
+    "inverse_kn": 4.452,
+    "speed": 0.9886882239087655
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.33298916587220295,
+    "inverse_kn": 4.452,
+    "speed": 0.9858668839060374
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.32391808452217197,
+    "inverse_kn": 4.484,
+    "speed": 0.9888686365954233
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.3306243187168265,
+    "inverse_kn": 4.484,
+    "speed": 0.9860935049852222
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.3216299776140667,
+    "inverse_kn": 4.516,
+    "speed": 0.9890446204945077
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.3282926403697906,
+    "inverse_kn": 4.516,
+    "speed": 0.9863145280622089
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.31937386122212325,
+    "inverse_kn": 4.548,
+    "speed": 0.989216323637059
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.3259934447726203,
+    "inverse_kn": 4.548,
+    "speed": 0.9865301414535226
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.31714907303896145,
+    "inverse_kn": 4.58,
+    "speed": 0.9893838877705673
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.3237260643196135,
+    "inverse_kn": 4.58,
+    "speed": 0.9867405254354101
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.31495496872800616,
+    "inverse_kn": 4.612,
+    "speed": 0.9895474486825218
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.32148984926187674,
+    "inverse_kn": 4.612,
+    "speed": 0.9869458526597015
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.3127909213288912,
+    "inverse_kn": 4.644,
+    "speed": 0.9897071365043979
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.3192841671328602,
+    "inverse_kn": 4.644,
+    "speed": 0.9871462885444835
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.3106563206855784,
+    "inverse_kn": 4.676,
+    "speed": 0.9898630759974455
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.317108402194613,
+    "inverse_kn": 4.676,
+    "speed": 0.987341991641311
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.3085505728962396,
+    "inverse_kn": 4.708,
+    "speed": 0.9900153868215167
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.31496195490400924,
+    "inverse_kn": 4.708,
+    "speed": 0.987533113980576
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.3064730997839942,
+    "inverse_kn": 4.74,
+    "speed": 0.9901641837880921
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.3128442413981921,
+    "inverse_kn": 4.74,
+    "speed": 0.9877198013965058
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.3044233383876346,
+    "inverse_kn": 4.772,
+    "speed": 0.9903095770985743
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.3107546929985389,
+    "inverse_kn": 4.772,
+    "speed": 0.9879021938331829
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.3024007404715089,
+    "inverse_kn": 4.804,
+    "speed": 0.990451672568814
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.30869275573243876,
+    "inverse_kn": 4.804,
+    "speed": 0.9880804256328307
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.3004047720537616,
+    "inverse_kn": 4.836,
+    "speed": 0.990590571840806
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.306657889872218,
+    "inverse_kn": 4.836,
+    "speed": 0.9882546258075627
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.2984349129521689,
+    "inverse_kn": 4.868,
+    "speed": 0.990726372582376
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.3046495694905634,
+    "inverse_kn": 4.868,
+    "speed": 0.9884249182956638
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.2964906563468475,
+    "inverse_kn": 4.9,
+    "speed": 0.9908591686756437
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.3026672820318135,
+    "inverse_kn": 4.9,
+    "speed": 0.988591422203426
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.29457150835912466,
+    "inverse_kn": 4.932,
+    "speed": 0.990989050394994
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.3007105278985162,
+    "inverse_kn": 4.932,
+    "speed": 0.9887542520334487
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.29267698764591815,
+    "inverse_kn": 4.964,
+    "speed": 0.9911161045752107
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2987788200526629,
+    "inverse_kn": 4.964,
+    "speed": 0.9889135179003002
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.2908066250089757,
+    "inverse_kn": 4.996,
+    "speed": 0.99124041477042
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2968716836310485,
+    "inverse_kn": 4.996,
+    "speed": 0.9890693257343092
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.28895996301836785,
+    "inverse_kn": 5.028,
+    "speed": 0.9913620614043853
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.29498865557419685,
+    "inverse_kn": 5.028,
+    "speed": 0.9892217774742647
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.28713655564965385,
+    "inverse_kn": 5.06,
+    "speed": 0.9914811219127289
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2931292842683541,
+    "inverse_kn": 5.06,
+    "speed": 0.9893709712496924
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.2853359679341583,
+    "inverse_kn": 5.092,
+    "speed": 0.9915976708775576
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.29129312920002387,
+    "inverse_kn": 5.092,
+    "speed": 0.9895170015533634
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.2835577756218227,
+    "inverse_kn": 5.124,
+    "speed": 0.9917117801549602
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.28947976062258424,
+    "inverse_kn": 5.124,
+    "speed": 0.9896599594046374
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.28180156485613106,
+    "inverse_kn": 5.156,
+    "speed": 0.9918235189958182
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2876887592345059,
+    "inverse_kn": 5.156,
+    "speed": 0.989799932504192
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.28006693186061377,
+    "inverse_kn": 5.188,
+    "speed": 0.9919329541603102
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2859197158687371,
+    "inverse_kn": 5.188,
+    "speed": 0.989937005380661
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.2783534826364617,
+    "inverse_kn": 5.22,
+    "speed": 0.992040150026531
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2841722311928219,
+    "inverse_kn": 5.22,
+    "speed": 0.9900712595296698
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.276660832670815,
+    "inverse_kn": 5.252,
+    "speed": 0.9921451686935157
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2824459154193436,
+    "inverse_kn": 5.252,
+    "speed": 0.9902027735457107
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.27498860665528996,
+    "inverse_kn": 5.284,
+    "speed": 0.9922480700790474
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2807403880262974,
+    "inverse_kn": 5.284,
+    "speed": 0.9903316232472942
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.2733364382143397,
+    "inverse_kn": 5.316,
+    "speed": 0.992348912012527
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.279055277487013,
+    "inverse_kn": 5.316,
+    "speed": 0.9904578817957534
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.2717039696430584,
+    "inverse_kn": 5.348,
+    "speed": 0.9924477503232004
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2773902210092671,
+    "inverse_kn": 5.348,
+    "speed": 0.9905816198080897
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.2700908516540591,
+    "inverse_kn": 5.38,
+    "speed": 0.9925446389239989
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2757448642832296,
+    "inverse_kn": 5.38,
+    "speed": 0.9907029054641807
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.2684967431330604,
+    "inverse_kn": 5.412,
+    "speed": 0.9926396298912609
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.27411886123791873,
+    "inverse_kn": 5.412,
+    "speed": 0.9908218046086912
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.2669213109028495,
+    "inverse_kn": 5.444,
+    "speed": 0.9927327735405473
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2725118738058331,
+    "inverse_kn": 5.444,
+    "speed": 0.9909383808479736
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.26536422949528865,
+    "inverse_kn": 5.476,
+    "speed": 0.9928241184987885
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2709235716954577,
+    "inverse_kn": 5.476,
+    "speed": 0.9910526956422597
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.26382518093105334,
+    "inverse_kn": 5.508,
+    "speed": 0.9929137117729503
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.26935363217135044,
+    "inverse_kn": 5.508,
+    "speed": 0.9911648083933814
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.26230385450680815,
+    "inverse_kn": 5.54,
+    "speed": 0.9930015988154279
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.26780173984151767,
+    "inverse_kn": 5.54,
+    "speed": 0.9912747765282802
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.26079994658952554,
+    "inverse_kn": 5.572,
+    "speed": 0.9930878235863262
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2662675864518136,
+    "inverse_kn": 5.572,
+    "speed": 0.9913826555785533
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.2593131604176764,
+    "inverse_kn": 5.604,
+    "speed": 0.9931724286128262
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2647508706870938,
+    "inverse_kn": 5.604,
+    "speed": 0.9914884992562217
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.257843205909038,
+    "inverse_kn": 5.636,
+    "speed": 0.9932554550457587
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2632512979788845,
+    "inverse_kn": 5.636,
+    "speed": 0.9915923595259469
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.25638979947485285,
+    "inverse_kn": 5.668,
+    "speed": 0.9933369427135642
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.26176858031930883,
+    "inverse_kn": 5.668,
+    "speed": 0.9916942866738858
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.2549526638401098,
+    "inverse_kn": 5.7,
+    "speed": 0.9934169301737698
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.26030243608105974,
+    "inverse_kn": 5.7,
+    "speed": 0.9917943293733519
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.2535315278697127,
+    "inverse_kn": 5.732,
+    "speed": 0.9934954547620999
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.25885258984317583,
+    "inverse_kn": 5.732,
+    "speed": 0.991892534747471
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.25212612640031223,
+    "inverse_kn": 5.764,
+    "speed": 0.9935725526393755
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2574187722224262,
+    "inverse_kn": 5.764,
+    "speed": 0.991988948428964
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.2507362000775999,
+    "inverse_kn": 5.796,
+    "speed": 0.9936482588362804
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2560007197100892,
+    "inverse_kn": 5.796,
+    "speed": 0.9920836146172365
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.24936149519884274,
+    "inverse_kn": 5.828,
+    "speed": 0.9937226072961366
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.25459817451392963,
+    "inverse_kn": 5.828,
+    "speed": 0.9921765761328908
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.24800176356048698,
+    "inverse_kn": 5.86,
+    "speed": 0.9937956309157729
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.25321088440518974,
+    "inverse_kn": 5.86,
+    "speed": 0.9922678744698108
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.2466567623106234,
+    "inverse_kn": 5.892,
+    "speed": 0.9938673615845882
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.25183860257041035,
+    "inverse_kn": 5.892,
+    "speed": 0.9923575498449284
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.24532625380615153,
+    "inverse_kn": 5.924,
+    "speed": 0.9939378302219062
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2504810874679092,
+    "inverse_kn": 5.924,
+    "speed": 0.9924456412458044
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.2440100054744609,
+    "inverse_kn": 5.956,
+    "speed": 0.9940070668126999
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.24913810268874942,
+    "inverse_kn": 5.956,
+    "speed": 0.9925321864761267
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.24270778967946946,
+    "inverse_kn": 5.988,
+    "speed": 0.994075100441772
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2478094168220375,
+    "inverse_kn": 5.988,
+    "speed": 0.9926172221992261
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.24141938359186138,
+    "inverse_kn": 6.02,
+    "speed": 0.9941419593264661
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.24649480332439855,
+    "inverse_kn": 6.02,
+    "speed": 0.9927007839797232
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.24014456906337156,
+    "inverse_kn": 6.052,
+    "speed": 0.9942076708479826
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2451940403934799,
+    "inverse_kn": 6.052,
+    "speed": 0.9927829063233756
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.2388831325049726,
+    "inverse_kn": 6.084,
+    "speed": 0.9942722615813695
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.24390691084533825,
+    "inverse_kn": 6.084,
+    "speed": 0.9928636227152483
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.2376348647688247,
+    "inverse_kn": 6.116,
+    "speed": 0.9943357573242424
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.24263320199558006,
+    "inverse_kn": 6.116,
+    "speed": 0.9929429656562444
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.23639956103385312,
+    "inverse_kn": 6.148,
+    "speed": 0.9943981831243087
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.24137270554411913,
+    "inverse_kn": 6.148,
+    "speed": 0.9930209666981199
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.2351770206948289,
+    "inverse_kn": 6.18,
+    "speed": 0.9944595633057515
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.24012521746342583,
+    "inverse_kn": 6.18,
+    "speed": 0.9930976564770302
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.2339670472548253,
+    "inverse_kn": 6.212,
+    "speed": 0.9945199214945116
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.23889053789014655,
+    "inverse_kn": 6.212,
+    "speed": 0.9931730647456771
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.2327694482209308,
+    "inverse_kn": 6.244,
+    "speed": 0.9945792806425466
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.23766847101998426,
+    "inverse_kn": 6.244,
+    "speed": 0.9932472204041422
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.23158403500311284,
+    "inverse_kn": 6.276,
+    "speed": 0.9946376630510838
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.23645882500571128,
+    "inverse_kn": 6.276,
+    "speed": 0.9933201515294503
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.23041062281611058,
+    "inverse_kn": 6.308,
+    "speed": 0.9946950903929473
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.23526141185822713,
+    "inverse_kn": 6.308,
+    "speed": 0.9933918854039294
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.22924903058426507,
+    "inverse_kn": 6.34,
+    "speed": 0.9947515837339745
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2340760473505425,
+    "inverse_kn": 6.34,
+    "speed": 0.9934624485424236
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.22809908084917171,
+    "inverse_kn": 6.372,
+    "speed": 0.9948071635535832
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.23290255092459525,
+    "inverse_kn": 6.372,
+    "speed": 0.9935318667184163
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.22696059968007276,
+    "inverse_kn": 6.404,
+    "speed": 0.9948618497645156
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.23174074560080338,
+    "inverse_kn": 6.404,
+    "speed": 0.9936001649891038
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.22583341658688494,
+    "inverse_kn": 6.436,
+    "speed": 0.9949156617318002
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.23059045789026236,
+    "inverse_kn": 6.436,
+    "speed": 0.9936673677194793
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.22471736443577628,
+    "inverse_kn": 6.468,
+    "speed": 0.9949686182909773
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2294515177094953,
+    "inverse_kn": 6.468,
+    "speed": 0.993733498605455
+  },
+  {
+    "basis_size": 1,
+    "damping_ratio": 0.22361227936720957,
+    "inverse_kn": 6.5,
+    "speed": 0.9950207377656052
+  },
+  {
+    "basis_size": 7,
+    "damping_ratio": 0.2283237582976738,
+    "inverse_kn": 6.5,
+    "speed": 0.9937985806960954
+  }
+]
