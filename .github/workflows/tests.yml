@@ -1,5 +1,25 @@
 name: C++ physics checks
-on: [push, pull_request, workflow_dispatch]
+
+on:
+  push:
+    paths-ignore:
+      - '**/*.md'
+      - 'docs/**'
+      - 'LICENSE'
+      - 'CITATION.cff'
+      - 'PACKAGE_MANIFEST.json'
+  pull_request:
+    paths-ignore:
+      - '**/*.md'
+      - 'docs/**'
+      - 'LICENSE'
+      - 'CITATION.cff'
+      - 'PACKAGE_MANIFEST.json'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 permissions:
   contents: read
 jobs:
