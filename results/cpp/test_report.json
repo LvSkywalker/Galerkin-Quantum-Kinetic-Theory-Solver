@@ -1,0 +1,111 @@
+{
+  "failed": 0,
+  "implementation": "C++17",
+  "passed": 26,
+  "tests": [
+    {
+      "name": "Gaussian Laguerre moments",
+      "passed": true
+    },
+    {
+      "name": "Gaussian Legendre moments",
+      "passed": true
+    },
+    {
+      "name": "Laguerre recurrence",
+      "passed": true
+    },
+    {
+      "name": "Equilibrium normalization and matching",
+      "passed": true
+    },
+    {
+      "name": "Invalid equilibrium inputs",
+      "passed": true
+    },
+    {
+      "name": "Detailed balance and Pauli bound",
+      "passed": true
+    },
+    {
+      "name": "Classical absolute first-Sonine prefactors",
+      "passed": true
+    },
+    {
+      "name": "Power-law classical prefactors",
+      "passed": true
+    },
+    {
+      "name": "Second-Sonine exact ratios",
+      "passed": true
+    },
+    {
+      "name": "Kernel strength scaling",
+      "passed": true
+    },
+    {
+      "name": "Invalid collision parameters",
+      "passed": true
+    },
+    {
+      "name": "Classical N=4 frozen prototype regression",
+      "passed": true
+    },
+    {
+      "name": "Quantum one-profile Wu independent quadrature",
+      "passed": true
+    },
+    {
+      "name": "Nested Galerkin convergence",
+      "passed": true
+    },
+    {
+      "name": "Homogeneous entropy and response integral",
+      "passed": true
+    },
+    {
+      "name": "Shear wave hydrodynamic limit",
+      "passed": true
+    },
+    {
+      "name": "Fourier off-grid representation",
+      "passed": true
+    },
+    {
+      "name": "Fourier input validation",
+      "passed": true
+    },
+    {
+      "name": "Bose series versus Gaussian quadrature",
+      "passed": true
+    },
+    {
+      "name": "Hartree-Fock thermodynamic derivatives",
+      "passed": true
+    },
+    {
+      "name": "Absolute Bose SI prefactors",
+      "passed": true
+    },
+    {
+      "name": "Sound cubic versus independent balance matrix",
+      "passed": true
+    },
+    {
+      "name": "Sound small-k Stokes-Kirchhoff limit",
+      "passed": true
+    },
+    {
+      "name": "Published data units and selected subset",
+      "passed": true
+    },
+    {
+      "name": "Hilker frozen state and sound predictions",
+      "passed": true
+    },
+    {
+      "name": "Full matrices and relaxation versus prototype snapshots",
+      "passed": true
+    }
+  ]
+}

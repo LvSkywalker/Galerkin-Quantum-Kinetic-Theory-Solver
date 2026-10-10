@@ -1,0 +1,19 @@
+\documentclass[tikz,border=4pt]{standalone}
+\input{style.tex}
+\begin{document}
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 2,horizontal sep=1.3cm,vertical sep=1.6cm,x descriptions at=edge bottom},xlabel={Fugacity $z$},legend pos=north west]
+\nextgroupplot[title={Bose: viscosity},ylabel={$\mu_N/\mu_{\mathrm{cl},N}$},legend pos=south west]
+\addplot[qtbose,dashed,mark=o] table[x=z,y=mu]{../data/bose_N1.dat};\addlegendentry{$N=1$}
+\addplot[qtbose,thick,mark=square*] table[x=z,y=mu]{../data/bose_N4.dat};\addlegendentry{$N=4$}
+\nextgroupplot[title={Fermi: viscosity},xmode=log,ylabel={$\mu_N/\mu_{\mathrm{cl},N}$}]
+\addplot[qtfermi,dashed,mark=o] table[x=z,y=mu]{../data/fermi_N1.dat};\addlegendentry{$N=1$}
+\addplot[qtfermi,thick,mark=square*] table[x=z,y=mu]{../data/fermi_N4.dat};\addlegendentry{$N=4$}
+\nextgroupplot[title={Bose: conductivity},ylabel={$\lambda_N/\lambda_{\mathrm{cl},N}$},legend pos=south west]
+\addplot[qtbose,dashed,mark=o] table[x=z,y=lambda]{../data/bose_N1.dat};\addlegendentry{$N=1$}
+\addplot[qtbose,thick,mark=square*] table[x=z,y=lambda]{../data/bose_N4.dat};\addlegendentry{$N=4$}
+\nextgroupplot[title={Fermi: conductivity},xmode=log,ylabel={$\lambda_N/\lambda_{\mathrm{cl},N}$}]
+\addplot[qtfermi,dashed,mark=o] table[x=z,y=lambda]{../data/fermi_N1.dat};\addlegendentry{$N=1$}
+\addplot[qtfermi,thick,mark=square*] table[x=z,y=lambda]{../data/fermi_N4.dat};\addlegendentry{$N=4$}
+\end{groupplot}\end{tikzpicture}
+\end{document}

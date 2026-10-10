@@ -1,0 +1,47 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,booktabs,graphicx}
+\usepackage[margin=2.4cm]{geometry}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+\hypersetup{pdftitle={Quantum Gas Transport: numerical method and verification},
+pdfauthor={Luigi Di Gregorio},pdfsubject={C++ Galerkin transport and linear relaxation}}
+\input{macros.tex}
+\setlength{\emergencystretch}{2em}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\textfraction}{0.08}
+\renewcommand{\floatpagefraction}{0.7}
+\raggedbottom
+\title{\textbf{Quantum Gas Transport}\\[.4em]
+\large Numerical method, verification and applications\\[.3em]
+\normalsize A C++17 Galerkin solver for the linearized Uehling--Uhlenbeck equation}
+\author{Luigi Di Gregorio}
+\date{Technical note --- version 0.4.0\\9 October 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+This note describes a reproducible C++17 implementation of transport and
+linear relaxation for normal classical, Bose and Fermi gases. Matched
+Sonine--Laguerre bases, rotational reduction of collision integrals from eight
+to five variables and Gaussian quadrature yield finite positive-definite
+systems for viscosity and thermal conductivity. Five first-profile states
+agree with a separately evaluated variational reference within $0.0031\%$;
+basis and quadrature refinements assess the separate discretization errors.
+The same collision matrices also generate homogeneous linear relaxation and
+a projected transverse-wave calculation. An optional final application couples
+the computed Bose transport coefficients to normal-phase thermodynamics to
+compare sound damping with published measurements. The implementation is in
+C++17. The scope is deterministic linear kinetic theory, with a separate
+assessment of the additional assumptions in the sound application.
+\end{abstract}
+\tableofcontents
+\clearpage
+\input{computational_section.tex}
+\par\bigskip
+\input{dynamics_section.tex}
+\par\bigskip
+\input{hilker_section.tex}
+\par\bigskip
+\begin{thebibliography}{9}
+\input{bibliography_entries.tex}
+\end{thebibliography}
+\end{document}

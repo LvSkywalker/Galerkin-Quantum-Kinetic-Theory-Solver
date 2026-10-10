@@ -1,0 +1,221 @@
+[
+  {
+    "basis_size": 1,
+    "conductivity": 0.6611596682274747,
+    "fugacity": 0.1,
+    "kind": "basis",
+    "statistics": "classical",
+    "viscosity": 0.17630924486049235
+  },
+  {
+    "basis_size": 2,
+    "conductivity": 0.6761860243234777,
+    "fugacity": 0.1,
+    "kind": "basis",
+    "statistics": "classical",
+    "viscosity": 0.1789276989920721
+  },
+  {
+    "basis_size": 3,
+    "conductivity": 0.6775686753179546,
+    "fugacity": 0.1,
+    "kind": "basis",
+    "statistics": "classical",
+    "viscosity": 0.17910884380403408
+  },
+  {
+    "basis_size": 4,
+    "conductivity": 0.6777775569125336,
+    "fugacity": 0.1,
+    "kind": "basis",
+    "statistics": "classical",
+    "viscosity": 0.1791312363142615
+  },
+  {
+    "basis_size": 5,
+    "conductivity": 0.6778190951006297,
+    "fugacity": 0.1,
+    "kind": "basis",
+    "statistics": "classical",
+    "viscosity": 0.17913507525258074
+  },
+  {
+    "angular_order": 12,
+    "azimuthal_order": 16,
+    "basis_size": 4,
+    "conductivity": 0.6777775569054558,
+    "fugacity": 0.1,
+    "kind": "quadrature",
+    "radial_order": 16,
+    "statistics": "classical",
+    "viscosity": 0.17913123631251282
+  },
+  {
+    "angular_order": 16,
+    "azimuthal_order": 20,
+    "basis_size": 4,
+    "conductivity": 0.6777775569062553,
+    "fugacity": 0.1,
+    "kind": "quadrature",
+    "radial_order": 24,
+    "statistics": "classical",
+    "viscosity": 0.1791312363126677
+  },
+  {
+    "angular_order": 24,
+    "azimuthal_order": 28,
+    "basis_size": 4,
+    "conductivity": 0.6777775569125336,
+    "fugacity": 0.1,
+    "kind": "quadrature",
+    "radial_order": 40,
+    "statistics": "classical",
+    "viscosity": 0.1791312363142615
+  },
+  {
+    "basis_size": 1,
+    "conductivity": 0.5972898875242555,
+    "fugacity": 0.9,
+    "kind": "basis",
+    "statistics": "bose",
+    "viscosity": 0.09417175793699764
+  },
+  {
+    "basis_size": 2,
+    "conductivity": 0.6137666377515099,
+    "fugacity": 0.9,
+    "kind": "basis",
+    "statistics": "bose",
+    "viscosity": 0.09419665230986694
+  },
+  {
+    "basis_size": 3,
+    "conductivity": 0.6181079891229565,
+    "fugacity": 0.9,
+    "kind": "basis",
+    "statistics": "bose",
+    "viscosity": 0.09419705594519197
+  },
+  {
+    "basis_size": 4,
+    "conductivity": 0.620646085600832,
+    "fugacity": 0.9,
+    "kind": "basis",
+    "statistics": "bose",
+    "viscosity": 0.09420716118366222
+  },
+  {
+    "basis_size": 5,
+    "conductivity": 0.6223768138430336,
+    "fugacity": 0.9,
+    "kind": "basis",
+    "statistics": "bose",
+    "viscosity": 0.09422845459236284
+  },
+  {
+    "angular_order": 12,
+    "azimuthal_order": 16,
+    "basis_size": 4,
+    "conductivity": 0.620815659332071,
+    "fugacity": 0.9,
+    "kind": "quadrature",
+    "radial_order": 16,
+    "statistics": "bose",
+    "viscosity": 0.09422447244981286
+  },
+  {
+    "angular_order": 16,
+    "azimuthal_order": 20,
+    "basis_size": 4,
+    "conductivity": 0.6206653329227891,
+    "fugacity": 0.9,
+    "kind": "quadrature",
+    "radial_order": 24,
+    "statistics": "bose",
+    "viscosity": 0.09421050321076864
+  },
+  {
+    "angular_order": 24,
+    "azimuthal_order": 28,
+    "basis_size": 4,
+    "conductivity": 0.620646085600832,
+    "fugacity": 0.9,
+    "kind": "quadrature",
+    "radial_order": 40,
+    "statistics": "bose",
+    "viscosity": 0.09420716118366222
+  },
+  {
+    "basis_size": 1,
+    "conductivity": 0.8316980087568466,
+    "fugacity": 10.0,
+    "kind": "basis",
+    "statistics": "fermi",
+    "viscosity": 0.4239613416885083
+  },
+  {
+    "basis_size": 2,
+    "conductivity": 0.8491488615488898,
+    "fugacity": 10.0,
+    "kind": "basis",
+    "statistics": "fermi",
+    "viscosity": 0.4402412326796005
+  },
+  {
+    "basis_size": 3,
+    "conductivity": 0.8497121159350557,
+    "fugacity": 10.0,
+    "kind": "basis",
+    "statistics": "fermi",
+    "viscosity": 0.44027441951861546
+  },
+  {
+    "basis_size": 4,
+    "conductivity": 0.8533807967049232,
+    "fugacity": 10.0,
+    "kind": "basis",
+    "statistics": "fermi",
+    "viscosity": 0.4410230699283746
+  },
+  {
+    "basis_size": 5,
+    "conductivity": 0.8560551691219749,
+    "fugacity": 10.0,
+    "kind": "basis",
+    "statistics": "fermi",
+    "viscosity": 0.44174432208523495
+  },
+  {
+    "angular_order": 12,
+    "azimuthal_order": 16,
+    "basis_size": 4,
+    "conductivity": 0.8533807512282551,
+    "fugacity": 10.0,
+    "kind": "quadrature",
+    "radial_order": 16,
+    "statistics": "fermi",
+    "viscosity": 0.4410232103199634
+  },
+  {
+    "angular_order": 16,
+    "azimuthal_order": 20,
+    "basis_size": 4,
+    "conductivity": 0.853380794987731,
+    "fugacity": 10.0,
+    "kind": "quadrature",
+    "radial_order": 24,
+    "statistics": "fermi",
+    "viscosity": 0.4410230709418018
+  },
+  {
+    "angular_order": 24,
+    "azimuthal_order": 28,
+    "basis_size": 4,
+    "conductivity": 0.8533807967049232,
+    "fugacity": 10.0,
+    "kind": "quadrature",
+    "radial_order": 40,
+    "statistics": "fermi",
+    "viscosity": 0.4410230699283746
+  }
+]

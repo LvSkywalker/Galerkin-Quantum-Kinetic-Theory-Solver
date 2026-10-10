@@ -1,0 +1,11 @@
+\documentclass[tikz,border=4pt]{standalone}
+\input{style.tex}
+\begin{document}\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1,horizontal sep=1.3cm},xtick={1,2,3,4,5},xmin=.6,xmax=5.4,legend pos=south west]
+\nextgroupplot[title={Normal-phase sound speed},xlabel={Selected observation index},ylabel={$c_I$ [mm/s]}]
+\addplot[qtclassical,only marks,mark=*,error bars/.cd,y dir=both,y explicit] table[x=index,y=cdata,y error=cerr]{../data/hilker.dat};\addlegendentry{Experiment}
+\addplot[qtmodel,only marks,mark=diamond*,error bars/.cd,y dir=both,y explicit] table[x expr=\thisrow{index}+.10,y=cmodel,y error=csens]{../data/hilker.dat};\addlegendentry{Galerkin + HF + NSF}
+\nextgroupplot[title={Sound damping},xlabel={Selected observation index},ylabel={$\Gamma/(2\pi)$ [Hz]}]
+\addplot[qtclassical,only marks,mark=*,error bars/.cd,y dir=both,y explicit] table[x=index,y=gdata,y error=gerr]{../data/hilker.dat};
+\addplot[qtmodel,only marks,mark=diamond*,error bars/.cd,y dir=both,y explicit] table[x expr=\thisrow{index}+.10,y=gmodel,y error=gsens]{../data/hilker.dat};
+\end{groupplot}\end{tikzpicture}\end{document}

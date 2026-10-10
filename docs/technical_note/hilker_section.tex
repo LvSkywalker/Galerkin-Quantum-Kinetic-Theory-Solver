@@ -1,0 +1,187 @@
+\section{Optional application: normal-phase sound damping}
+\label{qt:hilker}
+\subsection{What is compared with the experiment?}
+An experimental application requires more than changing the statistical sign.
+We need the particles' scattering cross section, their thermodynamic state and
+a model for the measured observable. We use the normal-phase sound measurements
+in Fig.~4 of Hilker et al.\ \cite{qtHilker}, with the public data in
+Ref.~\cite{qtHilkerData}. We do not model their superfluid second sound or
+claim to reproduce the complete experiment.
+
+The chain of calculations is
+\[
+ \text{scattering model}
+ \longrightarrow(\mu,\lambda)_{\mathrm{Galerkin}}
+ \longrightarrow\text{linear fluid equations}
+ \longrightarrow\text{sound speed and damping}.
+\]
+In this section only, the standard sound-literature symbols
+$\eta=\mu$ and $\kappa=\lambda$ avoid confusing viscosity with chemical
+potential. Sound propagation uses a macroscopic closure informed by the
+computed transport coefficients. It is distinct from directly evolving the
+projected transverse kinetic equation of the preceding section.
+
+\subsection{An experimentally motivated kernel and units}
+For low-energy identical-boson scattering with scattering length $a$, the
+isotropic total cross section is $8\pi a^2$. In our full-solid-angle convention,
+\begin{equation}
+ B=2a^2g,\qquad d^2=8a^2.
+\end{equation}
+The same dimensionless Galerkin solver can therefore be used, with
+\begin{equation}
+ \eta=\mu_{\mathrm{num}}\frac{\sqrt{mk_{\mathrm B}T}}{8a^2},\qquad
+ \kappa=\lambda_{\mathrm{num}}
+              \frac{k_{\mathrm B}\sqrt{k_{\mathrm B}T/m}}{8a^2}.
+ \label{qt:atomunits}
+\end{equation}
+This assumes the low-energy, energy-independent cross section remains an
+adequate description. Finite-energy scattering or many-body corrections
+would modify this model rather than the statistical sign alone.
+
+The selected normal-phase data concern $^{39}$K at approximately $1.3T_c$.
+We retain five observations with the published inverse Knudsen number
+$I=L/\ell\geq3$, favouring the more hydrodynamic part of the dataset.
+The density is reconstructed using the published derived quantity:
+\begin{equation}
+ n=\frac{I}{8\pi a^2L}.
+ \label{qt:densitydata}
+\end{equation}
+This makes the comparison conditional on that density reconstruction; it is
+not an independent determination of density from raw experimental images.
+One additional source row has inconsistent length conventions when its
+reported damping ratio is checked (the listed $70\,\mu\mathrm m$ corresponds
+to about $72\,\mu\mathrm m$ in that ratio). It is retained unchanged in the
+data archive and already lies outside the selected hydrodynamic subset.
+
+\subsection{Why the thermodynamic model must also change}
+The ideal-gas kinetic pressure alone is not the thermodynamic model used for
+this weakly interacting Bose experiment. In the normal Hartree--Fock
+approximation, introduce
+\begin{equation}
+ g_{\mathrm{int}}=\frac{4\pi\hbar^2a}{m},\qquad
+ z=\exp\!\left(\frac{\mu_{\mathrm{chem}}-2g_{\mathrm{int}}n}
+                         {k_{\mathrm B}T}\right).
+\end{equation}
+The effective single-particle energy is shifted by $2g_{\mathrm{int}}n$.
+The occupation still has the Bose form in terms of the effective fugacity
+$z$, while the total pressure and energy density acquire interaction terms:
+\begin{equation}
+ p_{\mathrm{kin}}=nk_{\mathrm B}T\frac{G_{5/2}(z)}{G_{3/2}(z)},\qquad
+ p=p_{\mathrm{kin}}+g_{\mathrm{int}}n^2,\qquad
+ \mathcal U=\frac32p_{\mathrm{kin}}+g_{\mathrm{int}}n^2.
+\end{equation}
+The kinetic transport source still contains $Z_{\mathrm{kin}}$, not
+$p/(nk_{\mathrm B}T)$ including the interaction pressure. To see why,
+the mean-field acceleration is $\mathbf X=-2g_{\mathrm{int}}\nabla n/m$.
+The Euler equation for the total pressure then gives
+\[
+ D_t\mathbf u-\mathbf X
+ =-\frac{\nabla(p_{\mathrm{kin}}+g_{\mathrm{int}}n^2)}{mn}
+   +\frac{2g_{\mathrm{int}}}{m}\nabla n
+ =-\frac{\nabla p_{\mathrm{kin}}}{mn}.
+\]
+This cancellation preserves the matched thermal source used in the collision
+calculation. Adding an interaction pressure without its corresponding force
+would be inconsistent.
+
+Let $p_n=(\partial p/\partial n)_T$ and $p_T=(\partial p/\partial T)_n$.
+The derivatives used by the sound calculation are
+\begin{align}
+ p_n&=k_{\mathrm B}T\frac{G_{3/2}}{G_{1/2}}+2g_{\mathrm{int}}n,\\
+ p_T&=nk_{\mathrm B}\left(\frac52\frac{G_{5/2}}{G_{3/2}}
+                  -\frac32\frac{G_{3/2}}{G_{1/2}}\right),\\
+ C_V&=\frac32p_T,\qquad
+ C_P=C_V+\frac{Tp_T^2}{np_n},\qquad
+ c_{\mathrm{ad}}^2=\frac{C_P}{C_V}\frac{p_n}{m}.
+ \label{qt:thermo}
+\end{align}
+Here $C_V$ and $C_P$ are heat capacities per unit volume. Their units matter:
+they must not be mixed with heat capacities per unit mass or per particle.
+
+\subsection{Deriving the sound eigenproblem}
+Linearize continuity, longitudinal momentum and temperature about a uniform
+state. With $\rho=mn$ and zero bulk viscosity, they read
+\begin{align}
+ \partial_t\delta n&=-n\partial_xu,\\
+ \rho\partial_tu&=-\partial_x(p_n\delta n+p_T\delta T)
+                         +\frac43\eta\partial_x^2u,\\
+ C_V\partial_t\delta T&=-Tp_T\partial_xu+\kappa\partial_x^2\delta T.
+ \label{qt:soundeq}
+\end{align}
+The term $4\eta/3$ is the longitudinal projection of the same traceless
+viscous stress derived earlier. Thermal conduction couples temperature to
+the density and velocity oscillation, so both computed coefficients contribute
+to sound damping.
+
+Insert $e^{i(kx-\omega t)}$, take $k=\pi/L$ for the fundamental mode and
+introduce
+\begin{equation}
+ C=\frac\omega{kc_{\mathrm{ad}}},\qquad
+ q_\eta=\frac{4\eta k}{3\rho c_{\mathrm{ad}}},\qquad
+ q_\kappa=\frac{\kappa k}{C_Vc_{\mathrm{ad}}}.
+\end{equation}
+Eliminating the three amplitudes gives
+\begin{equation}
+ C^3+i(q_\eta+q_\kappa)C^2
+ -(1+q_\eta q_\kappa)C
+ -iq_\kappa\frac{C_V}{C_P}=0.
+ \label{qt:cubic}
+\end{equation}
+We select the damped propagating sound root. The quantities compared with
+the published data conventions are
+\begin{equation}
+ c_I=\frac{|\omega|}{k},\qquad \Gamma=-\operatorname{Im}\omega.
+\end{equation}
+Thus $c_I$ is not simply $\operatorname{Re}\omega/k$ when damping is
+appreciable. The dataset quotes $\Gamma/(2\pi)$ in hertz; the factor $2\pi$
+must be retained when converting the eigenvalue. In the weak-damping limit,
+\begin{equation}
+ \Gamma\simeq\frac{k^2}{2}
+ \left[\frac{4\eta}{3\rho}+\kappa\left(\frac1{C_V}-\frac1{C_P}\right)\right].
+\end{equation}
+The code uses the full cubic rather than imposing this last asymptotic formula.
+
+\subsection{Results and the limits of this comparison}
+\begin{figure}[htbp]\centering\qtfig{hilker}
+\caption{Five selected normal-phase observations from Hilker et al., with
+theoretical values obtained from Galerkin transport, normal Hartree--Fock
+thermodynamics and linear Navier--Stokes--Fourier sound. Black error bars are
+the published measurement uncertainties. Orange bars show the largest
+one-input-at-a-time change when the reported $I,a,T$ inputs are varied within
+their quoted errors. They are sensitivity ranges, not confidence intervals;
+input covariances are unavailable. Data: Ref.~\cite{qtHilkerData}, CC BY 4.0.}
+\label{qt:hilkerfig}\end{figure}
+\begin{table}[htbp]\centering\small
+\begin{tabular}{rrrrrrr}\toprule
+ & & &\multicolumn{2}{c}{$c_I$ [mm/s]}&\multicolumn{2}{c}{$\Gamma/(2\pi)$ [Hz]}\\
+Index&$L$ [$\mu$m]&$a/a_{\mathrm B}$&Data&Model&Data&Model\\\midrule
+\qtinput{\qtroot/data/hilker_table.tex}
+\bottomrule\end{tabular}
+\caption{Central values for the observations in Fig.~\ref{qt:hilkerfig}.
+$a_{\mathrm B}$ is the Bohr radius. No parameters were fitted to these
+sound measurements.}\label{qt:hilkertable}
+\end{table}
+For this extension we increase the basis to $N=7$. Across the five states,
+the largest change from $N=5$ to $N=7$ is about $0.0351\%$ in viscosity and
+$0.1679\%$ in conductivity. Refining the collision quadrature from
+$(24,16,20)$ to $(32,20,24)$ changes these coefficients by less than
+$0.001\%$. These numerical changes are much smaller than the central-value
+differences from experiment: approximately $-8.5\%$ to $+3.5\%$ for $c_I$
+and $-20.9\%$ to $+15.5\%$ for damping.
+
+The comparison therefore provides a useful application with a visible
+remaining discrepancy, rather than precision experimental validation of the
+collision solver. Possible limitations include the hydrodynamic closure at
+finite $L/\ell$, the normal-phase thermodynamic approximation, the assumed
+cross section and the reconstruction of state variables. Their individual
+contributions have not been separated. Matching a separately published theory
+curve is another algebraic/unit check and should not be counted as matching
+the measured data.
+
+The repository also evolves an illustrative standing wave initialized with
+a $1\%$ density perturbation and zero initial velocity and temperature
+perturbation. This illustrates Eq.~\eqref{qt:soundeq}; it does not reproduce
+the experimental shaking and preparation protocol. The main result of the
+project remains the verified collision-to-transport computation. This final
+application shows how those coefficients enter an experimentally measurable
+quantity, and where further physical modelling becomes necessary.

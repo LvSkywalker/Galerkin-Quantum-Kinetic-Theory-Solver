@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, cite this project and the scientific references relevant to your calculation."
+type: software
+title: "Quantum Gas Transport: a C++ Galerkin solver for linearized quantum kinetics"
+version: 0.4.0
+date-released: 2026-10-09
+authors:
+  - family-names: "Di Gregorio"
+    given-names: "Luigi"
+license: MIT
+abstract: "A C++17 implementation of Galerkin transport and linear relaxation for classical, Bose and Fermi gases, using matched Sonine-Laguerre bases and multidimensional collision quadrature."
+keywords:
+  - kinetic theory
+  - quantum gases
+  - computational physics
+  - Galerkin method
+  - transport coefficients
+  - C++

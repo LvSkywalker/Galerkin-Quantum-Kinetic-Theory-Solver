@@ -1,0 +1,435 @@
+\section{Model and numerical transport solver}
+\label{qt:computation}
+
+\subsection{Kinetic model and transport problem}
+Let $f(t,\mathbf x,\boldsymbol\xi)$ be the number density in position--velocity
+space, with $n=\int f\,\mathrm d^3\xi$ and
+$\mathbf u=n^{-1}\int\boldsymbol\xi f\,\mathrm d^3\xi$.
+For normal, nonrelativistic gases with elastic binary collisions, the
+Uehling--Uhlenbeck model \cite{qtUU} is
+\begin{align}
+ \partial_t f+\boldsymbol\xi\cdot\nabla f&=Q_\varepsilon(f),\notag\\
+ Q_\varepsilon(f)&=\int B\bigl[
+ f'f_1'(1+\varepsilon Af)(1+\varepsilon Af_1)
+ -ff_1(1+\varepsilon Af')(1+\varepsilon Af_1')\bigr]
+ \,\mathrm d^3\xi_1\,\mathrm d\Omega.
+ \label{qt:uu}
+\end{align}
+Primes denote post-collision velocities; subscript 1 labels the second
+particle. The signs $\varepsilon=+1,-1,0$ describe Bose, Fermi and classical
+statistics. The constant $A=h_{\rm P}^3/(g_s m^3)$ converts number density
+in velocity space to occupation per internal state, where $g_s$ is the
+internal degeneracy and $h_{\rm P}$ is Planck's constant.
+The collision measure is nonnegative and invariant under particle exchange
+and time reversal. We assume isotropic scattering and sufficient angular
+support to retain only the usual five collision invariants.
+
+With $\qtU=\boldsymbol\xi-\mathbf u$, a regular local equilibrium is
+\begin{equation}
+ f^{(0)}=\frac1A\frac1{z^{-1}\exp[mU^2/(2k_{\mathrm B}T)]-\varepsilon},
+ \qquad z=\exp[\mu_{\rm chem}/(k_{\mathrm B}T)].
+\end{equation}
+The classical form is understood as the $\varepsilon=0$ convention.
+Collision balance holds at local equilibrium, while spatial gradients
+generate a small correction. At first Chapman--Enskog order, rotational
+symmetry reduces that correction to two unknown radial functions:
+\begin{equation}
+ \delta f=w\chi,\qquad
+ \chi=-a(U)U_i\partial_i\ln T
+       -b(U)D_{ij}(\qtU)\mathring S_{ij},\qquad
+ D_{ij}=U_iU_j-\tfrac13U^2\delta_{ij}.
+ \label{qt:ansatz}
+\end{equation}
+Here $w=f^{(0)}(1+A\varepsilon f^{(0)})$ and
+$\mathring S_{ij}=(\partial_i u_j+\partial_j u_i)/2
+-\delta_{ij}(\nabla\cdot\mathbf u)/3$ is the traceless strain rate.
+Repeated Cartesian indices are summed. The functions $a$ and $b$ encode the response to a temperature
+gradient and a shear, respectively. Symmetry determines their angular
+structure, but it does not determine their radial dependence or their size.
+The kinetic stress and heat flux are
+\begin{equation}
+ p_{ij}=m\int U_iU_j f\,\mathrm d^3\xi,
+ \qquad q_i=\frac m2\int U^2U_i f\,\mathrm d^3\xi.
+\end{equation}
+Their first-order constitutive forms define the two coefficients:
+$p_{ij}=p\delta_{ij}-2\mu\mathring S_{ij}$ and
+$q_i=-\lambda\partial_iT$. At equilibrium, odd heat-flux moments vanish
+and stress is isotropic; the correction supplies these dissipative fluxes.
+
+Our numerical problem is therefore concrete: choose an equilibrium state and
+a collision kernel, solve the two linear collision equations approximately,
+and evaluate the moments that give $\lambda$ and $\mu$. These coefficients
+are outputs, not fitted parameters. The calculation applies to dilute normal
+gases with elastic binary collisions, close to local equilibrium. It does not
+include a condensate, a superfluid component or a strongly interacting liquid.
+
+Galerkin projection, Sonine--Laguerre expansions and Gaussian quadrature are
+established numerical tools; the contribution is their implementation,
+verification and application to the specified model. We do not implement
+Wu's fast Fourier collision algorithm. We use a reference formula from that
+work as one verification route \cite{qtWu}.
+
+\subsection{Normalization: separating physics from units}
+For particle mass $m$, the mass density is $\rho=mn$. We introduce
+\begin{equation}
+ v_0=\sqrt{\frac{k_{\mathrm B}T}{m}},\qquad
+ \qtv=\frac{\qtU}{v_0},\qquad
+ E=\frac{v^2}{2},\qquad
+ \widehat f=\frac{v_0^3}{n}f.
+ \label{qt:units}
+\end{equation}
+Thus $\int\widehat f\qtd^3v=1$. The normalization is conditional on the local
+density: the physical $f$ integrates to $n$, while $\widehat f$ integrates
+to one. All polynomial arguments below use the dimensionless energy $E$.
+
+Define the statistical integrals by
+\begin{equation}
+ G_\nu^{(\varepsilon)}(z)
+ =\frac1{\Gamma(\nu)}\int_0^\infty
+ \frac{E^{\nu-1}}{z^{-1}e^E-\varepsilon}\qtd E.
+ \label{qt:G}
+\end{equation}
+For $\varepsilon=0$, $G_\nu=z$. The integral definition also works for
+Fermi fugacities greater than one, where a small-$z$ power series is unsuitable.
+Writing
+\begin{equation}
+ D(E)=1-\varepsilon ze^{-E},\qquad
+ \mathcal N=(2\pi)^{3/2}\frac{G_{3/2}^{(\varepsilon)}(z)}{z},
+\end{equation}
+the normalized equilibrium and its linearization weight are
+\begin{equation}
+ \widehat f_0=\frac{e^{-E}}{\mathcal N D(E)},\qquad
+ \widehat A=z\mathcal N,\qquad
+ r=1+\varepsilon\widehat A\widehat f_0=\frac1{D(E)},\qquad
+ w=\widehat f_0r.
+ \label{qt:equilibrium}
+\end{equation}
+In the rest of this numerical section $w$, the profiles and the collision
+operator are dimensionless. The pressure is
+\begin{equation}
+ \qtZ=\frac{p}{nk_{\mathrm B}T}
+ =\frac{G_{5/2}^{(\varepsilon)}(z)}{G_{3/2}^{(\varepsilon)}(z)}.
+ \label{qt:Z}
+\end{equation}
+We use $0<z<1$ for normal Bose equilibria and $z>0$ for Fermi equilibria.
+The classical limit is recovered as occupations become small. Equal fugacity
+for two different statistics does not in general mean equal physical density
+at fixed temperature: $n\lambda_{\mathrm{dB}}^3$ also depends on $G_{3/2}$
+and on the internal-state degeneracy. The dimensionless comparisons below
+isolate the transport calculation under the stated normalization.
+
+\subsection{The collision kernel used for the first comparison}
+Our baseline uses an isotropic hard-sphere-type differential cross section,
+\begin{equation}
+ B(g,\Omega)=g\frac{d^2}{4},\qquad
+ g=|\qtU-\qtU_1|,\qquad
+ \sigma_{\mathrm{tot}}=\int_{S^2}\frac{d^2}{4}\qtd\Omega=\pi d^2.
+ \label{qt:kernel}
+\end{equation}
+Here $d$ is the hard-sphere diameter; the numerical convention sets $d=1$.
+The kernel includes both the relative speed, which controls encounter rates,
+and the differential cross section, which describes scattering into a solid
+angle. Keeping exactly the same kernel when changing statistics isolates the
+effect of the occupation factors. This is a model comparison, not a claim
+that this cross section describes every atomic Bose or Fermi gas. In particular,
+real fermionic scattering depends on spin composition and allowed partial waves.
+
+The implementation also permits isotropic power laws $B=Cg^\gamma$,
+$C>0$, $\gamma>-3$. The radial quadrature weight changes with $\gamma$;
+the angular symmetry remains available. An arbitrary anisotropic scattering
+law would require a further extension.
+
+For the baseline convention the physical units can be restored using
+\begin{equation}
+ t_0=\frac1{nd^2v_0},\qquad \ell_0=\frac1{nd^2},\qquad
+ \mu_{\mathrm{phys}}=\mu_{\mathrm{num}}\frac{\sqrt{mk_{\mathrm B}T}}{d^2},
+ \qquad
+ \lambda_{\mathrm{phys}}=\lambda_{\mathrm{num}}
+ \frac{k_{\mathrm B}\sqrt{k_{\mathrm B}T/m}}{d^2}.
+ \label{qt:restore}
+\end{equation}
+The scale $t_0$ is our unit of time; it is not an independently calculated
+mean collision time, which also contains statistical and geometric factors.
+
+\subsection{A quantum basis that satisfies matching}
+With the equilibrium parameters held fixed, define the linearized operator by
+\begin{equation}
+ \qtL\chi=\left.\frac{\mathrm d}{\mathrm ds}
+ Q_\varepsilon(f_0+s w\chi)\right|_{s=0},
+\end{equation}
+using the dimensionless variables and kernel in the numerical calculation.
+The linearized equations for one representative vector component and one
+off-diagonal tensor component are
+\begin{equation}
+ \qtL A_x=-wJ_x,\qquad J_x=v_x(E-\tfrac52\qtZ),\qquad
+ \qtL B_{xy}=-wv_xv_y,
+ \label{qt:profileeq}
+\end{equation}
+where $A_x=a(v)v_x$ and $B_{xy}=b(v)v_xv_y$.
+There is no sum over $x$ or $y$ here. The tensor component suffices because
+rotational symmetry makes every shear orientation equivalent. For a flow
+$\partial_yu_x=G$, the two terms $\mathring S_{xy}=\mathring S_{yx}=G/2$
+combine to give $b(v)v_xv_yG$, so no extra factor of two is missing.
+
+We approximate the radial functions by $N$ profiles,
+\begin{equation}
+ a_N(v)=\sum_{n=1}^N\alpha_nP_n(E),\qquad
+ b_N(v)=\sum_{n=1}^N\beta_nQ_n(E).
+ \label{qt:expansion}
+\end{equation}
+For viscosity we take
+\begin{equation}
+ Q_n(E)=L_{n-1}^{(5/2)}(E).
+\end{equation}
+For heat conduction we explicitly remove the momentum component:
+\begin{equation}
+ \boxed{P_n(E)=L_n^{(3/2)}(E)-s_n,\qquad
+ s_n=\frac{\int wv^2L_n^{(3/2)}(E)\qtd^3v}
+                 {\int wv^2\qtd^3v}.}
+ \label{qt:shift}
+\end{equation}
+Indeed, substituting this definition gives $\int wv^2P_n\qtd^3v=0$.
+Therefore every finite linear combination $a_N$ satisfies thermal momentum
+matching, regardless of the coefficients $\alpha_n$. Thermal mass and energy
+matching follow from oddness. In the viscous sector the tensor structure
+ensures all matching conditions by parity and tracelessness.
+
+For reference, the generalized Laguerre polynomials are generated by
+\begin{align}
+ L_0^{(\alpha)}(E)&=1,\qquad L_1^{(\alpha)}(E)=\alpha+1-E,\\
+ (n+1)L_{n+1}^{(\alpha)}(E)
+ &=(2n+\alpha+1-E)L_n^{(\alpha)}(E)
+ -(n+\alpha)L_{n-1}^{(\alpha)}(E).
+\end{align}
+In the classical case, $s_n=0$ for $n\geq1$ by Laguerre orthogonality.
+In the quantum case the shifts are generally nonzero. For example,
+the weighted moment identities yield
+\begin{equation}
+ s_1=\frac52(1-\qtZ),\qquad
+ P_1(E)=\frac52\qtZ-E.
+ \label{qt:firstprofile}
+\end{equation}
+Thus the first thermal vector is $P_1v_x=-J_x$. This is a useful explicit
+example of how matching changes a classical polynomial in a quantum gas.
+
+These shifted polynomials need not be mutually orthogonal under the quantum
+weight. They only need to span an admissible, linearly independent trial space.
+Galerkin projection handles their couplings through a full matrix. Orthogonality
+of the classical polynomials would not diagonalize the collision operator
+either. Increasing $N$ improves radial resolution; it does not increase the
+Chapman--Enskog order, which remains first order in spatial gradients.
+
+\subsection{From the integral equation to a matrix problem}
+Define $\Phi_n^T=P_n(E)v_x$ and $\Phi_n^S=Q_n(E)v_xv_y$, and use the bracket
+\begin{equation}
+ [\phi,\psi]=-\int\phi\qtL\psi\qtd^3v
+ =\frac14\int BW\,\Delta\phi\,\Delta\psi
+          \qtd^3v\qtd^3v_1\qtd\Omega,
+ \quad \Delta\phi=\phi+\phi_1-\phi'-\phi_1'.
+ \label{qt:bracket}
+\end{equation}
+Here $W=\widehat f_0\widehat f_{0,1}r'r_1'$ is the detailed-balance weight
+of the entire collision quadruple. It is distinct from the one-velocity
+weight $w$ in the matching conditions.
+
+For example, the thermal residual is
+$R_N=\qtL(\sum_n\alpha_n\Phi_n^T)+wJ_x$.
+Imposing $\int\Phi_m^TR_N\qtd^3v=0$ for each $m$ gives
+\begin{equation}
+ \boxed{M^T\boldsymbol\alpha=\boldsymbol d^T,\qquad
+ M^T_{mn}=[\Phi_m^T,\Phi_n^T],\qquad
+ d_m^T=\int w\Phi_m^TJ_x\qtd^3v.}
+ \label{qt:galerkin}
+\end{equation}
+The superscript $T$ labels the thermal sector here, not a matrix transpose.
+Similarly,
+\begin{equation}
+ M^S\boldsymbol\beta=\boldsymbol d^S,\qquad
+ M^S_{mn}=[\Phi_m^S,\Phi_n^S],\qquad
+ d_m^S=\int w\Phi_m^Sv_xv_y\qtd^3v.
+\end{equation}
+The bracket is nonnegative. Once the collision-invariant kernel is removed,
+an admissible independent finite basis gives a positive-definite matrix under
+the collision assumptions stated above. We solve these systems by Cholesky
+factorization and check symmetry, positivity and residuals numerically.
+
+The transport coefficients can then be evaluated in two equivalent ways:
+\begin{equation}
+ \boxed{\lambda_N=\sum_m d_m^T\alpha_m
+ =\frac16\int wa_N(v)v^4\qtd^3v,\qquad
+ \mu_N=\sum_m d_m^S\beta_m
+ =\frac1{15}\int wb_N(v)v^4\qtd^3v.}
+ \label{qt:coefficients}
+\end{equation}
+For the first equality for heat conduction, isotropy gives
+$\int w a_Nv_x^2(E-5\qtZ/2)=\frac13\int wa_Nv^2(E-5\qtZ/2)$.
+Matching removes the term proportional to $v^2$, and $E=v^2/2$ gives $1/6$.
+For viscosity, $\int R(v)v_x^2v_y^2=\frac1{15}\int R(v)v^4$ for $x\ne y$.
+This also explains why solving for a single component introduces no missing
+factor of three.
+
+For either sector, $d^{\mathsf T}M^{-1}d$ is the maximum over trial
+coefficients $c$ of $2d^{\mathsf T}c-c^{\mathsf T}Mc$.
+Nested trial spaces therefore give nondecreasing transport estimates when the
+integrals are evaluated consistently and exactly. A small increment with $N$
+is useful evidence of convergence, but it is not a rigorous error bound for
+the infinite-dimensional solution.
+
+\subsection{How the collision integrals are evaluated}
+A direct bracket has eight integration variables: three for each incoming
+velocity and two for the outgoing direction. Introduce centre and relative
+velocities,
+\begin{equation}
+ \mathbf V=\frac{\qtv+\qtv_1}{2},\quad
+ \mathbf q=\frac{\qtv-\qtv_1}{2},\quad
+ \qtv=\mathbf V+\mathbf q,\quad \qtv_1=\mathbf V-\mathbf q.
+\end{equation}
+Elastic scattering replaces $\mathbf q$ by $\mathbf q'$ with $q'=q$.
+The Jacobian is $\qtd^3v\qtd^3v_1=8\qtd^3V\qtd^3q$.
+We can analytically average over the three angles of a common rotation,
+because the equilibrium and kernel are isotropic.
+
+Choose $\mathbf V$ along the polar axis and the incoming $\mathbf q$ in
+a fixed meridian plane. Five variables remain:
+\begin{equation}
+ X=V^2,\quad Y=q^2,\quad
+ a=\cos\theta_{\mathrm{in}},\quad b=\cos\theta_{\mathrm{out}},\quad
+ \varphi\in[0,2\pi).
+\end{equation}
+The first two range over $[0,\infty)$, and $a,b\in[-1,1]$.
+The incoming energies are
+$E=(X+Y+2\sqrt{XY}a)/2$ and $E_1=(X+Y-2\sqrt{XY}a)/2$;
+replace $a$ by $b$ for the outgoing energies. The azimuth still enters
+the vector and tensor collision increments.
+
+For $B=Cg^\gamma$, the reduced measure, including the factor $1/4$ in the
+bracket and the normalization of the equilibrium, is
+\begin{equation}
+ 4\,2^\gamma C\,
+ X^{1/2}Y^{(1+\gamma)/2}e^{-X-Y}
+ \mathcal R\qtd X\qtd Y\frac{\mathrm da}{2}\frac{\mathrm db}{2}
+ \frac{\mathrm d\varphi}{2\pi},\qquad
+ \mathcal R=\frac{1}{(G_{3/2}/z)^2DD_1D'D_1'}.
+ \label{qt:measure}
+\end{equation}
+This formula shows precisely where the quantum modification is evaluated:
+at all four collision energies, rather than only at one incoming velocity.
+For the baseline $C=1/4$, $\gamma=1$, the numerical prefactor is $2$.
+
+For vector profiles the rotational average of two selected-component
+increments is $\Delta\mathbf A_m\cdot\Delta\mathbf A_n/3$.
+For traceless symmetric tensor profiles the average for a selected
+off-diagonal component is $\Delta\mathsf B_m:\Delta\mathsf B_n/10$.
+These identities retain the component conventions used in the sources.
+
+The two radial integrals use generalized Gauss--Laguerre rules with weights
+$X^{1/2}e^{-X}$ and $Y^{(1+\gamma)/2}e^{-Y}$. The two polar cosines use
+Gauss--Legendre rules; the periodic azimuth uses a trapezoidal rule. Gaussian
+nodes and weights are constructed from the eigenproblem of the corresponding
+Jacobi matrix. No sharp velocity cutoff is needed for these radial integrals.
+
+A typical transport run uses $(n_r,n_p,n_\varphi)=(24,20,24)$, namely
+$n_r^2n_p^2n_\varphi=5{,}529{,}600$ collision configurations. Near the Bose
+threshold the factors $D(E)^{-1}$ vary more rapidly at low energy; the main
+scan raises $n_r$ to $40$ for $z\geq0.8$. Separate refinement tests also
+increase angular orders. This cost is paid to assemble small $N\times N$
+matrices; solving the linear systems is not the expensive step.
+
+\subsection{Verification and convergence are different questions}
+\paragraph{First-profile verification.}
+For a classical hard-sphere gas, the one-profile values in our units are
+\begin{equation}
+ \mu_1=\frac5{16\sqrt\pi},\qquad
+ \lambda_1=\frac{75}{64\sqrt\pi}.
+ \label{qt:classicalbenchmark}
+\end{equation}
+The quantum one-profile result can also be evaluated through the separate
+integral representation in Eq.~(50) of Wu's work \cite{qtWu}, after matching
+normalizations. Specifically, the quantum comparison uses ratios to the
+classical one-profile values: constant scattering and spin multiplicities
+in the original reference cancel in these ratios. We implement that reference
+through a distinct, four-variable integration route. Across the classical
+case, Bose $z=0.5,0.9$ and Fermi
+$z=1,10$, the largest relative discrepancy in either coefficient is
+$3.03\times10^{-5}$, or less than $0.0031\%$.
+At $N=1$, Galerkin reduces to $M_{11}\alpha_1=d_1$ in each sector,
+and the corresponding dimensionless coefficient is $d_1^2/M_{11}$.
+Wu's variational ansatz has this same one-profile form; Eq.~(50) expresses
+its result using reduced integrals $I_A$ and $I_B$. We evaluate those
+integrals directly in a separate code path, rather than calling the bracket
+routine. The two paths share equilibrium helper functions. This checks the
+assembly against the same one-profile theory. It does not
+establish $0.0031\%$ accuracy of a finite-$N$ solution to the full kinetic
+equation, nor agreement with an experiment.
+
+\paragraph{Basis and quadrature refinement.}
+We separately vary $N$ at fixed integration settings, and refine the quadrature
+at fixed $N=4$. Table~\ref{qt:convtable} reports the relative change from
+$N=4$ to $N=5$, and the change between quadratures $(24,16,20)$ and
+$(40,24,28)$. The latter uses $25{,}804{,}800$ collision configurations.
+\begin{table}[htbp]\centering\small
+\begin{tabular}{llrrrr}\toprule
+ & & \multicolumn{2}{c}{$N=4\to5$ change [\%]}
+ &\multicolumn{2}{c}{Quadrature change [\%]}\\
+Statistics&$z$&$\mu$&$\lambda$&$\mu$&$\lambda$\\\midrule
+\qtinput{\qtroot/data/convergence_table.tex}
+\bottomrule\end{tabular}
+\caption{Absolute relative changes, normalized to the coarser result.
+Values printed as zero are below the displayed precision. These are convergence
+diagnostics, not certified error bars.}\label{qt:convtable}
+\end{table}
+The largest displayed $N=4\to5$ change is about $0.3134\%$, in Fermi
+conductivity at $z=10$. The basis truncation can therefore matter more than
+the benchmark discrepancy. Figure~\ref{qt:convfig} uses $N=5$ as a common
+reference to show the trend, without treating it as an exact solution.
+\begin{figure}[htbp]\centering\qtfig{convergence}
+\caption{Basis refinement for the classical gas, Bose $z=0.9$ and Fermi
+$z=10$. Each curve is divided by its own $N=5$ result. The vanishing endpoint
+is a consequence of this normalization, not proof of convergence at $N=5$.}
+\label{qt:convfig}\end{figure}
+
+\subsection{Transport results at equal approximation order}
+Figure~\ref{qt:transportfig} compares each quantum result to the classical
+result at the \emph{same} $N$. This avoids mixing a fourth-profile quantum
+calculation with a first-profile classical denominator. The main scan contains
+36 transport calculations: 18 statistical states evaluated at $N=1$ and $N=4$.
+Representative $N=4$ values are listed in Table~\ref{qt:transporttable}.
+\begin{figure}[htbp]\centering\qtfig{transport}
+\caption{Quantum-to-classical transport ratios for the same isotropic kernel
+and the same number of radial profiles in numerator and denominator.
+Changing $N$ changes the numerical approximation, while changing $z$ changes
+the equilibrium occupation. All displayed Bose states are above the
+condensation threshold in the normal-gas description.}
+\label{qt:transportfig}\end{figure}
+\begin{table}[htbp]\centering\small
+\begin{tabular}{llrrrr}\toprule
+Statistics&$z$&$\mu_4$&$\lambda_4$&$\mu_4/\mu_{\mathrm{cl},4}$
+ &$\lambda_4/\lambda_{\mathrm{cl},4}$\\\midrule
+\qtinput{\qtroot/data/transport_table.tex}
+\bottomrule\end{tabular}
+\caption{Dimensionless coefficients and same-order ratios. Physical units
+are restored by Eq.~\eqref{qt:restore}.}\label{qt:transporttable}
+\end{table}
+For this kernel and these states, Bose statistics lowers both coefficients
+relative to the classical values, whereas Fermi statistics raises them.
+The change in conductivity is appreciably smaller than the change in viscosity
+over this scan. These are computed model results. Occupation factors alone
+do not establish a universal monotonicity theorem for transport coefficients
+under arbitrary changes of cross section and thermodynamic constraints.
+
+\subsection{Implementation and reproducibility}
+The solver is written in C++17 with Eigen for linear algebra and a JSON
+library for structured results. It includes equilibrium moments, matched
+polynomials, Gaussian rules, collision matrices, transport solves and the
+dynamic extensions below. The numerical test executable reports 26 test
+groups, supplemented by command-line smoke tests in CTest. Build commands,
+local verification records and CI configuration accompany the source. These
+software checks complement the physical benchmarks and convergence studies.
+
+The migration from the earlier Python implementation was also checked against
+saved results, retained as attributed regression fixtures. This is a
+cross-implementation consistency check, not an independent physical benchmark.
+Every figure in this note
+is generated from the saved C++ outputs, without fitting or manually adjusting
+the transport curves. The source files, calculation settings and tabulated
+outputs are kept alongside the plotting data.
