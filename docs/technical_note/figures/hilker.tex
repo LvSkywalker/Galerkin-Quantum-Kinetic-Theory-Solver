@@ -1,11 +1,34 @@
-\documentclass[tikz,border=4pt]{standalone}
+\documentclass[tikz,border=5pt]{standalone}
 \input{style.tex}
 \begin{document}\begin{tikzpicture}
-\begin{groupplot}[group style={group size=2 by 1,horizontal sep=1.3cm},xtick={1,2,3,4,5},xmin=.6,xmax=5.4,legend pos=south west]
-\nextgroupplot[title={Normal-phase sound speed},xlabel={Selected observation index},ylabel={$c_I$ [mm/s]}]
-\addplot[qtclassical,only marks,mark=*,error bars/.cd,y dir=both,y explicit] table[x=index,y=cdata,y error=cerr]{../data/hilker.dat};\addlegendentry{Experiment}
-\addplot[qtmodel,only marks,mark=diamond*,error bars/.cd,y dir=both,y explicit] table[x expr=\thisrow{index}+.10,y=cmodel,y error=csens]{../data/hilker.dat};\addlegendentry{Galerkin + HF + NSF}
-\nextgroupplot[title={Sound damping},xlabel={Selected observation index},ylabel={$\Gamma/(2\pi)$ [Hz]}]
-\addplot[qtclassical,only marks,mark=*,error bars/.cd,y dir=both,y explicit] table[x=index,y=gdata,y error=gerr]{../data/hilker.dat};
-\addplot[qtmodel,only marks,mark=diamond*,error bars/.cd,y dir=both,y explicit] table[x expr=\thisrow{index}+.10,y=gmodel,y error=gsens]{../data/hilker.dat};
-\end{groupplot}\end{tikzpicture}\end{document}
+\begin{groupplot}[group style={group size=2 by 1,horizontal sep=1.4cm},
+ xlabel={Inverse Knudsen number $L/\ell$},xmin=2.95,xmax=5.5,
+ xtick={3,3.5,4,4.5,5,5.5},
+ legend columns=3,
+ legend style={font=\scriptsize,draw=none,/tikz/every even column/.append style={column sep=6pt}}]
+\nextgroupplot[title={Normal-phase sound speed},legend to name=hilkerlegend,ylabel={$c_I$ [mm/s]}]
+\addplot[qtclassical,only marks,mark=*,mark size=2.1pt,restrict expr to domain={\thisrow{length}}{50:50},error bars/.cd,y dir=both,y explicit] table[x=inverse_kn,y=cdata,y error=cerr]{../data/hilker.dat};
+\addlegendentry{Data, $50\,\mu\mathrm m$}
+\addplot[qtmodel,only marks,mark=*,mark size=2.1pt,restrict expr to domain={\thisrow{length}}{50:50},error bars/.cd,y dir=both,y explicit] table[x=inverse_kn,y=cmodel,y error=csens]{../data/hilker.dat};
+\addlegendentry{Quantum, $50\,\mu\mathrm m$}
+\addplot[qtbose,only marks,mark=o,mark size=2.7pt,mark options={solid},restrict expr to domain={\thisrow{length}}{50:50}] table[x=inverse_kn,y=cclassical]{../data/hilker.dat};
+\addlegendentry{Classical, $50\,\mu\mathrm m$}
+\addplot[qtclassical,only marks,mark=triangle*,mark size=2.1pt,restrict expr to domain={\thisrow{length}}{70:70},error bars/.cd,y dir=both,y explicit] table[x=inverse_kn,y=cdata,y error=cerr]{../data/hilker.dat};
+\addlegendentry{Data, $70\,\mu\mathrm m$}
+\addplot[qtmodel,only marks,mark=triangle*,mark size=2.1pt,restrict expr to domain={\thisrow{length}}{70:70},error bars/.cd,y dir=both,y explicit] table[x=inverse_kn,y=cmodel,y error=csens]{../data/hilker.dat};
+\addlegendentry{Quantum, $70\,\mu\mathrm m$}
+\addplot[qtbose,only marks,mark=triangle,mark size=2.7pt,mark options={solid},restrict expr to domain={\thisrow{length}}{70:70}] table[x=inverse_kn,y=cclassical]{../data/hilker.dat};
+\addlegendentry{Classical, $70\,\mu\mathrm m$}
+
+\nextgroupplot[title={Sound damping},ylabel={$\Gamma/(2\pi)$ [Hz]}]
+\addplot[qtclassical,only marks,mark=*,mark size=2.1pt,restrict expr to domain={\thisrow{length}}{50:50},error bars/.cd,y dir=both,y explicit] table[x=inverse_kn,y=gdata,y error=gerr]{../data/hilker.dat};
+\addplot[qtmodel,only marks,mark=*,mark size=2.1pt,restrict expr to domain={\thisrow{length}}{50:50},error bars/.cd,y dir=both,y explicit] table[x=inverse_kn,y=gmodel,y error=gsens]{../data/hilker.dat};
+\addplot[qtbose,only marks,mark=o,mark size=2.7pt,mark options={solid},restrict expr to domain={\thisrow{length}}{50:50}] table[x=inverse_kn,y=gclassical]{../data/hilker.dat};
+\addplot[qtclassical,only marks,mark=triangle*,mark size=2.1pt,restrict expr to domain={\thisrow{length}}{70:70},error bars/.cd,y dir=both,y explicit] table[x=inverse_kn,y=gdata,y error=gerr]{../data/hilker.dat};
+\addplot[qtmodel,only marks,mark=triangle*,mark size=2.1pt,restrict expr to domain={\thisrow{length}}{70:70},error bars/.cd,y dir=both,y explicit] table[x=inverse_kn,y=gmodel,y error=gsens]{../data/hilker.dat};
+\addplot[qtbose,only marks,mark=triangle,mark size=2.7pt,mark options={solid},restrict expr to domain={\thisrow{length}}{70:70}] table[x=inverse_kn,y=gclassical]{../data/hilker.dat};
+
+\end{groupplot}
+\path (group c1r1.south west) -- (group c2r1.south east)
+ node[midway,below=1.2cm] {\pgfplotslegendfromname{hilkerlegend}};
+\end{tikzpicture}\end{document}

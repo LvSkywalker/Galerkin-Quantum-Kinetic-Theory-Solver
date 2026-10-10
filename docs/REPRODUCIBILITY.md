@@ -72,7 +72,7 @@ To update tables and plot data after a production run, from the repository root:
 build/qtransport_report_export . docs/technical_note
 ```
 
-The exporter requires the transport and Hilker outputs. Rebuild the five figures from their PGFPlots sources, then recompile the note:
+The exporter requires the transport and Hilker outputs. It also computes both classical- and quantum-transport standardized residuals in `data/hilker_metrics.json`. Rebuild the five figures from their PGFPlots sources, then recompile the note:
 
 ```sh
 cd docs/technical_note/figures
@@ -101,4 +101,4 @@ This requires Poppler's `pdftoppm` and writes 2400-pixel-wide images to `docs/as
 cmake -P tools/package.cmake
 ```
 
-The archive excludes build trees, version-control metadata and local `runs/`. A manifest records SHA-256 hashes. Dependency licenses, reference-data attribution, source code and documented results are included.
+The archive excludes build trees, version-control metadata and local `runs/`. A temporary staging directory adds `PACKAGE_MANIFEST.json` with SHA-256 hashes to the archive only; it is not a tracked source file. Dependency licenses, reference-data attribution, source code and documented results are included.

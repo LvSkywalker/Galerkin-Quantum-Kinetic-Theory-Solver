@@ -11,12 +11,12 @@ if [ -z "${CXX:-}" ] && [ -x /Library/Developer/CommandLineTools/usr/bin/clang++
 else
     CXX=${CXX:-c++}
 fi
-for file in src/numerics.cpp src/collisions.cpp src/solver.cpp src/dynamics.cpp src/thermodynamics.cpp src/fourier.cpp src/workflows.cpp src/figures.cpp src/main.cpp tests/tests.cpp; do
+for file in src/numerics.cpp src/collisions.cpp src/solver.cpp src/dynamics.cpp src/thermodynamics.cpp src/workflows.cpp src/figures.cpp src/main.cpp tests/tests.cpp; do
     object="build/$(basename "$file" .cpp).o"
     if [ ! -f "$object" ] || [ "$file" -nt "$object" ] || [ include/qtransport/core.hpp -nt "$object" ] || [ build.sh -nt "$object" ]; then
         echo "Compiling $file"
         "$CXX" $SDK_FLAGS -std=c++17 -O3 -DNDEBUG -Wall -Wextra -Wpedantic -Iinclude -isystem third_party/eigen -isystem third_party -c "$file" -o "$object"
     fi
 done
-"$CXX" $SDK_FLAGS build/numerics.o build/collisions.o build/solver.o build/dynamics.o build/thermodynamics.o build/fourier.o build/workflows.o build/figures.o build/main.o build/tests.o -o build/qtransport
+"$CXX" $SDK_FLAGS build/numerics.o build/collisions.o build/solver.o build/dynamics.o build/thermodynamics.o build/workflows.o build/figures.o build/main.o build/tests.o -o build/qtransport
 echo "Built build/qtransport"

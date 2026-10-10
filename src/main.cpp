@@ -17,12 +17,10 @@ int main(int argc, char **argv) {
                    "  test        Automated physics and regression checks\n"
                    "  audit       Compare production outputs with frozen prototype data\n"
                    "  wave        Projected transverse kinetic mode\n"
-                   "  hilker      Optional normal-Bose sound comparison\n"
-                   "  fourier     Representation diagnostic for known velocity functions\n\n"
+                   "  hilker      Optional normal-Bose sound comparison\n\n"
                    "Options: --statistics classical|bose|fermi --fugacity Z --basis N\n"
                    " --radial N --angular N --azimuth N --equilibrium N --gamma G --strength C\n"
-                   " --output FILE --input FILE --root DIRECTORY --quick --k K --width L --points "
-                   "M\n"
+                   " --output FILE --input FILE --root DIRECTORY --quick --k K\n"
                    "Defaults: classical, Z=0.1, basis=2, radial=16, angular=12, azimuth=16.\n"
                    "Default kernel: B=|v-v1|/4; --strength C overrides --diameter d squared/4.\n"
                    "Without --output, calculation JSON is written to standard output.\n"
@@ -48,7 +46,7 @@ int main(int argc, char **argv) {
         const std::vector<std::string> allowed = {
             "--statistics",  "--fugacity", "--basis",    "--radial",   "--angular", "--azimuth",
             "--equilibrium", "--gamma",    "--strength", "--diameter", "--output",  "--input",
-            "--root",        "--quick",    "--k",        "--width",    "--points"};
+            "--root",        "--quick",    "--k"};
         for (const auto &arg : args)
             qt::require(std::find(allowed.begin(), allowed.end(), arg.first) != allowed.end(),
                         "Unknown option " + arg.first);
@@ -81,10 +79,6 @@ int main(int argc, char **argv) {
         else if (command == "wave") {
             auto r = args.count("--input") ? qt::read_json(args.at("--input")) : qt::solve(o);
             out = qt::shear_wave(r, std::stod(get("--k", "0.2")));
-        } else if (command == "fourier") {
-            auto r = args.count("--input") ? qt::read_json(args.at("--input")) : qt::solve(o);
-            out = qt::representation(r, std::stod(get("--width", "7")),
-                                     std::stoi(get("--points", "33")));
         } else if (command == "reproduce")
             out = qt::reproduce(root, args.count("--quick"));
         else if (command == "hilker")

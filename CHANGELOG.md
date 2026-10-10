@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.1 - 2026-10-10
+
+- Added the classical-transport control at fixed Hartree--Fock thermodynamics to the sound comparison, including reproducible standardized residuals.
+- Plotted sound observations against inverse Knudsen number, distinguished box lengths, and moved the legend outside the data. Corrected dashed marker outlines in transport figures.
+- Removed the standalone velocity-space Fourier diagnostic and its two tests; retained all transport and dynamics checks.
+- Kept checksums in release archives only, with a temporary packaging stage.
+
 ## 0.4.0 - 2026-10-09
 
 - Prepared a standalone C++ repository with build instructions, examples, citation metadata and dependency/data attribution.

@@ -1,10 +1,12 @@
 // Export already computed C++ results to PGFPlots data and LaTeX tables.
 // No collision calculation is repeated and no Python runtime is used.
+#include <algorithm>
 #include <cmath>
 #include <filesystem>
 #include <fstream>
 #include <iomanip>
 #include <iostream>
+#include <limits>
 #include <nlohmann/json.hpp>
 #include <stdexcept>
 #include <string>
@@ -137,7 +139,7 @@ int main(int argc, char **argv) {
             }
         }
         auto hf = output(data + "hilker.dat"), ht = output(data + "hilker_table.tex");
-        hf << "index cdata cerr cmodel csens gdata gerr gmodel gsens\n";
+        hf << "index inverse_kn length cdata cerr cmodel csens cclassical gdata gerr gmodel gsens gclassical\n";
         ht << std::fixed;
         int index = 0;
         constexpr double pi = 3.14159265358979323846;
@@ -152,17 +154,67 @@ int main(int argc, char **argv) {
                         gs = std::max(gs, std::abs(change["damping"].get<double>() -
                                                    p["damping"].get<double>()));
                     }
-                hf << ++index << ' ' << 1e3 * r["speed"].get<double>() << ' '
+                hf << ++index << ' ' << r["inverse_kn"].get<double>() << ' '
+                   << std::lround(1e6 * r["length"].get<double>()) << ' '
+                   << 1e3 * r["speed"].get<double>() << ' '
                    << 1e3 * r["speed_error"].get<double>() << ' ' << 1e3 * p["speed"].get<double>()
-                   << ' ' << 1e3 * cs << ' ' << r["damping"].get<double>() / (2 * pi) << ' '
+                   << ' ' << 1e3 * cs << ' '
+                   << 1e3 * item.at("classical_transport_same_hf").at("speed").get<double>() << ' '
+                   << r["damping"].get<double>() / (2 * pi) << ' '
                    << r["damping_error"].get<double>() / (2 * pi) << ' '
-                   << p["damping"].get<double>() / (2 * pi) << ' ' << gs / (2 * pi) << '\n';
+                   << p["damping"].get<double>() / (2 * pi) << ' ' << gs / (2 * pi) << ' '
+                   << item.at("classical_transport_same_hf").at("damping").get<double>() / (2 * pi)
+                   << '\n';
                 ht << index << " & " << std::setprecision(0) << 1e6 * r["length"].get<double>()
                    << " & " << r["raw"]["a (aB)"].get<double>() << " & " << std::setprecision(3)
                    << 1e3 * r["speed"].get<double>() << " & " << 1e3 * p["speed"].get<double>()
                    << " & " << std::setprecision(2) << r["damping"].get<double>() / (2 * pi)
                    << " & " << p["damping"].get<double>() / (2 * pi) << " \\\\\n";
             }
+        Json metrics = {{"selected_observations", index},
+                        {"selection", "L/ell >= 3"},
+                        {"normalization", "Each residual divided by its reported measurement uncertainty"},
+                        {"control", "Classical transport with the SAME Hartree-Fock thermodynamics"},
+                        {"interpretation", "Descriptive residuals; input uncertainty and covariance not propagated"}};
+        auto mt = output(data + "hilker_metrics_table.tex");
+        mt << std::fixed << std::setprecision(3);
+        for (const std::string model : {"prediction", "classical_transport_same_hf"}) {
+            const std::string name = model == "prediction" ? "quantum_transport" : "classical_transport";
+            for (const std::string obs : {"speed", "damping"}) {
+                double sumsq = 0, minrel = std::numeric_limits<double>::infinity(), maxrel = -minrel;
+                size_t count = 0;
+                Json residuals = Json::array();
+                for (const auto &item : hilker) {
+                    if (!item.contains("prediction"))
+                        continue;
+                    const auto &measurement = item.at("observation");
+                    double value = measurement.at(obs), error = measurement.at(obs + "_error"),
+                           predicted = item.at(model).at(obs);
+                    if (!std::isfinite(value) || value <= 0 || !std::isfinite(error) || error <= 0 ||
+                        !std::isfinite(predicted))
+                        throw std::runtime_error("Invalid sound comparison value or uncertainty");
+                    double residual = (predicted - value) / error, relative = predicted / value - 1;
+                    sumsq += residual * residual;
+                    minrel = std::min(minrel, relative);
+                    maxrel = std::max(maxrel, relative);
+                    residuals.push_back({{"observation_id", measurement.at("id")},
+                                         {"standardized_residual", residual}, {"relative_residual", relative}});
+                    ++count;
+                }
+                if (!count)
+                    throw std::runtime_error("No selected sound observations");
+                metrics[name][obs] = {{"rms_standardized_residual", std::sqrt(sumsq / count)},
+                                      {"min_relative_residual", minrel}, {"max_relative_residual", maxrel},
+                                      {"max_absolute_relative_residual", std::max(std::abs(minrel), std::abs(maxrel))},
+                                      {"residuals", residuals}};
+            }
+            mt << (model == "prediction" ? "Quantum transport" : "Classical transport")
+               << " & " << metrics[name]["speed"]["rms_standardized_residual"].get<double>()
+               << " & " << metrics[name]["damping"]["rms_standardized_residual"].get<double>()
+               << " \\\\\n";
+        }
+        auto mj = output(data + "hilker_metrics.json");
+        mj << metrics.dump(2) << '\n';
         std::cout << "Exported C++ results and report tables to " << dest << '\n';
     } catch (const std::exception &e) {
         std::cerr << e.what() << '\n';

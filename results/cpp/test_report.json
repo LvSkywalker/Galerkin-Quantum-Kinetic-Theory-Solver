@@ -1,7 +1,7 @@
 {
   "failed": 0,
   "implementation": "C++17",
-  "passed": 26,
+  "passed": 24,
   "tests": [
     {
       "name": "Gaussian Laguerre moments",
@@ -65,14 +65,6 @@
     },
     {
       "name": "Shear wave hydrodynamic limit",
-      "passed": true
-    },
-    {
-      "name": "Fourier off-grid representation",
-      "passed": true
-    },
-    {
-      "name": "Fourier input validation",
       "passed": true
     },
     {

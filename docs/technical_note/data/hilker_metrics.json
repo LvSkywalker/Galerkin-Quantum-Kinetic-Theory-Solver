@@ -1,0 +1,143 @@
+{
+  "classical_transport": {
+    "damping": {
+      "max_absolute_relative_residual": 0.3417909169295683,
+      "max_relative_residual": 0.3417909169295683,
+      "min_relative_residual": -0.11176926319847491,
+      "residuals": [
+        {
+          "observation_id": 8,
+          "relative_residual": 0.3417909169295683,
+          "standardized_residual": 4.525545763961223
+        },
+        {
+          "observation_id": 9,
+          "relative_residual": 0.07003971521954644,
+          "standardized_residual": 1.472367149317245
+        },
+        {
+          "observation_id": 10,
+          "relative_residual": -0.024793307321426483,
+          "standardized_residual": -0.42656697605722704
+        },
+        {
+          "observation_id": 14,
+          "relative_residual": 0.3346615257512757,
+          "standardized_residual": 3.421617850515031
+        },
+        {
+          "observation_id": 15,
+          "relative_residual": -0.11176926319847491,
+          "standardized_residual": -0.7138239298579288
+        }
+      ],
+      "rms_standardized_residual": 2.6475423391122375
+    },
+    "speed": {
+      "max_absolute_relative_residual": 0.08061121226105772,
+      "max_relative_residual": 0.06846736742496873,
+      "min_relative_residual": -0.08061121226105772,
+      "residuals": [
+        {
+          "observation_id": 8,
+          "relative_residual": 0.06846736742496873,
+          "standardized_residual": 0.82671115704117
+        },
+        {
+          "observation_id": 9,
+          "relative_residual": -0.05383239491982017,
+          "standardized_residual": -1.0708641503446272
+        },
+        {
+          "observation_id": 10,
+          "relative_residual": 0.007978189375078326,
+          "standardized_residual": 0.1295001245493064
+        },
+        {
+          "observation_id": 14,
+          "relative_residual": 0.05440518277343798,
+          "standardized_residual": 1.1845306695041053
+        },
+        {
+          "observation_id": 15,
+          "relative_residual": -0.08061121226105772,
+          "standardized_residual": -1.4704891244553069
+        }
+      ],
+      "rms_standardized_residual": 1.0404251842458576
+    }
+  },
+  "control": "Classical transport with the SAME Hartree-Fock thermodynamics",
+  "interpretation": "Descriptive residuals; input uncertainty and covariance not propagated",
+  "normalization": "Each residual divided by its reported measurement uncertainty",
+  "quantum_transport": {
+    "damping": {
+      "max_absolute_relative_residual": 0.2085094953423441,
+      "max_relative_residual": 0.15495220232794393,
+      "min_relative_residual": -0.2085094953423441,
+      "residuals": [
+        {
+          "observation_id": 8,
+          "relative_residual": 0.07075591609998444,
+          "standardized_residual": 0.9368567756511353
+        },
+        {
+          "observation_id": 9,
+          "relative_residual": -0.19896792427533083,
+          "standardized_residual": -4.182681704980465
+        },
+        {
+          "observation_id": 10,
+          "relative_residual": -0.2085094953423441,
+          "standardized_residual": -3.587390086942419
+        },
+        {
+          "observation_id": 14,
+          "relative_residual": 0.15495220232794393,
+          "standardized_residual": 1.584249101451689
+        },
+        {
+          "observation_id": 15,
+          "relative_residual": -0.19025464897359734,
+          "standardized_residual": -1.215077538472375
+        }
+      ],
+      "rms_standardized_residual": 2.6543606815617595
+    },
+    "speed": {
+      "max_absolute_relative_residual": 0.084948930313129,
+      "max_relative_residual": 0.03518754942505864,
+      "min_relative_residual": -0.084948930313129,
+      "residuals": [
+        {
+          "observation_id": 8,
+          "relative_residual": 0.03518754942505864,
+          "standardized_residual": 0.42487305694223415
+        },
+        {
+          "observation_id": 9,
+          "relative_residual": -0.07537428072943841,
+          "standardized_residual": -1.4993874081097114
+        },
+        {
+          "observation_id": 10,
+          "relative_residual": -0.003388736845178042,
+          "standardized_residual": -0.05500519264260721
+        },
+        {
+          "observation_id": 14,
+          "relative_residual": 0.03181166791050982,
+          "standardized_residual": 0.6926159304527825
+        },
+        {
+          "observation_id": 15,
+          "relative_residual": -0.084948930313129,
+          "standardized_residual": -1.5496166681506867
+        }
+      ],
+      "rms_standardized_residual": 1.0307991007619726
+    }
+  },
+  "selected_observations": 5,
+  "selection": "L/ell >= 3"
+}

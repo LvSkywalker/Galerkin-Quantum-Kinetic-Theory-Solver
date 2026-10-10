@@ -216,24 +216,6 @@ int run_tests(const std::string &root) {
         check(a["maximum_eigenvalue_real"].get<double>() < 0, "Unstable wave");
         decreasing(a["normalized_quadratic_entropy"]);
     });
-    test("Fourier off-grid representation", [] {
-        auto o = small();
-        o.basis = 2;
-        auto r = solve(o), a = representation(r, 7, 17), b = representation(r, 7, 33);
-        for (std::string sector : {"equilibrium", "shear"}) {
-            check(b[sector + "_fft_roundtrip_relative_l2"].get<double>() < 1e-12, "FFT round trip");
-            check(b[sector + "_offgrid_relative_l2"].get<double>() <
-                      a[sector + "_offgrid_relative_l2"].get<double>(),
-                  "Offgrid refinement");
-        }
-        check(std::abs(b["density_relative_error"].get<double>()) < 1e-8, "Fourier density");
-    });
-    test("Fourier input validation", [] {
-        auto o = small();
-        auto r = solve(o);
-        rejects([&] { representation(r, 7, 16); });
-        rejects([&] { representation(r, -1, 17); });
-    });
     test("Bose series versus Gaussian quadrature", [] {
         for (double z : {.1, .5, .9}) {
             Equilibrium eq("bose", z, 256);

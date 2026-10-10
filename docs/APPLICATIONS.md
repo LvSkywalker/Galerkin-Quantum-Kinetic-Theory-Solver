@@ -39,3 +39,23 @@ The saved study has two separate comparisons:
 - The project's five predictions have experimental damping discrepancies of approximately -21% to +16%. This tests the adequacy of the additional physical assumptions, not just numerical integration.
 
 Input variations are one-at-a-time sensitivity studies, not confidence intervals; input covariances are unavailable. The illustrative standing wave starts with a specified density perturbation and does not reproduce the experimental driving protocol. These limitations remain even if the collision integrals and polynomial basis are numerically converged.
+
+## Classical-transport control
+
+To isolate the effect of transport statistics, `classical_transport_same_hf` in each selected `comparison.json` record replaces the quantum viscosity and conductivity by their classical counterparts **at the same basis size, physical state and cross-section convention**, while retaining the same Hartree--Fock equation of state and thermodynamic derivatives. It is not a fully classical gas model. The independent `no_mean_field` calculation answers a different question and is not this control.
+
+For observable y, we report R = sqrt(mean(((y_model - y_data)/sigma_data)^2)), using each point's published measurement uncertainty:
+
+| Statistic, five selected observations | Quantum transport + HF | Classical transport + HF |
+|---|---:|---:|
+| Sound-speed normalized RMS residual | 1.0308 | 1.0404 |
+| Damping normalized RMS residual | 2.6544 | 2.6475 |
+| Largest absolute damping discrepancy | 20.85% | 34.18% |
+
+The RMS agreement is almost unchanged, although individual predictions and the largest relative discrepancy differ. Thus this selected comparison does not demonstrate that quantum transport improves the overall agreement. It also does not establish that quantum corrections are absent: the transport coefficients differ, but the sound observables also depend on the shared thermodynamics and the fluid closure.
+
+These are descriptive standardized residuals, not a formal significance test or a reduced chi-square. Uncertainty and covariance in reconstructed inputs are not propagated into the denominator; input variations remain separate sensitivity calculations. Some individual damping residuals exceed four reported measurement uncertainties. The five points should not be described as all lying within 1.03 uncertainties.
+
+The plot uses inverse Knudsen number L/ell on the horizontal axis. Circles and triangles distinguish 50 and 70 micrometre boxes; colors distinguish measured, quantum-transport and classical-transport values. No lines connect observations with different physical inputs. Vertical data bars are reported measurement uncertainties; quantum-model bars are one-input-at-a-time sensitivity ranges. Classical-control markers show central values only.
+
+`qtransport_report_export` computes the metrics directly from the saved C++ predictions and writes [hilker_metrics.json](technical_note/data/hilker_metrics.json), including per-observation residuals, and a LaTeX table. The figures and metrics can therefore be rebuilt without a new collision calculation.

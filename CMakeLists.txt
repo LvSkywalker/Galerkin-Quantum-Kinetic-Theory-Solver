@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.16)
-project(quantum_gas_transport VERSION 0.4.0 LANGUAGES CXX)
+project(quantum_gas_transport VERSION 0.4.1 LANGUAGES CXX)
 option(QTRANSPORT_SANITIZERS "Enable address and undefined-behavior sanitizers" OFF)
 add_library(qtransport_core src/numerics.cpp src/collisions.cpp src/solver.cpp
-    src/dynamics.cpp src/thermodynamics.cpp src/fourier.cpp src/workflows.cpp src/figures.cpp)
+    src/dynamics.cpp src/thermodynamics.cpp src/workflows.cpp src/figures.cpp)
 target_compile_features(qtransport_core PUBLIC cxx_std_17)
 target_include_directories(qtransport_core PUBLIC include)
 target_include_directories(qtransport_core SYSTEM PUBLIC third_party/eigen third_party)

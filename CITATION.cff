@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use this software, cite this project and the scientific references relevant to your calculation."
 type: software
 title: "Quantum Gas Transport: a C++ Galerkin solver for linearized quantum kinetics"
-version: 0.4.0
-date-released: 2026-10-09
+version: 0.4.1
+date-released: 2026-10-10
 authors:
   - family-names: "Di Gregorio"
     given-names: "Luigi"

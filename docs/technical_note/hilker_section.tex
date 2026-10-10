@@ -143,13 +143,15 @@ The code uses the full cubic rather than imposing this last asymptotic formula.
 
 \subsection{Results and the limits of this comparison}
 \begin{figure}[htbp]\centering\qtfig{hilker}
-\caption{Five selected normal-phase observations from Hilker et al., with
-theoretical values obtained from Galerkin transport, normal Hartree--Fock
-thermodynamics and linear Navier--Stokes--Fourier sound. Black error bars are
-the published measurement uncertainties. Orange bars show the largest
-one-input-at-a-time change when the reported $I,a,T$ inputs are varied within
-their quoted errors. They are sensitivity ranges, not confidence intervals;
-input covariances are unavailable. Data: Ref.~\cite{qtHilkerData}, CC BY 4.0.}
+\caption{Five selected normal-phase observations from Hilker et al., plotted
+against inverse Knudsen number. Circle and triangle markers distinguish
+$L=50$ and $70\,\mu\mathrm m$ boxes. Colors distinguish measurements,
+quantum transport and classical transport, the latter two using identical
+Hartree--Fock thermodynamics and linear Navier--Stokes--Fourier sound.
+Data bars are reported measurement uncertainties. Quantum-model bars are
+one-input-at-a-time sensitivity ranges, not confidence intervals;
+classical markers show central predictions only. No lines connect states
+with different physical inputs. Data: Ref.~\cite{qtHilkerData}, CC BY 4.0.}
 \label{qt:hilkerfig}\end{figure}
 \begin{table}[htbp]\centering\small
 \begin{tabular}{rrrrrrr}\toprule
@@ -168,6 +170,34 @@ $(24,16,20)$ to $(32,20,24)$ changes these coefficients by less than
 $0.001\%$. These numerical changes are much smaller than the central-value
 differences from experiment: approximately $-8.5\%$ to $+3.5\%$ for $c_I$
 and $-20.9\%$ to $+15.5\%$ for damping.
+
+\paragraph{Classical-transport control.}
+We repeat the sound prediction with classical viscosity and conductivity
+at the same basis size and physical state, leaving the Hartree--Fock
+thermodynamics and cross-section convention unchanged. This isolates the
+transport correction; it is not a fully classical thermodynamic model.
+For either measured observable $y$, define the descriptive normalized RMS
+residual
+\[
+ R_y=\left[\frac{1}{5}\sum_{j=1}^{5}
+ \left(\frac{y_j^{\mathrm{model}}-y_j^{\mathrm{data}}}
+ {\sigma_{y,j}^{\mathrm{data}}}\right)^2\right]^{1/2}.
+\]
+The report exporter computes the following values from the stored predictions:
+\begin{center}
+\begin{tabular}{lrr}\toprule
+Model (same HF thermodynamics)&$R_{c_I}$&$R_\Gamma$\\\midrule
+\qtinput{\qtroot/data/hilker_metrics_table.tex}
+\bottomrule\end{tabular}
+\end{center}
+The RMS agreement is nearly unchanged. Although the largest relative damping
+error decreases from $34.2\%$ for classical transport to $20.9\%$ for quantum
+transport, these five observations do not demonstrate an overall improvement
+from quantum transport corrections. Neither calculation fits the measured
+sound values. The residual normalization uses only the quoted measurement
+uncertainty: it does not include propagated input uncertainty or covariance
+and is not a formal significance test. The value $R_{c_I}=1.031$ is an aggregate
+and does not mean that every point agrees within that many uncertainties.
 
 The comparison therefore provides a useful application with a visible
 remaining discrepancy, rather than precision experimental validation of the

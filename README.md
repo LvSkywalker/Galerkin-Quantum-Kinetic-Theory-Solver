@@ -15,11 +15,11 @@ Starting from the linearized Uehling--Uhlenbeck collision operator, this project
 - A collision-bracket integral reduced from **8 to 5 variables** using rotational symmetry and evaluated with cached collision-pair features.
 - **36 transport calculations** across 18 statistical states, comparing quantum and classical coefficients at the same basis size, N=1 and N=4.
 - A separate evaluation of published **one-profile** variational integrals: maximum discrepancy below **0.0031%** across five test states.
-- Basis refinement through **N=5** and independent quadrature refinement. The largest N=4 to N=5 coefficient change in the displayed cases is **0.3134%**; this is a convergence diagnostic, not a certified error bound.
+- Basis refinement through **N=5** and independent quadrature refinement. The largest N=4 to N=5 coefficient change in the displayed cases is **0.3134%**.
 - Homogeneous linear relaxation from a **generalized symmetric eigenproblem**, with entropy decay and an integrated-response check against steady transport.
-- **26 automated test groups**, plus command-line smoke tests configured with CTest. GitHub Actions is configured for Linux/macOS Debug and Release builds and Linux sanitizers.
+- **24 automated test groups**, plus command-line smoke tests configured with CTest. GitHub Actions is configured for Linux/macOS Debug and Release builds and Linux sanitizers.
 
-These figures refer to the saved production calculations in `results/cpp/`. The one-profile benchmark verifies the same approximation by two integration routes; it is not a comparison against Wu's full Fourier solver or against experiment. See the [evidence table](docs/VALIDATION.md#evidence-behind-the-numbers).
+These figures refer to the saved production calculations in `results/cpp/`. See the [evidence table](docs/VALIDATION.md#evidence-behind-the-numbers) for benchmark definitions and refinement settings.
 
 ## Build and run
 
@@ -70,9 +70,24 @@ The core model describes normal, dilute, nonrelativistic gases near local equili
 Two applications reuse the transport model:
 
 - A projected transverse kinetic mode recovers the steady viscosity in the long-wavelength limit. Its angular truncation limits finite-wave-number predictions.
-- An optional comparison with Hilker et al.'s normal-Bose sound measurements combines transport with Hartree--Fock thermodynamics and fluid equations. It uses five selected observations, with damping discrepancies of roughly -21% to +16%; it is a separate model assessment. [Application details and data attribution](docs/APPLICATIONS.md).
+- A comparison with Hilker et al.'s normal-Bose sound measurements combines transport with Hartree--Fock thermodynamics and linearized fluid equations.
 
-The Fermi calculation is an effective single-distribution model; absolute coefficients for a specific spin mixture require its scattering conventions. Condensation, superfluidity and nonlinear spatial evolution are outside the model. The optional velocity-space Fourier command is a representation diagnostic, not a Fourier collision solver.
+### Experimental application and classical-transport control
+
+[![Quantum and classical transport predictions compared with Hilker sound measurements](docs/assets/hilker.png)](docs/technical_note/figures/hilker.pdf)
+
+For five observations selected by inverse Knudsen number **L/ell >= 3**, the quantum-transport calculation gives a sound-speed normalized RMS residual of **1.031** and damping deviations from **-20.9% to +15.5%**, without fitting to the sound measurements. However, **classical transport with the same Hartree--Fock thermodynamics gives almost identical RMS agreement**:
+
+| Normalized RMS residual | Quantum transport + HF | Classical transport + HF |
+|---|---:|---:|
+| Sound speed | 1.031 | 1.040 |
+| Sound damping | 2.654 | 2.648 |
+
+Each residual is divided by its reported measurement uncertainty before taking the RMS. These five observations do **not** demonstrate a clear improvement in experimental agreement from quantum transport corrections. The control changes viscosity and conductivity only; it is not a fully classical thermodynamic model. [Method, residuals and data attribution](docs/APPLICATIONS.md#classical-transport-control).
+
+### Limitations
+
+The model excludes condensation, superfluidity and nonlinear spatial evolution. The Fermi solver is an effective single-distribution model; absolute coefficients for a particular spin mixture require its scattering conventions. Basis and quadrature changes diagnose convergence rather than bound continuum error. The one-profile reference check targets Wu's variational integrals, not his full Fourier collision solver. The sound comparison adds thermodynamic and hydrodynamic assumptions; its RMS values are descriptive and do not propagate input uncertainty or covariance. Projected shear modes retain only selected angular sectors.
 
 ## Repository map
 

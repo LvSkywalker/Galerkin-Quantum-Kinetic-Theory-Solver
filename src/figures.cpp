@@ -45,7 +45,8 @@ struct Svg {
     }
     void panel(double left, double top, double w, double h, const std::string &title,
                const std::string &xlabel, const std::string &ylabel,
-               const std::vector<Curve> &curves, bool logy = false) {
+               const std::vector<Curve> &curves, bool logy = false,
+               bool points_only = false, bool outside_legend = false) {
         double xmin = 1e300, xmax = -1e300, ymin = 1e300, ymax = -1e300;
         for (const auto &c : curves)
             for (size_t i = 0; i < c.x.size(); ++i) {
@@ -64,6 +65,11 @@ struct Svg {
         if (!(ymax > ymin)) {
             ymin -= .5;
             ymax += .5;
+        }
+        if (points_only) {
+            double xpad = .06 * (xmax - xmin);
+            xmin -= xpad;
+            xmax += xpad;
         }
         double pad = .04 * (ymax - ymin);
         ymin -= pad;
@@ -97,20 +103,24 @@ struct Svg {
         text(left + w / 2, top + h + 42, xlabel, "", "middle");
         int legend = 0;
         for (const auto &c : curves) {
-            f << "<polyline fill=\"none\" stroke=\"" << c.color
-              << "\" stroke-width=\"2\" points=\"";
-            for (size_t i = 0; i < c.x.size(); ++i)
-                if (std::isfinite(c.y[i]) && (!logy || c.y[i] > 0))
-                    f << px(c.x[i]) << ',' << py(logy ? std::log10(c.y[i]) : c.y[i]) << ' ';
-            f << "\"/>";
-            if (!c.error.empty())
+            if (!points_only) {
+                f << "<polyline fill=\"none\" stroke=\"" << c.color
+                  << "\" stroke-width=\"2\" points=\"";
+                for (size_t i = 0; i < c.x.size(); ++i)
+                    if (std::isfinite(c.y[i]) && (!logy || c.y[i] > 0))
+                        f << px(c.x[i]) << ',' << py(logy ? std::log10(c.y[i]) : c.y[i]) << ' ';
+                f << "\"/>";
+            }
+            if (points_only || !c.error.empty())
                 for (size_t i = 0; i < c.x.size(); ++i) {
                     double x = px(c.x[i]), y = py(c.y[i]);
-                    line(x, py(c.y[i] - c.error[i]), x, py(c.y[i] + c.error[i]), c.color);
+                    if (!c.error.empty())
+                        line(x, py(c.y[i] - c.error[i]), x, py(c.y[i] + c.error[i]), c.color);
                     f << "<circle cx=\"" << x << "\" cy=\"" << y << "\" r=\"3\" fill=\"" << c.color
                       << "\"/>";
                 }
-            double ly = top + h - 12 - 18 * legend++;
+            double ly = outside_legend ? top + h + 65 + 18 * legend++
+                                       : top + h - 12 - 18 * legend++;
             line(left + 12, ly - 4, left + 34, ly - 4, c.color, 2);
             text(left + 40, ly, c.name);
         }
@@ -272,44 +282,20 @@ void make_figures(const std::string &root) {
                       "Absolute relative discrepancy", {c}, true);
         }
     }
-    if (std::filesystem::exists(out + "/fourier.json")) {
-        auto data = read_json(out + "/fourier.json");
-        Svg svg(out + "/fourier.svg", 1100, 430,
-                "Velocity Fourier representation — off-grid error, not a collision solver");
-        for (int col = 0; col < 2; ++col) {
-            std::string sector = col ? "shear" : "equilibrium";
-            std::vector<Curve> curves;
-            for (std::string stat : {"bose", "fermi"})
-                for (double width : {6., 8.}) {
-                    Curve c{stat + " L=" + number(width),
-                            width == 6 ? color(stat) : (stat == "bose" ? "#51b7ab" : "#d69cb0"),
-                            {},
-                            {},
-                            {}};
-                    for (const auto &r : data)
-                        if (r.at("statistics") == stat && r.at("half_width") == width) {
-                            c.x.push_back(r.at("points_per_axis"));
-                            c.y.push_back(r.at(sector + "_offgrid_relative_l2"));
-                        }
-                    curves.push_back(c);
-                }
-            svg.panel(80 + 540 * col, 100, 440, 240, sector, "Grid points per velocity axis",
-                      "Relative L2 interpolation error", curves, true);
-        }
-    }
     if (std::filesystem::exists(out + "/hilker/comparison.json")) {
         auto data = read_json(out + "/hilker/comparison.json");
-        Svg svg(out + "/hilker/comparison.svg", 1100, 450,
+        Svg svg(out + "/hilker/comparison.svg", 1100, 550,
                 "Normal Bose sound — five selected Hilker observations, no fitted parameters");
         for (int col = 0; col < 2; ++col) {
             std::vector<Curve> curves{{"Experiment", "#243044", {}, {}, {}},
-                                      {"C++ Galerkin + HF + NSF", "#c97916", {}, {}, {}}};
+                                      {"Quantum transport + HF", "#c97916", {}, {}, {}},
+                                      {"Classical transport + HF", "#087f8c", {}, {}, {}}};
             for (const auto &item : data)
                 if (item.contains("prediction")) {
                     const auto &r = item.at("observation");
                     const auto &p = item.at("prediction");
                     std::string obs = col ? "damping" : "speed";
-                    double scale = col ? 1 / (2 * pi) : 1e3, x = curves[0].x.size() + 1;
+                    double scale = col ? 1 / (2 * pi) : 1e3, x = r.at("inverse_kn");
                     for (auto &c : curves)
                         c.x.push_back(x);
                     curves[0].y.push_back(scale * r.at(obs).get<double>());
@@ -322,12 +308,13 @@ void make_figures(const std::string &root) {
                                                    std::abs(scale * (change.at(obs).get<double>() -
                                                                      p.at(obs).get<double>())));
                     curves[1].error.push_back(sensitivity);
+                    curves[2].y.push_back(scale * item.at("classical_transport_same_hf").at(obs).get<double>());
                 }
             svg.panel(80 + 540 * col, 105, 440, 250, col ? "Sound damping" : "Sound speed",
-                      "Selected observation index", col ? "γ / (2π) [Hz]" : "|ω| / k [mm/s]",
-                      curves);
+                      "Inverse Knudsen number L / ell", col ? "γ / (2π) [Hz]" : "|ω| / k [mm/s]",
+                      curves, false, true, true);
         }
-        svg.text(550, 430,
+        svg.text(550, 525,
                  "Orange ranges: one-input-at-a-time sensitivity, not confidence intervals.", "",
                  "middle");
     }
@@ -360,7 +347,7 @@ void make_figures(const std::string &root) {
             "repository technical note.</p>";
     for (std::string name :
          {"transport", "basis_convergence", "benchmark", "homogeneous_relaxation", "shear_wave",
-          "fourier", "shear_wave_animation", "hilker/comparison", "hilker/standing_wave"})
+          "shear_wave_animation", "hilker/comparison", "hilker/standing_wave"})
         if (std::filesystem::exists(out + "/" + name + ".svg"))
             html << "<object type='image/svg+xml' data='" << name << ".svg'></object>";
 }

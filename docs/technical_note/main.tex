@@ -15,7 +15,7 @@ pdfauthor={Luigi Di Gregorio},pdfsubject={C++ Galerkin transport and linear rela
 \large Numerical method, verification and applications\\[.3em]
 \normalsize A C++17 Galerkin solver for the linearized Uehling--Uhlenbeck equation}
 \author{Luigi Di Gregorio}
-\date{Technical note --- version 0.4.0\\9 October 2026}
+\date{Technical note --- version 0.4.1\\10 October 2026}
 \begin{document}
 \maketitle
 \begin{abstract}
@@ -29,11 +29,14 @@ basis and quadrature refinements assess the separate discretization errors.
 The same collision matrices also generate homogeneous linear relaxation and
 a projected transverse-wave calculation. An optional final application couples
 the computed Bose transport coefficients to normal-phase thermodynamics to
-compare sound damping with published measurements. The implementation is in
+compare sound damping with published measurements. A classical-transport control
+with identical thermodynamics yields nearly the same standardized RMS residuals
+on the five selected observations; the comparison does not establish improved
+agreement from quantum transport corrections. The implementation is in
 C++17. The scope is deterministic linear kinetic theory, with a separate
 assessment of the additional assumptions in the sound application.
 \end{abstract}
-\tableofcontents
+{\small\tableofcontents}
 \clearpage
 \input{computational_section.tex}
 \par\bigskip

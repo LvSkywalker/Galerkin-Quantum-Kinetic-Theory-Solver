@@ -69,7 +69,6 @@ CMat longitudinal_matrix(const Json &state, double eta, double kappa, double k);
 Json observations(const std::string &csv_path);
 Json read_table(const std::string &csv_path);
 Json state_from_observation(const Json &row, bool mean_field = true);
-Json representation(const Json &result, double half_width, int points);
 Json reproduce(const std::string &root, bool quick);
 Json reproduce_hilker(const std::string &root, bool quick);
 void make_figures(const std::string &root);

@@ -164,22 +164,6 @@ Json reproduce(const std::string &root, bool quick) {
                             {"wavelength_scan", scan}});
     }
     write_json(out + "/dynamics.json", dynamics);
-    Json fourier = Json::array();
-    for (const auto &[stat, z] :
-         std::vector<std::pair<std::string, double>>{{"bose", .9}, {"fermi", 10}}) {
-        o.statistics = stat;
-        o.z = z;
-        o.basis = 4;
-        o.radial = quick ? 16 : 40;
-        o.angular = quick ? 12 : 24;
-        o.azimuth = quick ? 16 : 28;
-        o.equilibrium = 256;
-        auto r = solve(o);
-        for (double width : {6., 8.})
-            for (int points : (quick ? std::vector<int>{17} : std::vector<int>{17, 33, 49, 65}))
-                fourier.push_back(representation(r, width, points));
-    }
-    write_json(out + "/fourier.json", fourier);
     double worst = 0;
     for (const auto &b : benchmarks)
         for (const std::string obs : {"viscosity", "conductivity"})
@@ -191,8 +175,7 @@ Json reproduce(const std::string &root, bool quick) {
         {"max_benchmark_relative_discrepancy", worst},
         {"elapsed_seconds",
          std::chrono::duration<double>(std::chrono::steady_clock::now() - start).count()},
-        {"scope", "UU Galerkin transport, homogeneous relaxation, projected shear wave, Fourier "
-                  "representation only"}};
+        {"scope", "UU Galerkin transport, homogeneous relaxation, projected shear wave"}};
     write_json(out + "/manifest.json", manifest);
     std::ofstream summary(out + "/SUMMARY.md");
     summary << "# C++ reproduction\n\n"
