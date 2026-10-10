@@ -1,0 +1,263 @@
+{
+  "hilker_cases": 5,
+  "interpretation": "Regression consistency with frozen prototype results; not independent physical validation",
+  "max_hilker_prediction_relative_difference": 2.649946928556801e-11,
+  "max_transport_relative_difference": 7.2086780988911414e-12,
+  "passed": true,
+  "tolerance": 2e-08,
+  "transport": [
+    {
+      "basis_size": 1,
+      "conductivity_relative_difference": 4.059419467239422e-12,
+      "fugacity": 0.1,
+      "statistics": "classical",
+      "viscosity_relative_difference": 2.3652191316614335e-12
+    },
+    {
+      "basis_size": 4,
+      "conductivity_relative_difference": 4.047429058573471e-12,
+      "fugacity": 0.1,
+      "statistics": "classical",
+      "viscosity_relative_difference": 2.3212542998862773e-12
+    },
+    {
+      "basis_size": 1,
+      "conductivity_relative_difference": 3.943512183468556e-12,
+      "fugacity": 0.01,
+      "statistics": "bose",
+      "viscosity_relative_difference": 2.62367905179417e-12
+    },
+    {
+      "basis_size": 4,
+      "conductivity_relative_difference": 3.923306124420378e-12,
+      "fugacity": 0.01,
+      "statistics": "bose",
+      "viscosity_relative_difference": 2.602362769721367e-12
+    },
+    {
+      "basis_size": 1,
+      "conductivity_relative_difference": 4.0181191707233666e-12,
+      "fugacity": 0.05,
+      "statistics": "bose",
+      "viscosity_relative_difference": 2.58837395961109e-12
+    },
+    {
+      "basis_size": 4,
+      "conductivity_relative_difference": 3.966826866985684e-12,
+      "fugacity": 0.05,
+      "statistics": "bose",
+      "viscosity_relative_difference": 2.5652813206988867e-12
+    },
+    {
+      "basis_size": 1,
+      "conductivity_relative_difference": 4.04032363121587e-12,
+      "fugacity": 0.1,
+      "statistics": "bose",
+      "viscosity_relative_difference": 2.9893865161056965e-12
+    },
+    {
+      "basis_size": 4,
+      "conductivity_relative_difference": 3.993028130366838e-12,
+      "fugacity": 0.1,
+      "statistics": "bose",
+      "viscosity_relative_difference": 2.956745959181717e-12
+    },
+    {
+      "basis_size": 1,
+      "conductivity_relative_difference": 3.967270956195534e-12,
+      "fugacity": 0.25,
+      "statistics": "bose",
+      "viscosity_relative_difference": 3.1821212331806237e-12
+    },
+    {
+      "basis_size": 4,
+      "conductivity_relative_difference": 3.920419544556353e-12,
+      "fugacity": 0.25,
+      "statistics": "bose",
+      "viscosity_relative_difference": 3.1465940963926187e-12
+    },
+    {
+      "basis_size": 1,
+      "conductivity_relative_difference": 3.652189661806915e-12,
+      "fugacity": 0.5,
+      "statistics": "bose",
+      "viscosity_relative_difference": 3.1659119770210964e-12
+    },
+    {
+      "basis_size": 4,
+      "conductivity_relative_difference": 3.560485239972877e-12,
+      "fugacity": 0.5,
+      "statistics": "bose",
+      "viscosity_relative_difference": 3.133937553911892e-12
+    },
+    {
+      "basis_size": 1,
+      "conductivity_relative_difference": 4.161559985504937e-12,
+      "fugacity": 0.7,
+      "statistics": "bose",
+      "viscosity_relative_difference": 3.5902392170328312e-12
+    },
+    {
+      "basis_size": 4,
+      "conductivity_relative_difference": 3.950173521616307e-12,
+      "fugacity": 0.7,
+      "statistics": "bose",
+      "viscosity_relative_difference": 3.4701130857683893e-12
+    },
+    {
+      "basis_size": 1,
+      "conductivity_relative_difference": 7.1664896239553855e-12,
+      "fugacity": 0.8,
+      "statistics": "bose",
+      "viscosity_relative_difference": 6.217693027110727e-12
+    },
+    {
+      "basis_size": 4,
+      "conductivity_relative_difference": 6.505240790488642e-12,
+      "fugacity": 0.8,
+      "statistics": "bose",
+      "viscosity_relative_difference": 5.948797010546514e-12
+    },
+    {
+      "basis_size": 1,
+      "conductivity_relative_difference": 7.2086780988911414e-12,
+      "fugacity": 0.9,
+      "statistics": "bose",
+      "viscosity_relative_difference": 6.814548925149211e-12
+    },
+    {
+      "basis_size": 4,
+      "conductivity_relative_difference": 6.151523734843067e-12,
+      "fugacity": 0.9,
+      "statistics": "bose",
+      "viscosity_relative_difference": 6.588729561940454e-12
+    },
+    {
+      "basis_size": 1,
+      "conductivity_relative_difference": 3.916866830877552e-12,
+      "fugacity": 0.01,
+      "statistics": "fermi",
+      "viscosity_relative_difference": 2.795097486796294e-12
+    },
+    {
+      "basis_size": 4,
+      "conductivity_relative_difference": 3.897993039458925e-12,
+      "fugacity": 0.01,
+      "statistics": "fermi",
+      "viscosity_relative_difference": 2.80064860191942e-12
+    },
+    {
+      "basis_size": 1,
+      "conductivity_relative_difference": 3.851141627819743e-12,
+      "fugacity": 0.05,
+      "statistics": "fermi",
+      "viscosity_relative_difference": 3.0957458818647865e-12
+    },
+    {
+      "basis_size": 4,
+      "conductivity_relative_difference": 3.834488282450366e-12,
+      "fugacity": 0.05,
+      "statistics": "fermi",
+      "viscosity_relative_difference": 3.0737634659772084e-12
+    },
+    {
+      "basis_size": 1,
+      "conductivity_relative_difference": 3.929967462568129e-12,
+      "fugacity": 0.1,
+      "statistics": "fermi",
+      "viscosity_relative_difference": 2.5914825840800404e-12
+    },
+    {
+      "basis_size": 4,
+      "conductivity_relative_difference": 3.920197499951428e-12,
+      "fugacity": 0.1,
+      "statistics": "fermi",
+      "viscosity_relative_difference": 2.5581758933412857e-12
+    },
+    {
+      "basis_size": 1,
+      "conductivity_relative_difference": 3.993250174971763e-12,
+      "fugacity": 0.25,
+      "statistics": "fermi",
+      "viscosity_relative_difference": 3.197442310920451e-12
+    },
+    {
+      "basis_size": 4,
+      "conductivity_relative_difference": 4.049871549227646e-12,
+      "fugacity": 0.25,
+      "statistics": "fermi",
+      "viscosity_relative_difference": 3.226308109560705e-12
+    },
+    {
+      "basis_size": 1,
+      "conductivity_relative_difference": 4.193312364009216e-12,
+      "fugacity": 0.5,
+      "statistics": "fermi",
+      "viscosity_relative_difference": 3.3644198538240744e-12
+    },
+    {
+      "basis_size": 4,
+      "conductivity_relative_difference": 4.295674926879656e-12,
+      "fugacity": 0.5,
+      "statistics": "fermi",
+      "viscosity_relative_difference": 3.3513192221334975e-12
+    },
+    {
+      "basis_size": 1,
+      "conductivity_relative_difference": 3.5931257968968566e-12,
+      "fugacity": 1.0,
+      "statistics": "fermi",
+      "viscosity_relative_difference": 3.143041382713818e-12
+    },
+    {
+      "basis_size": 4,
+      "conductivity_relative_difference": 3.65152352799214e-12,
+      "fugacity": 1.0,
+      "statistics": "fermi",
+      "viscosity_relative_difference": 3.1528113453305195e-12
+    },
+    {
+      "basis_size": 1,
+      "conductivity_relative_difference": 2.9756197506003446e-12,
+      "fugacity": 2.0,
+      "statistics": "fermi",
+      "viscosity_relative_difference": 3.0180302701410255e-12
+    },
+    {
+      "basis_size": 4,
+      "conductivity_relative_difference": 3.034905660115328e-12,
+      "fugacity": 2.0,
+      "statistics": "fermi",
+      "viscosity_relative_difference": 2.893463246778083e-12
+    },
+    {
+      "basis_size": 1,
+      "conductivity_relative_difference": 3.114841717888339e-12,
+      "fugacity": 5.0,
+      "statistics": "fermi",
+      "viscosity_relative_difference": 4.11448652926083e-12
+    },
+    {
+      "basis_size": 4,
+      "conductivity_relative_difference": 3.020694805400126e-12,
+      "fugacity": 5.0,
+      "statistics": "fermi",
+      "viscosity_relative_difference": 4.367839423480291e-12
+    },
+    {
+      "basis_size": 1,
+      "conductivity_relative_difference": 4.2592596116719506e-12,
+      "fugacity": 10.0,
+      "statistics": "fermi",
+      "viscosity_relative_difference": 3.2447378117694825e-12
+    },
+    {
+      "basis_size": 4,
+      "conductivity_relative_difference": 4.448663659673002e-12,
+      "fugacity": 10.0,
+      "statistics": "fermi",
+      "viscosity_relative_difference": 2.8053115386228455e-12
+    }
+  ],
+  "transport_cases": 36
+}

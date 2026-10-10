@@ -1,0 +1,21 @@
+\documentclass[tikz,border=4pt]{standalone}
+\input{style.tex}
+\begin{document}\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 2,horizontal sep=1.4cm,vertical sep=1.6cm,x descriptions at=edge bottom},xlabel={$t/t_0$},xmin=0,xmax=2,ymode=log,legend pos=south west]
+\nextgroupplot[title={Heat-flux relaxation},ylabel={$J(t)/J(0)$}]
+\addplot[qtclassical,dashed,thick] table[x=t,y=heat]{../data/relaxation_classical.dat};\addlegendentry{Classical}
+\addplot[qtbose,thick] table[x=t,y=heat]{../data/relaxation_bose.dat};\addlegendentry{Bose, $z=0.5$}
+\addplot[qtfermi,dashdotted,thick] table[x=t,y=heat]{../data/relaxation_fermi.dat};\addlegendentry{Fermi, $z=1$}
+\nextgroupplot[title={Shear-stress relaxation},ylabel={$J(t)/J(0)$}]
+\addplot[qtclassical,dashed,thick] table[x=t,y=shear]{../data/relaxation_classical.dat};
+\addplot[qtbose,thick] table[x=t,y=shear]{../data/relaxation_bose.dat};
+\addplot[qtfermi,dashdotted,thick] table[x=t,y=shear]{../data/relaxation_fermi.dat};
+\nextgroupplot[title={Thermal quadratic entropy},ylabel={$\mathcal E(t)/\mathcal E(0)$}]
+\addplot[qtclassical,dashed,thick] table[x=t,y=Hheat]{../data/relaxation_classical.dat};
+\addplot[qtbose,thick] table[x=t,y=Hheat]{../data/relaxation_bose.dat};
+\addplot[qtfermi,dashdotted,thick] table[x=t,y=Hheat]{../data/relaxation_fermi.dat};
+\nextgroupplot[title={Viscous quadratic entropy},ylabel={$\mathcal E(t)/\mathcal E(0)$}]
+\addplot[qtclassical,dashed,thick] table[x=t,y=Hshear]{../data/relaxation_classical.dat};
+\addplot[qtbose,thick] table[x=t,y=Hshear]{../data/relaxation_bose.dat};
+\addplot[qtfermi,dashdotted,thick] table[x=t,y=Hshear]{../data/relaxation_fermi.dat};
+\end{groupplot}\end{tikzpicture}\end{document}
