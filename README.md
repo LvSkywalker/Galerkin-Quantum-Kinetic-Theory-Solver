@@ -4,7 +4,7 @@
 
 Starting from the linearized Uehling--Uhlenbeck collision operator, this project computes transport coefficients for classical, Bose and Fermi gases. Collision integrals determine the coefficients and relaxation rates; no relaxation time is fitted. The implementation combines conservation-constrained Sonine--Laguerre bases, multidimensional Gaussian quadrature and Eigen linear algebra.
 
-![Quantum and classical transport at equal basis size](results/cpp/transport.svg)
+[![Quantum and classical transport at equal basis size](docs/assets/transport.png)](docs/technical_note/figures/transport.pdf)
 
 **[Technical note (PDF)](docs/technical_note/main.pdf)** · **[Numerical method](docs/METHODS.md)** · **[Verification and convergence](docs/VALIDATION.md)** · **[Reproduction guide](docs/REPRODUCIBILITY.md)**
 
@@ -41,7 +41,7 @@ build/qtransport reproduce --root .
 build/qtransport figures --root .
 ```
 
-Open `results/cpp/index.html` in a browser. The reproduction command refreshes the corresponding saved outputs. The [examples](examples/README.md) also show a single classical benchmark, the Wu reference calculation and kernel scaling.
+Open `results/cpp/index.html` in a browser for the lightweight C++ diagnostic plots. The reproduction command refreshes the corresponding saved outputs. The README displays high-resolution exports of the technical note's vector figures; click either figure to open its PDF. Their [rebuild instructions](docs/REPRODUCIBILITY.md#readme-figures) use the same saved numerical results. The [examples](examples/README.md) also show a single classical benchmark, the Wu reference calculation and kernel scaling.
 
 ## Mathematical workflow
 
@@ -57,7 +57,7 @@ H_mn = integral w Phi_m Phi_n dv      weighted Gram matrix
 
 The positive collision bracket permits Cholesky solves and supplies the dissipation identity. Thermal profiles are adjusted to satisfy momentum matching under the quantum weight; they need not be mutually orthogonal. N counts radial basis functions, while the Chapman--Enskog expansion remains first order in gradients.
 
-![Basis refinement](results/cpp/basis_convergence.svg)
+[![Basis refinement](docs/assets/convergence.png)](docs/technical_note/figures/convergence.pdf)
 
 The reference in this figure is each curve's own N=5 value. Its zero endpoint follows from normalization. [Details and limitations](docs/VALIDATION.md).
 
@@ -83,6 +83,7 @@ The Fermi calculation is an effective single-distribution model; absolute coeffi
 | `src/thermodynamics.cpp` | Normal-Bose thermodynamics and physical units |
 | `tests/` | Physics checks and frozen regression fixtures with provenance |
 | `results/cpp/` | Production data, settings, diagnostics and generated SVG figures |
+| `docs/assets/` | High-resolution exports of the technical note's figures for Markdown |
 | `docs/technical_note/` | Standalone derivation, results, LaTeX sources and figure data |
 | `references/hilker2022/` | Published experimental data and attribution |
 | `third_party/` | Pinned dependencies and their upstream licenses |
