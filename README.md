@@ -1,5 +1,7 @@
 # Quantum Gas Transport
 
+[![C++ physics checks](https://github.com/LvSkywalker/Quantum-Gas-Transport-Solver/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/LvSkywalker/Quantum-Gas-Transport-Solver/actions/workflows/tests.yml)
+
 **A C++17 Galerkin solver for viscosity, thermal conductivity and linear relaxation in quantum gases.**
 
 Starting from the linearized Uehling--Uhlenbeck collision operator, this project computes transport coefficients for classical, Bose and Fermi gases. Collision integrals determine the coefficients and relaxation rates; no relaxation time is fitted. The implementation combines conservation-constrained Sonine--Laguerre bases, multidimensional Gaussian quadrature and Eigen linear algebra.
