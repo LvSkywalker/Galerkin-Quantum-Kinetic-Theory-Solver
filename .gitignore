@@ -14,3 +14,5 @@ cmake-build-*/
 *.synctex.gz
 /*.zip
 /docs/*.zip
+/PACKAGE_MANIFEST.json
+/.package-stage/
