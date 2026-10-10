@@ -1,0 +1,16 @@
+build/
+build-*/
+*.o
+*.dSYM/
+.DS_Store
+runs/
+cmake-build-*/
+*.aux
+*.log
+*.toc
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+/*.zip
+/docs/*.zip
